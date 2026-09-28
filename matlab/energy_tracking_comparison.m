@@ -130,30 +130,57 @@ for k = 1:numel(cases)
     lg.Layout.Tile = 'south';
 end
 
-%% ================= CUMULATIVE ENERGY: SUBPLOTS A (1kg) & B (0.64kg) =================
-newcolors = [0.83 0.14 0.14;   % red
-             1.00 0.54 0.00;   % orange
-             0.47 0.25 0.80;   % purple
-             0.25 0.80 0.54];  % green
+%% ================= CUMULATIVE ENERGY AREA CHART: A (1kg) & B (0.64kg) =================
+col_free   = [0.121 0.235 0.498];   % Navy     (Motor only)
+col_vsm    = [0.890 0.690 0.106];   % Mustard  (Motor + VSM)
+alpha_free = 0.35;
+alpha_vsm  = 0.75;
+t_end      = 13.25;                 % [s] plotted time span
 
-figure;
+figure('Color','w');
 tlE = tiledlayout(1,2,'TileSpacing','compact','Padding','compact');
+ax = gobjects(1,numel(cases));
 
 for k = 1:numel(cases)
     c = cases(k);
-    nexttile;
-    h1 = plot(c.tE_free, c.E_free, ':',  'LineWidth', 2, 'Color', newcolors(1,:)); hold on;
-    h2 = plot(c.tE_vsm,  c.E_vsm,  '-.', 'LineWidth', 2, 'Color', newcolors(4,:));
+    ax(k) = nexttile;
+
+    % Motor only area (back)
+    tf = c.tE_free;  Ef = c.E_free;
+    hF = fill([tf; flipud(tf)], [Ef; zeros(size(Ef))], col_free, ...
+        'FaceAlpha', alpha_free, 'EdgeColor', 'none'); hold on;
+    plot(tf, Ef, '-', 'Color', col_free, 'LineWidth', 1.8);
+
+    % Motor + VSM area (front)
+    tv = c.tE_vsm;  Ev = c.E_vsm;
+    hV = fill([tv; flipud(tv)], [Ev; zeros(size(Ev))], col_vsm, ...
+        'FaceAlpha', alpha_vsm, 'EdgeColor', 'none');
+    plot(tv, Ev, '-', 'Color', col_vsm*0.8, 'LineWidth', 1.8);
     hold off;
+
+    % Energy at the end of the plotted window and the saving
+    Ef_end = interp1(tf, Ef, min(t_end, tf(end)));
+    Ev_end = interp1(tv, Ev, min(t_end, tv(end)));
+    saving = 100*(Ef_end - Ev_end)/Ef_end;
+
+    text(0.04, 0.94, sprintf('Energy saving: %.1f %%', saving), ...
+        'Units','normalized','FontName','Arial','FontSize',14, ...
+        'FontWeight','bold','VerticalAlignment','top');
+    text(0.04, 0.84, sprintf('Motor only: %.1f J\nMotor + VSM: %.1f J', Ef_end, Ev_end), ...
+        'Units','normalized','FontName','Arial','FontSize',12, ...
+        'VerticalAlignment','top');
 
     title(c.title, 'FontName','Arial','FontSize',16,'FontWeight','normal');
     xlabel('Time (s)','FontName','Arial','FontSize',16);
     ylabel('Cumulative Energy (J)','FontName','Arial','FontSize',16);
-    set(gca,'FontName','Arial','FontSize',16);
-    xlim([0 13.25]);
+    set(gca,'FontName','Arial','FontSize',16,'LineWidth',1.2,'Layer','top');
+    xlim([0 t_end]);
     grid off; box on;
 end
 
-lgE = legend([h1 h2], {'Motor only','Motor+VSM'}, ...
+linkaxes(ax,'y');                    % same y-scale so A and B are comparable
+ylim(ax(1), [0 1.1*max(ylim(ax(1)))]);
+
+lgE = legend([hF hV], {'Motor only','Motor + VSM'}, ...
     'Orientation','horizontal','FontName','Arial','FontSize',16);
 lgE.Layout.Tile = 'south';
