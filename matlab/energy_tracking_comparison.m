@@ -130,57 +130,82 @@ for k = 1:numel(cases)
     lg.Layout.Tile = 'south';
 end
 
-%% ================= CUMULATIVE ENERGY AREA CHART: A (1kg) & B (0.64kg) =================
-col_free   = [0.121 0.235 0.498];   % Navy     (Motor only)
-col_vsm    = [0.890 0.690 0.106];   % Mustard  (Motor + VSM)
-alpha_free = 0.35;
-alpha_vsm  = 0.75;
-t_end      = 13.25;                 % [s] plotted time span
+%% ================= CUMULATIVE ENERGY (HATCHED): A (1kg) & B (0.64kg) =================
+col_free = [0.83 0.14 0.14];   % red   - Motor only  (dotted \\\\ lines)
+col_vsm  = [0.13 0.60 0.30];   % green - Motor + VSM (solid //// lines)
+t_end    = 13.25;              % [s] plotted time span
+gap_px   = 9;                  % spacing between hatch lines [pixels]
 
-figure('Color','w');
-tlE = tiledlayout(1,2,'TileSpacing','compact','Padding','compact');
+% Common y-limit so A and B are directly comparable
+Emax = 0;
+for k = 1:numel(cases)
+    Emax = max([Emax; cases(k).E_free(cases(k).tE_free <= t_end); ...
+                      cases(k).E_vsm(cases(k).tE_vsm  <= t_end)]);
+end
+y_top = 1.15*Emax;
+
+figure('Color','w','Position',[100 100 1200 480]);
+tiledlayout(1,2,'TileSpacing','compact','Padding','compact');
 ax = gobjects(1,numel(cases));
+hC = gobjects(numel(cases),2);
 
+% ---- Curves, labels, saving text ----
 for k = 1:numel(cases)
     c = cases(k);
-    ax(k) = nexttile;
+    ax(k) = nexttile; hold on;
 
-    % Motor only area (back)
-    tf = c.tE_free;  Ef = c.E_free;
-    hF = fill([tf; flipud(tf)], [Ef; zeros(size(Ef))], col_free, ...
-        'FaceAlpha', alpha_free, 'EdgeColor', 'none'); hold on;
-    plot(tf, Ef, '-', 'Color', col_free, 'LineWidth', 1.8);
+    hC(k,1) = plot(c.tE_free, c.E_free, '-', 'Color', col_free, 'LineWidth', 2);
+    hC(k,2) = plot(c.tE_vsm,  c.E_vsm,  '-', 'Color', col_vsm,  'LineWidth', 2);
 
-    % Motor + VSM area (front)
-    tv = c.tE_vsm;  Ev = c.E_vsm;
-    hV = fill([tv; flipud(tv)], [Ev; zeros(size(Ev))], col_vsm, ...
-        'FaceAlpha', alpha_vsm, 'EdgeColor', 'none');
-    plot(tv, Ev, '-', 'Color', col_vsm*0.8, 'LineWidth', 1.8);
-    hold off;
-
-    % Energy at the end of the plotted window and the saving
-    Ef_end = interp1(tf, Ef, min(t_end, tf(end)));
-    Ev_end = interp1(tv, Ev, min(t_end, tv(end)));
-    saving = 100*(Ef_end - Ev_end)/Ef_end;
-
-    text(0.04, 0.94, sprintf('Energy saving: %.1f %%', saving), ...
-        'Units','normalized','FontName','Arial','FontSize',14, ...
-        'FontWeight','bold','VerticalAlignment','top');
-    text(0.04, 0.84, sprintf('Motor only: %.1f J\nMotor + VSM: %.1f J', Ef_end, Ev_end), ...
-        'Units','normalized','FontName','Arial','FontSize',12, ...
-        'VerticalAlignment','top');
+    Ef_end = interp1(c.tE_free, c.E_free, min(t_end, c.tE_free(end)));
+    Ev_end = interp1(c.tE_vsm,  c.E_vsm,  min(t_end, c.tE_vsm(end)));
+    text(0.04, 0.95, sprintf('Energy saving: %.1f %%', 100*(Ef_end - Ev_end)/Ef_end), ...
+        'Units','normalized','FontName','Arial','FontSize',14,'FontWeight','bold', ...
+        'VerticalAlignment','top','BackgroundColor','w','Margin',1);
 
     title(c.title, 'FontName','Arial','FontSize',16,'FontWeight','normal');
     xlabel('Time (s)','FontName','Arial','FontSize',16);
     ylabel('Cumulative Energy (J)','FontName','Arial','FontSize',16);
     set(gca,'FontName','Arial','FontSize',16,'LineWidth',1.2,'Layer','top');
-    xlim([0 t_end]);
+    xlim([0 t_end]); ylim([0 y_top]);
     grid off; box on;
 end
 
-linkaxes(ax,'y');                    % same y-scale so A and B are comparable
-ylim(ax(1), [0 1.1*max(ylim(ax(1)))]);
-
-lgE = legend([hF hV], {'Motor only','Motor + VSM'}, ...
-    'Orientation','horizontal','FontName','Arial','FontSize',16);
+lgE = legend(ax(end), hC(end,:), {'Motor only','Motor + VSM'}, ...
+    'Orientation','horizontal','FontName','Arial','FontSize',16,'AutoUpdate','off');
 lgE.Layout.Tile = 'south';
+drawnow;   % finalise layout so hatch angles use the real axes size
+
+% ---- Hatching under each curve ----
+for k = 1:numel(cases)
+    c  = cases(k);
+    kf = c.tE_free <= t_end;
+    kv = c.tE_vsm  <= t_end;
+    hatch_area(ax(k), c.tE_free(kf), zeros(nnz(kf),1), c.E_free(kf), col_free, -45, gap_px, ':', 1.3);
+    hatch_area(ax(k), c.tE_vsm(kv),  zeros(nnz(kv),1), c.E_vsm(kv),  col_vsm,   45, gap_px, '-', 1.0);
+    uistack(hC(k,:), 'top');
+    uistack(findobj(ax(k), 'Type', 'text'), 'top');
+end
+
+%% ================= LOCAL FUNCTIONS (must stay at the end of the script) =================
+function h = hatch_area(ax, t, y_low, y_up, col, angle_deg, gap_px, ls, lw)
+% Fill the region y_low <= y <= y_up with parallel lines at angle_deg (on screen).
+t = t(:); y_low = y_low(:); y_up = y_up(:);
+
+p  = getpixelposition(ax);
+sx = p(3) / diff(xlim(ax));                  % pixels per second
+sy = p(4) / diff(ylim(ax));                  % pixels per joule
+m  = tand(angle_deg) * sx / sy;              % data slope giving the on-screen angle
+dc = gap_px / (sx * abs(sind(angle_deg)));   % intercept step giving gap_px spacing
+
+cr = [t(1) - [min(y_low) max(y_up)]/m, t(end) - [min(y_low) max(y_up)]/m];
+c  = (min(cr) - dc) : dc : (max(cr) + dc);   % line intercepts on the time axis
+
+Y = m * (t - c);                             % one column per hatch line
+Y(Y < y_low | Y > y_up) = NaN;               % keep only the part inside the region
+Y(:, all(isnan(Y), 1)) = [];
+X = repmat(t, 1, size(Y, 2));
+X(end+1, :) = NaN;  Y(end+1, :) = NaN;       % break between lines
+
+h = plot(ax, X(:), Y(:), ls, 'Color', col, 'LineWidth', lw, 'HandleVisibility', 'off');
+end
