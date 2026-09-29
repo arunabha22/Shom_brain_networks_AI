@@ -82,7 +82,8 @@ def role(d, title, dates, org):
     p = d.add_paragraph()
     p.paragraph_format.space_after = Pt(0); p.paragraph_format.space_before = Pt(4)
     p.add_run(title).bold = True
-    p.add_run(" | " + dates)
+    if dates:
+        p.add_run(" | " + dates)
     d.story.append(("role", title, dates))
     para(d, org, italic=True, after=2)
 
@@ -95,7 +96,7 @@ def to_pdf(d, path, top=1.6):
                                    bulletType="bullet", start="•", leftIndent=12, bulletFontSize=9))
             fl.append(Spacer(0, 2))
         elif isinstance(it, tuple) and it[0] == "role":
-            fl.append(Paragraph("<b>%s</b> | %s" % (esc(it[1]), esc(it[2])), rl_style(after=0, before=4)))
+            fl.append(Paragraph("<b>%s</b>" % esc(it[1]) + (" | %s" % esc(it[2]) if it[2] else ""), rl_style(after=0, before=4)))
         else:
             text, bold, italic, size, after, before = it.rl
             t = esc(text)
