@@ -1,0 +1,105 @@
+% ATS-friendly CV - compile with pdfLaTeX (e.g. Overleaf)
+\documentclass[10pt,a4paper]{article}
+\usepackage[a4paper,left=1.9cm,right=1.9cm,top=1.6cm,bottom=1.6cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\input{glyphtounicode}
+\pdfgentounicode=1 % makes the PDF text machine-readable for ATS
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\titleformat{\section}{\large\bfseries}{}{0pt}{\MakeUppercase}[\vspace{-4pt}\rule{\textwidth}{0.6pt}]
+\titlespacing*{\section}{0pt}{8pt}{4pt}
+\setlist[itemize]{leftmargin=12pt,itemsep=1pt,topsep=2pt,parsep=0pt}
+\newcommand{\role}[3]{\textbf{#1} \textbar{} #2\\\textit{#3}\par}
+
+\hypersetup{pdftitle={Arunabha Majumder - CV - Mechanical Design Engineer},pdfauthor={Arunabha Majumder}}
+
+\begin{document}
+
+{\LARGE\bfseries Arunabha Majumder}\\[2pt]
+\textbf{Mechanical Design Engineer \textbar{} Mechatronic Systems \textbar{} Electromechanical Integration \textbar{} Prototyping \& Testing}\\[2pt]
+{\small Aalborg, Denmark \textbar{} +45 71 62 24 00 \textbar{} \href{mailto:somrkmv1997@gmail.com}{somrkmv1997@gmail.com} \textbar{} \href{https://www.linkedin.com/in/arunabha-majumder-681264107}{linkedin.com/in/arunabha-majumder-681264107}\\
+Portfolio: \href{https://arunabha22.github.io/arunabha-majumder/}{arunabha22.github.io/arunabha-majumder} \textbar{} Project: \href{https://www.viexo.aau.dk/}{www.viexo.aau.dk}}
+
+\section{Profile}
+Mechanical Design Engineer with a BTech in Mechanical Engineering, an MTech in Mechatronics and a PhD in progress, with about three years of hands-on mechatronic product development in an R\&D environment. Designs mechanical components and assemblies using a range of manufacturing techniques, and works across the engineering lifecycle from requirements and concept development through detailed design, prototyping, testing, validation and verification. Integrates sensors, actuators, motors, encoders, data acquisition and embedded control into electromechanical systems, and designs the control strategies that run them. Comfortable challenging established approaches, working across mechanical, electrical, electronic and software boundaries, and building prototypes hands-on in the workshop. Certified SolidWorks Associate (CSWA); Best Paper Award, IFToMM ISRM 2026.
+
+\section{Key Skills}
+\begin{itemize}
+\item \textbf{Mechanical Design:} Mechanical component and assembly design, product design, Design for Manufacture and Assembly (DfM/DfA), machined and additively manufactured parts
+\item \textbf{3D CAD \& Analysis:} SolidWorks (CSWA certified), Autodesk Fusion 360, detailed 3D models and drawings, Finite Element Analysis (FEA)
+\item \textbf{Mechatronic Systems:} Electromechanical system development, electronics integration, sensors, actuators, motors, encoders, force sensors, data acquisition (DAQ), embedded hardware (Arduino), pneumatics
+\item \textbf{Control \& Modelling:} Control system design (PID, neural-network gain scheduling, Assist-as-Needed control), kinematics and Jacobian-based force estimation, MATLAB/Simulink, Python
+\item \textbf{Engineering Lifecycle:} Requirements definition, concept development, detailed design, prototyping, testing, validation and verification
+\item \textbf{Prototyping \& Test:} Workshop fabrication, prototype build and assembly, custom test rigs, test planning and data analysis
+\item \textbf{Collaboration:} Multidisciplinary collaboration, system-level trade-offs across mechanical and electrical domains, written and verbal communication (peer-reviewed publications, teaching)
+\end{itemize}
+
+\section{Professional Experience}
+\role{Research Engineer -- Mechatronic Product Development (PhD Project: VIEXO)}{2023 -- Present}{Aalborg University, Aalborg, Denmark}
+\begin{itemize}
+\item Designed and developed a hybrid-actuated shoulder exoskeleton from concept to tested hardware, challenging the conventional motor-only approach by combining a parallel spring with a 6\,Nm motor; cut energy consumption by more than 25\% (Best Paper Award, IFToMM ISRM 2026).
+\item Designed mechanical components and assemblies in SolidWorks, performed FEA for strength, stiffness and weight, and produced parts through machining and additive manufacturing.
+\item Integrated motor, encoder, force sensors, DAQ and embedded control into the electromechanical system, balancing mechanical and electrical trade-offs at system level.
+\item Developed end-effector force estimation for a 5-bar planar parallel robot using variable-stiffness actuators (VSA) and the robot Jacobian, validated against a force sensor to below 10\% RMS error.
+\item Designed and deployed an Assist-as-Needed hybrid controller on the prototype, reducing user muscle effort by more than 15\% in human-subject tests.
+\item Built prototypes hands-on and designed custom automated test rigs; planned and ran a 12-participant validation campaign across 3 operating modes and 2 load conditions, including instrumentation and data analysis.
+\item Taught university students and supervised Bachelor's (B.Tech) students (2023 -- 2025).
+\end{itemize}
+
+\role{MTech Researcher -- Pneumatic Actuator Systems (Master's Thesis)}{2020 -- 2022}{CSIR-Central Mechanical Engineering Research Institute (CMERI), National Laboratory, Durgapur, India}
+\begin{itemize}
+\item Fabricated pneumatic artificial muscle actuators in-house and built the electromechanical test set-up with valves, pressure sensors and DAQ to characterise load--displacement behaviour.
+\item Designed and implemented a neural-network-based gain-scheduled PID controller that reduced position-tracking error to 0.3--0.78\% under varying load, outperforming classical PID.
+\end{itemize}
+
+\role{Mechanical Engineering Capstone -- Upper-Limb Rehabilitation Exoskeleton}{2018 -- 2019}{Siddaganga Institute of Technology, Tumakuru, India}
+\begin{itemize}
+\item Led CAD design, fabrication and user testing end to end; won the Best Major Project Award and an INR 100,000 TATA Technologies Innovation Grant.
+\end{itemize}
+
+\section{Education}
+\role{PhD Candidate, Mechatronics and Robotics}{2023 -- Present}{Aalborg University, Department of Materials and Production, Denmark}
+\role{MTech, Mechatronics}{2020 -- 2022}{AcSIR -- CSIR-Central Mechanical Engineering Research Institute (CMERI), India}
+\role{BTech, Mechanical Engineering}{2015 -- 2019}{Siddaganga Institute of Technology, Visvesvaraya Technological University (VTU), India}
+
+\section{Certifications and Awards}
+\begin{itemize}
+\item Certified SolidWorks Associate (CSWA) -- Mechanical Design
+\item Best Research Paper Award, 9th IFToMM International Symposium on Robotics and Mechatronics (2026)
+\item TATA Technologies Innovation Award -- INR 100,000 Grant (2019); Best Major Project Award (2019)
+\end{itemize}
+
+\section{Engineering Projects}
+\begin{itemize}
+\item \textbf{Go-Kart (2017):} Designed, fabricated and assembled a custom Go-Kart from the ground up.
+\item \textbf{Efficycle (2018):} Designed and built a human-electric hybrid vehicle in a multidisciplinary team for the Efficycle competition.
+\end{itemize}
+
+\section{Publications}
+\begin{itemize}
+\item Majumder, A., et al. ``A Hybrid Actuated Shoulder Exoskeleton for Energy-Efficient Upper Arm Support.'' ISRM 2026, MMS, vol. 213, Springer.
+\item Majumder, A., et al. ``Neural Network-Based Gain Scheduled Position Control of a Pneumatic Artificial Muscle.'' IEEE CONECCT, 2022.
+\end{itemize}
+
+\section{Technical Tools}
+\begin{itemize}
+\item \textbf{CAD \& Manufacturing:} SolidWorks, Autodesk Fusion 360, FEA, Bambu Lab and Ultimaker Cura (3D printing)
+\item \textbf{Software \& Embedded:} MATLAB/Simulink, Python, LabVIEW (basic), Arduino
+\item \textbf{Instrumentation \& Testing:} Qualisys Motion Capture, Forsentec Force/Torque Sensors, Pneumatic Control, Custom Rig Fabrication
+\end{itemize}
+
+\section{Languages}
+English (C1, fluent) \textbar{} Bengali (Native) \textbar{} Hindi (Conversational)
+
+\section{References}
+Available upon request.
+
+\end{document}
