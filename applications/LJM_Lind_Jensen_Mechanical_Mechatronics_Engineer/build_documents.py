@@ -36,7 +36,7 @@ bullet(d, "Translating requirements into designs, systematic documentation, proj
 heading(d, "Professional Experience")
 role(d, "Research Engineer – Mechanical & Mechatronic Product Development (PhD Project: VIEXO)", "2023 – Present",
      "Aalborg University, Aalborg, Denmark")
-bullet(d, "Developed and evaluated a new operating principle for a wearable machine: a hybrid actuation concept "
+bullet(d, "Developed and evaluated a new operating principle for a shoulder exoskeleton: a hybrid actuation concept "
           "that pairs a parallel spring with a 6 Nm motor, cutting energy consumption by more than 25% (Best Paper "
           "Award, IFToMM ISRM 2026).")
 bullet(d, "Created 3D models, assemblies and production drawings in SolidWorks, and performed component-level FEA to "
@@ -48,9 +48,8 @@ bullet(d, "Specified and implemented control principles, including an Assist-as-
 bullet(d, "Planned, conducted, analysed and documented a 12-participant test campaign across 3 operating modes and "
           "2 load conditions, including test protocol, instrumentation and data pipeline; results support two "
           "journal submissions.")
-bullet(d, "Validated analytical stiffness models against test hardware to below 10% RMS error, and removed an "
-          "external force/torque sensor from a 5-bar parallel robot by estimating force from the actuator, "
-          "reducing cost, mass and integration complexity.")
+bullet(d, "Developed end-effector force estimation for a 5-bar planar parallel robot using variable-stiffness "
+          "actuators (VSA) and the robot Jacobian, validated against a force sensor to below 10% RMS error.")
 bullet(d, "Taught university students and supervised Bachelor's (B.Tech) students (2023 – 2025).")
 
 role(d, "MTech Researcher – Pneumatic Actuator Systems (Master's Thesis)", "2020 – 2022",
@@ -119,15 +118,17 @@ body = [
  "For the past three years I have taken mechanical concepts from idea and calculation to tested hardware, and I "
  "would like to do that for products that go into production.",
 
- "In my PhD, I developed a new operating principle for a wearable machine: a parallel spring working together "
- "with a small 6 Nm motor. I created the 3D models, assemblies and drawings in SolidWorks, used component-level "
+ "In my PhD, I developed a new hybrid actuation principle for a shoulder exoskeleton: a parallel spring working "
+ "together with a small 6 Nm motor. I created the 3D models, assemblies and drawings in SolidWorks, used component-level "
  "FEA to optimise for strength, stiffness and weight, built the prototypes hands-on and integrated the motor, "
  "sensors and control. The concept cut energy consumption by more than 25% and won the Best Paper Award at IFToMM "
  "ISRM 2026. You can see the project at www.viexo.aau.dk.",
 
- "I work systematically with testing and documentation. I design my own test rigs, validated my stiffness models "
- "against hardware to within 10% RMS error, and planned, ran, analysed and documented a 12-participant test "
- "campaign across several operating modes and load conditions.",
+ "I work systematically with testing and documentation. On a 5-bar planar parallel robot, I used the "
+ "variable-stiffness actuators to estimate the force at the end effector through the robot's Jacobian, and "
+ "validated the estimate against a force sensor to within 10% RMS error. I also design my own test rigs, and I "
+ "planned, ran, analysed and documented a 12-participant test campaign across several operating modes and load "
+ "conditions.",
 
  "I also understand how mechanics, automation and software work together, because I have specified and "
  "implemented the control principles for my own machines. At CSIR-CMERI I built a pneumatic actuator test set-up "
