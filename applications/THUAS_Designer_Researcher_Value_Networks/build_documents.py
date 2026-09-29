@@ -35,9 +35,9 @@ bullet(d, "Scientific writing and peer-reviewed publications, grant funding (TAT
           "illustration and graphic design, English (C1), multidisciplinary and international teamwork", "Communication & Content: ")
 
 heading(d, "Teaching & Supervision Experience")
-role(d, "Teaching and Student Supervision", "2023 – Present", "Aalborg University, Aalborg, Denmark")
-bullet(d, "Teach university students in higher education alongside PhD research.")
-bullet(d, "Supervise Bachelor's (B.Tech) students, guiding them through their work.")
+role(d, "Teaching and Student Supervision", "2023 – 2025", "Aalborg University, Aalborg, Denmark")
+bullet(d, "Taught university students in higher education alongside PhD research.")
+bullet(d, "Supervised Bachelor's (B.Tech) students, guiding them through their work.")
 
 heading(d, "Research Experience")
 role(d, "PhD Researcher – Design and Research of Assistive Robotic Systems (VIEXO Project)", "2023 – Present",
@@ -127,7 +127,7 @@ body = [
  "submissions. Our work on energy-efficient assistive technology won the Best Research Paper Award at IFToMM "
  "ISRM 2026.",
 
- "Alongside my research, I teach and supervise Bachelor's (B.Tech) students at Aalborg University. This has given me direct "
+ "From 2023 to 2025, alongside my research, I taught and supervised Bachelor's (B.Tech) students at Aalborg University. This has given me direct "
  "experience in higher education and in working closely with students, which I understand is central to this "
  "role's contact with students and lecturer-researchers.",
 
