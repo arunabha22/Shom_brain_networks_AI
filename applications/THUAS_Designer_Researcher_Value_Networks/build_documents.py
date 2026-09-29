@@ -13,7 +13,8 @@ header(d, TITLE)
 heading(d, "Professional Summary")
 para(d, "Designer and researcher with a Master's degree (M.Tech) in Mechatronics and a PhD in progress at Aalborg "
         "University, with more than five years of research experience in multidisciplinary projects that combine "
-        "design, human-subject research and data analysis. Experienced in contributing to the implementation of "
+        "design, human-subject research and data analysis, and with experience in teaching and supervising "
+        "Bachelor's students in higher education at Aalborg University. Experienced in contributing to the implementation of "
         "research plans end to end: study design, ethics protocols, quantitative data collection and statistical "
         "analysis, through to peer-reviewed publications (Best Research Paper Award, 2026). Secured an INR 100,000 "
         "innovation grant. Trained visual artist (Diploma in Fine Arts) who creates illustrations, technical visuals "
@@ -21,6 +22,7 @@ para(d, "Designer and researcher with a Master's degree (M.Tech) in Mechatronics
         "in English (C1).")
 
 heading(d, "Core Competencies")
+bullet(d, "Teaching in higher education, supervision of Bachelor's (B.Tech) students", "Education: ")
 bullet(d, "Contributing to the implementation of research plans, multidisciplinary research, experimental study "
           "design, human-subject studies, ethics protocols", "Research: ")
 bullet(d, "Quantitative research methods, statistical power analysis, statistical analysis, data collection "
@@ -30,9 +32,12 @@ bullet(d, "Python, MATLAB, visualization of experimental results; Adobe Illustra
 bullet(d, "Concept development, iterative design, prototyping, system design, testing with users",
        "Design: ")
 bullet(d, "Scientific writing and peer-reviewed publications, grant funding (TATA Technologies Innovation Grant), "
-          "illustration and graphic design, English (C1)", "Communication & Content: ")
-bullet(d, "Collaboration in multidisciplinary and international teams (engineering, controls, biomechanics)",
-       "Collaboration: ")
+          "illustration and graphic design, English (C1), multidisciplinary and international teamwork", "Communication & Content: ")
+
+heading(d, "Teaching & Supervision Experience")
+role(d, "Teaching and Student Supervision", "2023 – Present", "Aalborg University, Aalborg, Denmark")
+bullet(d, "Teach university students in higher education alongside PhD research.")
+bullet(d, "Supervise Bachelor's (B.Tech) students, guiding them through their work.")
 
 heading(d, "Research Experience")
 role(d, "PhD Researcher – Design and Research of Assistive Robotic Systems (VIEXO Project)", "2023 – Present",
@@ -84,18 +89,11 @@ heading(d, "Grants & Awards")
 bullet(d, "Best Research Paper Award, 9th IFToMM International Symposium on Robotics and Mechatronics (2026)")
 bullet(d, "TATA Technologies Innovation Grant – INR 100,000 (2019)")
 bullet(d, "Best Major Project Award, Department of Mechanical Engineering (2019)")
-bullet(d, "Certified SolidWorks Associate (CSWA)")
-
-heading(d, "Team Projects")
-bullet(d, "Worked in a multidisciplinary team to design a human-electric hybrid vehicle for the Efficycle "
-          "competition.", "Efficycle (2018): ")
-bullet(d, "Led end-to-end design and fabrication of a custom Go-Kart.", "Go-Kart (2017): ")
 
 heading(d, "Tools")
 bullet(d, "Python, MATLAB/Simulink, LabVIEW (basic), LaTeX", "Data & Analysis: ")
 bullet(d, "Adobe Illustrator, Adobe Photoshop, Procreate (basic)", "Visual Content: ")
-bullet(d, "Qualisys Motion Capture, EMG, force/torque sensors", "Research Instrumentation: ")
-bullet(d, "SolidWorks, Fusion 360, 3D printing", "Design & Prototyping: ")
+bullet(d, "Qualisys Motion Capture, EMG, force/torque sensors; SolidWorks, Fusion 360", "Research Instrumentation: ")
 
 heading(d, "Languages")
 para(d, "English (C1, fluent) | Bengali (Native) | Hindi (Conversational)")
@@ -128,6 +126,10 @@ body = [
  "protocol, the data collection and the analysis pipeline, and the resulting dataset supports two journal "
  "submissions. Our work on energy-efficient assistive technology won the Best Research Paper Award at IFToMM "
  "ISRM 2026.",
+
+ "Alongside my research, I teach and supervise Bachelor's (B.Tech) students at Aalborg University. This has given me direct "
+ "experience in higher education and in working closely with students, which I understand is central to this "
+ "role's contact with students and lecturer-researchers.",
 
  "My research is multidisciplinary by nature. It brings together mechanical design, electronics, control and "
  "biomechanics, and it has meant working with colleagues from different disciplines and backgrounds in Denmark "
