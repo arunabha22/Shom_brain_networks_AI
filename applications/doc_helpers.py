@@ -7,6 +7,7 @@ from docx.oxml import OxmlElement
 
 NAME = "Arunabha Majumder"
 CONTACT = "Aalborg, Denmark | +45 71 62 24 00 | somrkmv1997@gmail.com | linkedin.com/in/arunabha-majumder-681264107"
+LINKS = "Portfolio: arunabha22.github.io/arunabha-majumder | Project: www.viexo.aau.dk"
 
 
 from reportlab.lib.pagesizes import A4
@@ -61,10 +62,12 @@ def rule(p):
     b.append(bt); pPr.append(b)
     p.rule = True
 
-def header(d, title):
+def header(d, title, links=False):
     para(d, NAME, bold=True, size=18, after=0)
     para(d, title, bold=True, size=11, after=0)
-    para(d, CONTACT, size=9.5, after=6)
+    para(d, CONTACT, size=9.5, after=0 if links else 6)
+    if links:
+        para(d, LINKS, size=9.5, after=6)
 
 def heading(d, text):
     p = para(d, text.upper(), bold=True, size=11, before=8, after=3)
