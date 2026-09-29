@@ -17,7 +17,7 @@ para(d, "Mechanical and Mechatronics Engineer with a master's degree (MTech) in 
         "technical requirements into working hardware: 3D models, assemblies and production drawings in "
         "SolidWorks, component-level FEA for strength, stiffness and weight, prototype builds, and systematically "
         "planned, analysed and documented tests. Understands the interaction between mechanics, sensors, control "
-        "and software, having designed and implemented the control principles for my own prototypes. Certified "
+        "and software, having specified and implemented the control principles for self-built prototypes. Certified "
         "SolidWorks Associate (CSWA); Best Paper Award, IFToMM ISRM 2026.")
 
 heading(d, "Core Skills")
