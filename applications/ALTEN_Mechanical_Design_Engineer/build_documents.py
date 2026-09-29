@@ -91,3 +91,46 @@ heading(d, "References")
 para(d, "Available upon request.")
 d.save(OUT + "Arunabha_Majumder_CV_%s.docx" % TAG)
 to_pdf(d, OUT + "Arunabha_Majumder_CV_%s.pdf" % TAG)
+
+# ---------------- COVER LETTER ----------------
+c = new_doc()
+c.sections[0].top_margin = Cm(2.0)
+header(c, TITLE)
+para(c, "September 29, 2026", after=8)
+para(c, "Hiring Team, Engineering", after=0)
+para(c, "ALTEN Ltd", after=0)
+para(c, "Loughborough, United Kingdom", after=8)
+para(c, "Application: Mechanical Design Engineer – Clean Energy and Advanced Technology", bold=True, after=8)
+para(c, "Dear Hiring Team,", after=8)
+body = [
+ "I am applying for the Mechanical Design Engineer position with your Loughborough team. I am a mechanical "
+ "engineer with a BTech in Mechanical Engineering and an MTech in Mechatronics, and for the past three years I "
+ "have designed and developed mechanical products in SolidWorks, from first concept to working, tested hardware.",
+
+ "At Aalborg University, I designed the mechanical components and assemblies of an energy-efficient wearable "
+ "device. I created the 3D models, manufacturing drawings and documentation used to machine, 3D print and "
+ "assemble the parts, used FEA to iterate for strength, stiffness and weight, and supported the prototype build, "
+ "assembly and validation myself. The new actuation design cut energy consumption by more than 25%.",
+
+ "I design with manufacture and assembly in mind. On a robot design, I removed an external force/torque sensor "
+ "entirely, which reduced cost, mass and part count and made the system simpler to build. I also validated my "
+ "design models against physical tests to within 10% RMS error before committing to manufacture, to reduce the risk of "
+ "costly rebuilds.",
+
+ "My projects combine mechanical design, electronics and controls, so I am used to working in multidisciplinary "
+ "teams and solving technical issues together. I am organised and careful with detail, I communicate clearly in "
+ "English, and I am a Certified SolidWorks Associate.",
+
+ "So far my experience has been in university and national laboratory R&D, and I have not yet worked with formal "
+ "engineering change control or PLM systems. I am keen to learn them, and ALTEN's range of clean energy and "
+ "advanced technology projects is where I would like to build my career as a design engineer.",
+
+ "I would welcome the opportunity to discuss how I can contribute to your team. References are available upon "
+ "request.",
+]
+for t in body:
+    para(c, t, after=8)
+para(c, "Kind regards,", after=2)
+para(c, NAME)
+c.save(OUT + "Arunabha_Majumder_Cover_Letter_%s.docx" % TAG)
+to_pdf(c, OUT + "Arunabha_Majumder_Cover_Letter_%s.pdf" % TAG, top=2.0)
