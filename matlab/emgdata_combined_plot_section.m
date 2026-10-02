@@ -8,11 +8,37 @@
 
 % ====================== SETTINGS ======================
 fontName      = 'Arial';
-xRange        = [0 65.5];   % time window shown (s)
+nCycles       = 3;          % number of raise+lower cycles to show
+firstCycle    = 1;          % which cycle to start from (1 = first)
+cycleMargin   = 1.0;        % extra time (s) before first / after last cycle
 emgScale      = 1;          % factor to convert EMG to µV (e.g. 1e6 if stored in V)
 useForceDelta = true;       % true = force relative to first sample (same as exodata)
 fsLabel       = 13;         % right-hand signal names
 fsTick        = 11;         % y-tick labels
+
+% ====================== TIME WINDOW: ONLY nCycles CYCLES ======================
+% raise_cuts / lower_cuts are [start; end; start; end; ...] pairs.
+% One cycle = start of a raise -> end of the following lower.
+raiseStart = raise_cuts(1:2:end);
+lowerEnd   = lower_cuts(2:2:end);
+lastCycle  = firstCycle + nCycles - 1;
+if numel(raiseStart) < lastCycle
+    error('Only %d raise events found; cannot show cycles %d-%d.', ...
+          numel(raiseStart), firstCycle, lastCycle);
+end
+tStart = raiseStart(firstCycle);
+tEnd   = lowerEnd(find(lowerEnd > raiseStart(lastCycle), 1));
+if isempty(tEnd)
+    error('No lower event found after raise %d.', lastCycle);
+end
+xRange = [max(tStart - cycleMargin, timeVec(1)), tEnd + cycleMargin];
+inWin    = timeVec     >= xRange(1) & timeVec     <= xRange(2);   % exo samples in window
+inWinEMG = timeVec_EMG >= xRange(1) & timeVec_EMG <= xRange(2);   % EMG samples in window
+
+% Keep only events inside the window (dots, dashed lines, motion labels)
+raise_cuts = raise_cuts(raise_cuts >= xRange(1) & raise_cuts <= xRange(2));
+lower_cuts = lower_cuts(lower_cuts >= xRange(1) & lower_cuts <= xRange(2));
+fprintf('Showing cycles %d-%d: %.2f s to %.2f s\n', firstCycle, lastCycle, xRange);
 
 % ====================== EXO SIGNALS FROM THE EXCEL FILE ======================
 if size(dataMatrix, 1) < 8
@@ -46,11 +72,13 @@ c.label   = [0.45 0.45 0.45];   % grey right-hand labels
 % Rounds the data range outwards to a multiple of "step"
 niceLim = @(v, step) [floor(min(v(:)) / step) * step, ceil(max(v(:)) / step) * step];
 
-% Common symmetric EMG limit (99.9th percentile of |EMG| over all muscles)
+% Common symmetric EMG limit (99.9th percentile of |EMG| over all muscles,
+% computed only inside the shown window)
 emgAll = cellfun(@(e) e * emgScale, emg_data, 'UniformOutput', false);
 emgLim = 0;
 for i = 1:numel(emgAll)
-    s = sort(abs(emgAll{i}(~isnan(emgAll{i}))));
+    e = emgAll{i}(inWinEMG);
+    s = sort(abs(e(~isnan(e))));
     if ~isempty(s)
         emgLim = max(emgLim, s(ceil(0.999 * numel(s))));
     end
@@ -130,7 +158,7 @@ plot(a, timeVec, tau_total, '-', 'LineWidth', 1.8, 'Color', c.tau);
 plot(a, timeVec, tau_ff,    '-', 'LineWidth', 1.8, 'Color', c.tau_ff);
 plot(a, timeVec, tau_fb,    '-', 'LineWidth', 1.8, 'Color', c.tau_fb);
 
-setEndTicks(a, niceLim([tau_ff tau_fb tau_total], 1), '%g Nm', 0.05);
+setEndTicks(a, niceLim([tau_ff(inWin) tau_fb(inWin) tau_total(inWin)], 1), '%g Nm', 0.05);
 sideLabel(a, 'Feed-forward torque', c.tau_ff, 0.80, fsLabel, fontName);
 sideLabel(a, 'Feed-back torque',    c.tau_fb, 0.50, fsLabel, fontName);
 sideLabel(a, 'Total torque',        c.tau,    0.20, fsLabel, fontName);
@@ -139,14 +167,14 @@ sideLabel(a, 'Total torque',        c.tau,    0.20, fsLabel, fontName);
 a = ax(7);
 plot(a, timeVec, force, '-', 'LineWidth', 2.0, 'Color', c.force);
 
-setEndTicks(a, niceLim(force, 10), '%g N', 0.05);
+setEndTicks(a, niceLim(force(inWin), 10), '%g N', 0.05);
 sideLabel(a, {'Interaction', 'Force'}, c.force, 0.5, fsLabel, fontName);
 
 % ====================== PANEL 8: MOTOR CURRENT ======================
 a = ax(8);
 plot(a, timeVec, current, '-', 'LineWidth', 2.0, 'Color', c.current);
 
-setEndTicks(a, niceLim(current, 1), '%g A', 0.05);
+setEndTicks(a, niceLim(current(inWin), 1), '%g A', 0.05);
 sideLabel(a, 'Current', c.current, 0.5, fsLabel, fontName);
 
 % ====================== EVENT LINES ACROSS ALL PANELS ======================
@@ -155,7 +183,7 @@ sideLabel(a, 'Current', c.current, 0.5, fsLabel, fontName);
 ovBottom = ax(end).Position(2);
 ovTop    = ax(2).Position(2) + ax(2).Position(4);
 axOv = axes(fig, 'Position', [left ovBottom width ovTop - ovBottom], ...
-    'Color', 'none', 'XLim', xRange, 'YLim', [0 1], ...
+    'Color', 'none', 'XLim', xRange, 'YLim', [0 1], 'Clipping', 'on', ...
     'Visible', 'off', 'HitTest', 'off', 'PickableParts', 'none');
 hold(axOv, 'on');
 
