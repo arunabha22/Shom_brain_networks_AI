@@ -13,6 +13,11 @@ firstCycle    = 1;          % which cycle to start from (1 = first)
 cycleMargin   = 1.0;        % extra time (s) before first / after last cycle
 emgScale      = 1;          % factor to convert EMG to µV (e.g. 1e6 if stored in V)
 useForceDelta = true;       % true = force relative to first sample (same as exodata)
+filterExo     = true;       % low-pass filter torque, force and current
+torqueCutoff  = 5;          % cutoff (Hz) for torques  - lower = smoother
+forceCutoff   = 3;          % cutoff (Hz) for force
+currentCutoff = 5;          % cutoff (Hz) for current   (all must be < EXO_SF/2)
+filterOrder   = 4;          % Butterworth filter order
 fsLabel       = 13;         % right-hand signal names
 fsTick        = 11;         % y-tick labels
 
@@ -50,6 +55,16 @@ tau_fb    = dataMatrix(5, :);
 tau_total = dataMatrix(6, :);
 force     = dataMatrix(7, :);
 current   = dataMatrix(8, :);
+
+% ---- Zero-phase low-pass filter (no time shift vs. the event lines) ----
+if filterExo
+    tau_ff    = lowpassZeroPhase(tau_ff,    torqueCutoff,  EXO_SF, filterOrder);
+    tau_fb    = lowpassZeroPhase(tau_fb,    torqueCutoff,  EXO_SF, filterOrder);
+    tau_total = lowpassZeroPhase(tau_total, torqueCutoff,  EXO_SF, filterOrder);
+    force     = lowpassZeroPhase(force,     forceCutoff,   EXO_SF, filterOrder);
+    current   = lowpassZeroPhase(current,   currentCutoff, EXO_SF, filterOrder);
+end
+
 if useForceDelta
     force = force - force(find(~isnan(force), 1));
 end
@@ -264,4 +279,20 @@ function sideLabel(a, str, col, yPos, fs, fn)
         'Color', col, 'FontName', fn, 'FontSize', fs, ...
         'HorizontalAlignment', 'left', 'VerticalAlignment', 'middle', ...
         'Clipping', 'off');
+end
+
+function y = lowpassZeroPhase(x, fc, fs, order)
+    % Zero-phase Butterworth low-pass. Gaps (NaN) are filled linearly before
+    % filtering and put back afterwards. Falls back to a centred moving
+    % average if the Signal Processing Toolbox is not installed.
+    nanMask = isnan(x);
+    x = fillmissing(x, 'linear', 'EndValues', 'nearest');
+    if exist('butter', 'file') == 2 && exist('filtfilt', 'file') == 2
+        [b, a] = butter(order, fc / (fs / 2), 'low');
+        y = filtfilt(b, a, x);
+    else
+        win = max(3, round(fs / fc));   % window ~ one period of the cutoff
+        y = movmean(x, win);
+    end
+    y(nanMask) = NaN;
 end
