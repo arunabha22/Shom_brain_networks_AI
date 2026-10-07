@@ -22,7 +22,7 @@ head(d)
 
 heading(d, "Summary")
 para(d, "Researcher in wearable robotics and exoskeletons with hands-on experience across the full mechatronic "
-        "chain: actuator and transmission design (compliant and soft pneumatic actuators), CAD and FEM, 3D-printed "
+        "chain: actuator and transmission design (compliant and soft pneumatic actuators), CAD (SolidWorks), 3D-printed "
         "prototypes, sensor integration, motion and force control in MATLAB/Python, and experimental validation with "
         "human participants. Best Paper Award, IFToMM ISRM 2026.")
 
@@ -38,7 +38,7 @@ bullet(d, "Reduced energy consumption by more than 25% (Best Paper Award, IFToMM
           "hybrid-actuated shoulder exoskeleton that combines a compliant parallel spring with a 6 Nm motor in a new "
           "actuator and transmission concept.")
 bullet(d, "Developed functional robot prototypes from concept to experimental validation through iterative design in "
-          "SolidWorks and Fusion 360, FEM of load-carrying parts, 3D printing, machining and hands-on assembly.")
+          "SolidWorks and 3D-printed prototypes.")
 bullet(d, "Reduced user muscle effort by more than 15%, measured with EMG, by integrating and controlling the motor, "
           "encoder and force sensors with an Assist-as-Needed controller for physical human-robot interaction.")
 bullet(d, "Achieved below 10% RMS force-estimation error, validated against a force sensor, by developing a "
@@ -58,8 +58,8 @@ bullet(d, "Characterised soft actuator behaviour experimentally by fabricating p
 
 role(d, "Bachelor's Capstone – Upper-Limb Rehabilitation Exoskeleton", "2018 – 2019",
      "Siddaganga Institute of Technology, Tumakuru, India")
-bullet(d, "Led CAD design, fabrication and user testing of a rehabilitation exoskeleton; Best Major Project Award and "
-          "INR 100,000 TATA Technologies Innovation Grant.")
+bullet(d, "Led CAD design, machining, hands-on assembly and user testing of a rehabilitation exoskeleton; Best Major "
+          "Project Award and INR 100,000 TATA Technologies Innovation Grant.")
 
 heading(d, "Publications")
 bullet(d, "Majumder, A., Wagner, J.W., Zhu, Y., Oliveira, A.S., and Bai, S. \"A Hybrid Actuated Shoulder Exoskeleton "
@@ -77,7 +77,7 @@ role(d, "B.Tech, Mechanical Engineering", "2015 – 2019",
      "Siddaganga Institute of Technology, Visvesvaraya Technological University (VTU), Tumakuru, India")
 
 heading(d, "Skills")
-bullet(d, "SolidWorks (CSWA), Fusion 360, FEM/FEA, 3D printing, machining, assembly", "Design & prototyping: ")
+bullet(d, "SolidWorks (CSWA), 3D printing; machining and assembly (Bachelor's)", "Design & prototyping: ")
 bullet(d, "MATLAB/Simulink, Python, LabVIEW (basic), Arduino", "Programming: ")
 bullet(d, "Motion and force control, Assist-as-Needed control, PID, neural-network gain scheduling, kinematics",
        "Control: ")
@@ -112,14 +112,15 @@ body = [
  "the next step of my career to.",
 
  "Wearable robotics has been the thread through my whole education. My Bachelor's capstone was an upper-limb "
- "rehabilitation exoskeleton, which won the Best Major Project Award and a TATA Technologies Innovation Grant. My "
+ "rehabilitation exoskeleton, which I designed, machined, assembled and tested; it won the Best Major Project "
+ "Award and a TATA Technologies Innovation Grant. My "
  "Master's thesis at CSIR-CMERI focused on soft pneumatic artificial muscles: I fabricated them from raw materials, "
  "built the test rig with valves, pressure sensors and DAQ, and developed a neural-network-based gain-scheduled "
  "controller in MATLAB/Simulink that reduced tracking error to 0.3–0.78%, published at IEEE CONECCT 2022.",
 
  "In my PhD project VIEXO, I designed a hybrid-actuated shoulder exoskeleton that combines a compliant parallel "
- "spring with a small 6 Nm motor. I carried out the mechanical design in SolidWorks and Fusion 360, used FEM for "
- "the load-carrying parts, built the prototypes through 3D printing and machining, and integrated the motor, "
+ "spring with a small 6 Nm motor. I carried out the mechanical design in SolidWorks, built the prototypes through "
+ "3D printing, and integrated the motor, "
  "encoder, force sensors and embedded control. The design reduced energy consumption by more than 25% and received "
  "the Best Research Paper Award at IFToMM ISRM 2026. I also implemented an Assist-as-Needed controller that reduced "
  "user muscle effort by more than 15%, and on a 5-bar planar parallel robot I developed a force-estimation method "
