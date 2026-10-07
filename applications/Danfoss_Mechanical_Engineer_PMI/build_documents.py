@@ -77,3 +77,49 @@ heading(d, "References")
 para(d, "Available upon request.")
 d.save(OUT + "Arunabha_Majumder_CV_Danfoss_PMI.docx")
 to_pdf(d, OUT + "Arunabha_Majumder_CV_Danfoss_PMI.pdf")
+
+# ---------------- COVER LETTER ----------------
+c = new_doc()
+c.sections[0].top_margin = Cm(2.0)
+para(c, NAME, bold=True, size=18, after=0)
+para(c, "Mechanical Engineer — Design Optimisation, Continuous Improvement & Testing", bold=True, size=11, after=2)
+para(c, SEP.join(["+45 71 62 24 00", "Aalborg, Denmark", "somrkmv1997@gmail.com", "97arunabhasit027@gmail.com"]),
+     size=9.5, after=0)
+para(c, SEP.join(["LinkedIn: linkedin.com/in/arunabha-majumder-681264107",
+                  "Portfolio: arunabha22.github.io/arunabha-majumder"]), size=9.5, after=8)
+para(c, "October 7, 2026", after=8)
+para(c, "Hiring Team, Danfoss Power Solutions", after=0)
+para(c, "Nordborg, Denmark", after=8)
+para(c, "Application: Mechanical Engineer, PMI", bold=True, after=8)
+para(c, "Dear Hiring Team,", after=8)
+body = [
+ "I am applying for the Mechanical Engineer, PMI position in Nordborg. I am a mechanical engineer with a BTech in "
+ "Mechanical Engineering and an MTech in Mechatronics, finishing my PhD at Aalborg University. What attracts me to "
+ "this role is the chance to improve real products that customers use every day, and to see the effect of each "
+ "design change on quality and reliability.",
+
+ "Most of my work has been about making designs better through testing. In my PhD, I was the mechanical expert on "
+ "a shoulder exoskeleton. I tested the prototypes, found the causes of mechanical, electronic and control issues, "
+ "and implemented design changes in SolidWorks, while keeping the 3D models, drawings and documentation up to date. "
+ "One of these design optimisations, a parallel spring working with a small 6 Nm motor, improved energy performance "
+ "by more than 25% and won the Best Paper Award at IFToMM ISRM 2026.",
+
+ "I am used to working across disciplines and managing several tasks in parallel. Alongside design and testing, I "
+ "ran the data collection for a 12-participant study, developed a force-estimation method for a 5-bar parallel "
+ "robot that was verified to within 10% error, and supervised Bachelor's students. Working with mechanical, "
+ "electronics, control and biomechanics specialists has taught me to explain technical issues clearly and keep the "
+ "bigger picture in view.",
+
+ "My experience so far is with prototypes rather than products in series production, and I have not yet worked "
+ "with PLM systems or formal engineering change processes. I am keen to learn them, and joining an experienced "
+ "team that improves joysticks, controllers and displays is exactly the step I want to take into industry.",
+
+ "I would welcome the opportunity to discuss how I can contribute to your team. References are available upon "
+ "request.",
+]
+for t in body:
+    para(c, t, after=8)
+para(c, "Kind regards,", after=2)
+para(c, NAME)
+c.save(OUT + "Arunabha_Majumder_Cover_Letter_Danfoss_PMI.docx")
+to_pdf(c, OUT + "Arunabha_Majumder_Cover_Letter_Danfoss_PMI.pdf", top=2.0)
