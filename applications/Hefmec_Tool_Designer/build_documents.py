@@ -85,3 +85,56 @@ para(d, "Available upon request.")
 
 d.save(OUT + "Arunabha_Majumder_CV_Hefmec.docx")
 to_pdf(d, OUT + "Arunabha_Majumder_CV_Hefmec.pdf")
+
+# ---------------- COVER LETTER ----------------
+c = new_doc()
+c.sections[0].top_margin = Cm(2.0)
+para(c, NAME, bold=True, size=18, after=0)
+para(c, "Mechanical Designer — 3D Design, Strength Calculation (FEA), Drawings & Prototyping", bold=True,
+     size=11, after=2)
+para(c, SEP.join(["+45 71 62 24 00", "Aalborg, Denmark", "somrkmv1997@gmail.com", "97arunabhasit027@gmail.com"]),
+     size=9.5, after=0)
+para(c, SEP.join(["LinkedIn: linkedin.com/in/arunabha-majumder-681264107",
+                  "Portfolio: arunabha22.github.io/arunabha-majumder"]), size=9.5, after=8)
+para(c, "October 7, 2026", after=8)
+para(c, "Hiring Team", after=0)
+para(c, "Hefmec", after=0)
+para(c, "Vantaa, Finland", after=8)
+para(c, "Application: Tool Designer (Työvälinesuunnittelija)", bold=True, after=8)
+para(c, "Dear Hiring Team,", after=8)
+body = [
+ "I am applying for the Tool Designer position at Hefmec. I am a mechanical engineer with a BTech in Mechanical "
+ "Engineering and an MTech in Mechatronics, finishing my PhD at Aalborg University, with about three years of "
+ "hands-on 3D mechanical design and strength calculation. What attracts me to Hefmec is that your designs do not "
+ "stay on the screen: you follow each tool from idea to commissioning and make sure it works in the customer's "
+ "production.",
+
+ "In my PhD, I took ownership of the design of an actuated shoulder exoskeleton from concept to tested hardware. "
+ "I carried out the concept design, 3D modelling and detail design in SolidWorks, prepared workshop drawings for "
+ "machined and 3D-printed parts, and used strength calculation with FEA to check the stiffness, strength and weight "
+ "of the load-carrying parts before manufacture. I then assembled and tested the prototypes myself and improved "
+ "the design based on the results. The design reduced energy consumption by more than 25% and won the Best Paper "
+ "Award at IFToMM ISRM 2026.",
+
+ "I solve technical problems in a practical way. On a 5-bar planar parallel robot, I developed a method to estimate "
+ "the end-effector force from the actuators and validated it against a force sensor to within 10% error. During "
+ "my Master's at CSIR-CMERI, I built pneumatic actuators from raw materials and set up the test rig myself.",
+
+ "I have always built things with my hands. As a student, I designed and built a Go-Kart from the ground up and "
+ "helped build a human-electric hybrid vehicle for the Efficycle competition. In every project since, I have made "
+ "the parts, assembled them and fixed what did not work.",
+
+ "I want to be open about what I would learn with you. I have not yet prepared CE documentation or worked formally "
+ "with machine safety standards, and I currently work in English rather than Finnish. These are exactly the skills "
+ "I want to build, and Hefmec's step-by-step introduction alongside an experienced designer is the right setting "
+ "for me to grow towards independent project responsibility.",
+
+ "I would welcome the opportunity to discuss how I can contribute to your team. References are available upon "
+ "request.",
+]
+for t in body:
+    para(c, t, after=8)
+para(c, "Kind regards,", after=2)
+para(c, NAME)
+c.save(OUT + "Arunabha_Majumder_Cover_Letter_Hefmec.docx")
+to_pdf(c, OUT + "Arunabha_Majumder_Cover_Letter_Hefmec.pdf", top=2.0)
