@@ -123,3 +123,46 @@ para(p, "I integrated the motor, encoder, force sensors, DAQ and embedded contro
 para(p, "More projects and photos: arunabha22.github.io/arunabha-majumder")
 p.save(OUT + "Arunabha_Majumder_Project_Note_Cell_Labs.docx")
 to_pdf(p, OUT + "Arunabha_Majumder_Project_Note_Cell_Labs.pdf", top=2.0)
+
+# ---------------- COVER LETTER ----------------
+c = new_doc()
+c.sections[0].top_margin = Cm(2.0)
+head(c, after=8)
+para(c, "October 7, 2026", after=8)
+para(c, "Hiring Team", after=0)
+para(c, "Cell Labs", after=0)
+para(c, "Berlin, Germany", after=8)
+para(c, "Application: Mechanical Engineer – Humanoid Systems", bold=True, after=8)
+para(c, "Dear Cell Labs Team,", after=8)
+body = [
+ "I am applying for the Mechanical Engineer position. I am a mechanical and mechatronics engineer finishing my PhD "
+ "at Aalborg University, and what I enjoy most is exactly what you describe: designing robotic joints and "
+ "actuators, getting a first prototype built quickly, and improving it on the bench until it works.",
+
+ "In my PhD, I designed and built a robotic shoulder joint for an exoskeleton. Instead of a large motor carrying "
+ "the full gravity torque, I combined a parallel spring with a small 6 Nm motor, sized so the torque and load "
+ "requirements were met across the motion. I designed the components and assemblies in SolidWorks and Fusion 360, "
+ "used FEA for stress analysis and weight optimisation, made the parts through 3D printing and machining, and "
+ "integrated the motor, encoder, force sensors, DAQ and embedded control. The design cut energy consumption by more "
+ "than 25% and won the Best Paper Award at IFToMM ISRM 2026.",
+
+ "I understand how kinematics and actuators come together in a working robot. On a 5-bar planar parallel robot, I "
+ "modelled the kinematics and estimated the end-effector force from variable-stiffness actuators through the "
+ "robot's Jacobian, validated against a force sensor to below 10% RMS error. I build my own test rigs, track down "
+ "mechanical, electrical and control problems on the bench, and I have built machines since my student years, "
+ "including a Go-Kart from the ground up.",
+
+ "My hardware so far has been prototypes rather than products in series production, and I have not yet worked with "
+ "injection moulding, sheet metal or supplier ramp-up, or used Onshape. These are exactly the skills I want to "
+ "build, and a team that takes humanoid robots from CAD to production under one roof is the right place to do it. "
+ "I am open to relocating to Berlin.",
+
+ "I would welcome the opportunity to show you my work in a technical deep-dive. My portfolio is linked above, and "
+ "references are available upon request.",
+]
+for t in body:
+    para(c, t, after=8)
+para(c, "Kind regards,", after=2)
+para(c, NAME)
+c.save(OUT + "Arunabha_Majumder_Cover_Letter_Cell_Labs.docx")
+to_pdf(c, OUT + "Arunabha_Majumder_Cover_Letter_Cell_Labs.pdf", top=2.0)
