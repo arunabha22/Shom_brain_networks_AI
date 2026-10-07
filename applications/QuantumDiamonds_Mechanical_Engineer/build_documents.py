@@ -83,3 +83,51 @@ heading(d, "References")
 para(d, "Available upon request.")
 d.save(OUT + "Arunabha_Majumder_CV_QuantumDiamonds.docx")
 to_pdf(d, OUT + "Arunabha_Majumder_CV_QuantumDiamonds.pdf")
+
+# ---------------- COVER LETTER ----------------
+c = new_doc()
+c.sections[0].top_margin = Cm(2.0)
+para(c, NAME, bold=True, size=18, after=0)
+para(c, "Mechanical Engineer — Lab Hardware, Rapid Prototyping & Systems Integration (SolidWorks)", bold=True,
+     size=11, after=2)
+para(c, SEP.join(["+45 71 62 24 00", "Aalborg, Denmark", "somrkmv1997@gmail.com", "97arunabhasit027@gmail.com"]),
+     size=9.5, after=0)
+para(c, SEP.join(["LinkedIn: linkedin.com/in/arunabha-majumder-681264107",
+                  "Portfolio: arunabha22.github.io/arunabha-majumder"]), size=9.5, after=8)
+para(c, "October 7, 2026", after=8)
+para(c, "Hardware Pre-Development Team", after=0)
+para(c, "QuantumDiamonds GmbH", after=0)
+para(c, "Munich, Germany", after=8)
+para(c, "Application: Mechanical Engineer (Optomechanics & Quantum Sensing)", bold=True, after=8)
+para(c, "Dear QuantumDiamonds Team,", after=8)
+body = [
+ "I am applying for the Mechanical Engineer (Optomechanics & Quantum Sensing) position in your Hardware "
+ "Pre-Development Team. I am a mechanical engineer finishing my PhD at Aalborg University, and I enjoy exactly what "
+ "you describe: turning the requirements of scientists and engineers into pragmatic mechanical designs, and "
+ "building, testing and rebuilding them myself until they work.",
+
+ "In my PhD, I designed and built lab hardware from concept to working system. I created the assemblies in "
+ "SolidWorks, chose the right process for each part, from 3D printing on our in-house printers to machined and "
+ "off-the-shelf components, and integrated actuators, a motor, encoder, force sensors, DAQ and embedded control into "
+ "one setup. I used FEA to keep load-carrying structures stiff and light. The resulting design cut energy "
+ "consumption by more than 25% and won the Best Paper Award at IFToMM ISRM 2026.",
+
+ "I think naturally in geometry and systems. On a 5-bar planar parallel robot, I modelled the kinematics and "
+ "estimated the end-effector force from the robot's actuators through its Jacobian, validated against a force "
+ "sensor to below 10% RMS error, and used the method in lab measurements. During my Master's at CSIR-CMERI, I built "
+ "a complete pneumatic test setup from raw materials.",
+
+ "I have not yet worked with optics, RF or magnetic environments, tolerance budgets or non-magnetic materials, and "
+ "I would be glad to learn them from your physicists and engineers. I am curious about the physics behind the "
+ "Quantum Diamond Microscope, and I would much rather test a quick prototype than debate a design on paper. I am "
+ "open to relocating to Munich.",
+
+ "I would welcome the opportunity to discuss how I can contribute to your demonstrators. References are available "
+ "upon request.",
+]
+for t in body:
+    para(c, t, after=8)
+para(c, "Kind regards,", after=2)
+para(c, NAME)
+c.save(OUT + "Arunabha_Majumder_Cover_Letter_QuantumDiamonds.docx")
+to_pdf(c, OUT + "Arunabha_Majumder_Cover_Letter_QuantumDiamonds.pdf", top=2.0)
