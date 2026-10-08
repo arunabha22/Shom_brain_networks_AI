@@ -74,3 +74,47 @@ heading(d, "References")
 para(d, "Available upon request.")
 d.save(OUT + "Arunabha_Majumder_CV_REVEL.docx")
 to_pdf(d, OUT + "Arunabha_Majumder_CV_REVEL.pdf")
+
+# ---------------- COVER LETTER (1 page) ----------------
+c = new_doc()
+c.sections[0].top_margin = Cm(2.0)
+para(c, NAME, bold=True, size=18, after=0)
+para(c, "Mechanical Engineer — Arm-Worn Wearables, Prototyping & Fit Testing (SolidWorks)", bold=True, size=11,
+     after=2)
+para(c, SEP.join(["+45 71 62 24 00", "Aalborg, Denmark", "somrkmv1997@gmail.com", "97arunabhasit027@gmail.com"]),
+     size=9.5, after=0)
+para(c, SEP.join(["LinkedIn: linkedin.com/in/arunabha-majumder-681264107",
+                  "Portfolio: arunabha22.github.io/arunabha-majumder"]), size=9.5, after=8)
+para(c, "October 8, 2026", after=8)
+para(c, "REVEL, Engineering Team", after=0)
+para(c, "Prague, Czech Republic", after=8)
+para(c, "Application: Mechanical Engineer – Neural Gambit Sleeve & Hub", bold=True, after=8)
+para(c, "Dear REVEL Team,", after=8)
+body = [
+ "I am applying to design the mechanical platform of the Neural Gambit sleeve and hub. I am a mechanical engineer "
+ "finishing my PhD at Aalborg University, and designing hardware that people wear on their arms is exactly what I "
+ "have spent my studies doing.",
+
+ "In my PhD, I designed and prototyped a body-worn shoulder and upper-arm device in SolidWorks. I iterated through "
+ "3D-printed prototypes, integrated the motor, encoder, force sensors, DAQ and cabling into the wearable, and tested "
+ "it on real arms with 12 participants. The design cut energy use by more than 25% and won the Best Paper Award at "
+ "IFToMM ISRM 2026. I also measured human arm impedance with a force-estimation method validated to below 10% "
+ "error, which gave me a feel for how the arm responds to forces from a device.",
+
+ "Before that, I built soft pneumatic artificial muscles from raw materials during my Master's, and designed, "
+ "machined, assembled and user-tested an upper-limb rehabilitation exoskeleton during my Bachelor's, which won the "
+ "Best Major Project Award. Capturing how people work with their hands and turning it into robot intelligence is a "
+ "mission I find genuinely exciting.",
+
+ "My wearables so far have been mostly rigid, and I have not yet worked with textiles, soft goods or SLS. I learn "
+ "quickly through building and testing, and a sleeve meant for all-day wear is the right challenge to grow into. I "
+ "would be glad to relocate to Prague.",
+
+ "I would welcome the opportunity to discuss how I can contribute to the Neural Gambit wearable.",
+]
+for t in body:
+    para(c, t, after=8)
+para(c, "Kind regards,", after=2)
+para(c, NAME)
+c.save(OUT + "Arunabha_Majumder_Cover_Letter_REVEL.docx")
+to_pdf(c, OUT + "Arunabha_Majumder_Cover_Letter_REVEL.pdf", top=2.0)
