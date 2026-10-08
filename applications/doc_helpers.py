@@ -24,8 +24,20 @@ for n, f in (("Arial", "Regular"), ("Arial-B", "Bold"), ("Arial-I", "Italic"), (
 addMapping("Arial", 0, 0, "Arial"); addMapping("Arial", 1, 0, "Arial-B")
 addMapping("Arial", 0, 1, "Arial-I"); addMapping("Arial", 1, 1, "Arial-BI")
 
+# Plain, human typography: no em dashes, no invisible/zero-width characters.
+_TIDY = [(" \u2014 ", " | "), ("\u2014", " - "), ("\u200b", ""), ("\u200c", ""), ("\u200d", ""),
+         ("\ufeff", ""), ("\u00a0", " "), ("\u2018", "'"), ("\u2019", "'"), ("\u201c", '"'), ("\u201d", '"')]
+
+def tidy(t):
+    for a, b in _TIDY:
+        t = t.replace(a, b)
+    return t
+
 def new_doc():
     d = Document()
+    cp = d.core_properties  # no tool watermark in file properties
+    cp.author = cp.last_modified_by = NAME
+    cp.comments = cp.keywords = cp.subject = cp.category = ""
     d.story = []
     s = d.sections[0]
     s.page_height, s.page_width = Cm(29.7), Cm(21.0)
@@ -43,6 +55,7 @@ def rl_style(size=10.5, after=2, before=0):
                           spaceAfter=after, spaceBefore=before)
 
 def para(d, text="", bold=False, size=None, align=None, after=None, before=None, italic=False):
+    text = tidy(text)
     p = d.add_paragraph()
     if text:
         r = p.add_run(text); r.bold = bold; r.italic = italic
@@ -74,6 +87,7 @@ def heading(d, text):
     rule(p)
 
 def bullet(d, text, lead=None):
+    text, lead = tidy(text), tidy(lead) if lead else lead
     p = d.add_paragraph(style="List Bullet")
     p.paragraph_format.space_after = Pt(2)
     if lead:
@@ -82,6 +96,7 @@ def bullet(d, text, lead=None):
     d.story.append(("bullet", lead, text))
 
 def role(d, title, dates, org):
+    title, dates = tidy(title), tidy(dates)
     p = d.add_paragraph()
     p.paragraph_format.space_after = Pt(0); p.paragraph_format.space_before = Pt(4)
     p.add_run(title).bold = True
@@ -110,5 +125,5 @@ def to_pdf(d, path, top=1.6):
                 fl.append(HRFlowable(width="100%", thickness=0.6, color="#404040", spaceBefore=1, spaceAfter=after))
     SimpleDocTemplate(path, pagesize=A4, leftMargin=1.9 * cm, rightMargin=1.9 * cm, topMargin=top * cm,
                       bottomMargin=1.6 * cm, title=path.split("/")[-1][:-4].replace("_", " "),
-                      author=NAME).build(fl)
+                      author=NAME, creator=NAME, producer=NAME, subject="", keywords="").build(fl)
 
