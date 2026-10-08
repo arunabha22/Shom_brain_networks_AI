@@ -59,9 +59,6 @@ body = [
  "The combination of full-scale machines, a dedicated test area and close collaboration with industry in the "
  "Tampere ecosystem is a rare environment, and I would be glad to help maintain and develop it.",
 
- "Referees: Professor Shaoping Bai, Department of Materials and Production, Aalborg University ([email]); "
- "[second referee name, title, institution, email].",
-
  "Thank you for considering my application. I would welcome the opportunity to discuss how I can contribute.",
 ]
 for t in body:
