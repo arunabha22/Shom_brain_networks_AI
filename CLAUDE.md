@@ -20,4 +20,7 @@
 - Biomechanics study: Arunabha did the data collection (12 participants), not the analysis.
 - Publications: only IEEE CONECCT 2022 and ISRM 2026 (Best Paper). Never list the ASME JMR paper.
 - No PLC / ROS / Danish experience. "References available upon request"; no referees named in letters.
+- Always include his drawing skills: Diploma in Fine Arts; hand sketching of concepts, technical illustrations
+  and visuals for papers, posters and demos (plus SolidWorks engineering drawings). Put it in Skills, and in the
+  summary/letter when the role values concept sketching, design, communication or demos.
 - Resume and cover letter as separate PDFs; cover letters usually 1 page; ATS-friendly.
