@@ -18,7 +18,7 @@ para(c, "Motivation letter: Junior Research Group Leader (application code 2026/
 para(c, "Dear Professor Kuhlmann and members of the selection committee,", after=6)
 body = [
  "I am applying for one of the Junior Research Group Leader positions in PhenoRob. I am finishing my PhD in "
- "Mechatronics and Robotics at Aalborg University (defence expected [month year]), after an MTech in Mechatronics "
+ "Mechatronics and Robotics at Aalborg University (defence expected in 2027), after an MTech in Mechatronics "
  "and a BTech in Mechanical Engineering. My work is on robots that physically touch living things, and I would like "
  "to build a group that brings that know-how to the field: robots that handle plants gently and measure them "
  "through contact.",
