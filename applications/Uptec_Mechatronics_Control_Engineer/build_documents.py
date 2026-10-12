@@ -23,7 +23,7 @@ para(d, "Mechatronics engineer focused on control systems. Designs control strat
         "architecture. MATLAB/Simulink, Python.")
 
 heading(d, "Key Results")
-bullet(d, " tracking error with a neural-network gain-scheduled PID controller", "0.3–0.78%")
+bullet(d, " tracking error with a gain-scheduled PID controller (I worked on the PID loop)", "0.3–0.78%")
 bullet(d, " energy reduction from a new actuation system concept (Best Paper Award, 2026)", ">25%")
 bullet(d, " RMS error from a kinematic (Jacobian) force-estimation model", "<10%")
 
@@ -44,10 +44,11 @@ bullet(d, "Solved system and integration problems by analysing measurement data 
 
 role(d, "MTech Researcher – Control of Non-Linear Pneumatic Actuators (Master's Thesis)", "2020 – 2022",
      "CSIR-Central Mechanical Engineering Research Institute (CMERI), National Laboratory, Durgapur, India")
-bullet(d, "Reduced position-tracking error to 0.3–0.78%, outperforming classical PID under varying load, by designing "
-          "a neural-network-based gain-scheduled PID controller in MATLAB/Simulink for a highly non-linear actuator.")
-bullet(d, "Built an empirical dynamic model from measurement data by fabricating pneumatic muscles to an existing lab design and testing them on the lab's setup "
-          "(valves, pressure sensors, DAQ) and characterising their load–displacement behaviour.")
+bullet(d, "Brought position error down to 0.3-0.78%, better than a standard PID, by working on the outer PID loop "
+          "of a neural-network gain-scheduled controller in MATLAB/Simulink. I collected the experimental data, fed it "
+          "to the lab's existing neural network and used its output to set the PID gains (IEEE CONECCT 2022).")
+bullet(d, "Collected load-displacement data by fabricating pneumatic muscles to an existing lab design and testing them on the lab's setup "
+          "(valves, pressure sensors, DAQ).")
 
 role(d, "Bachelor's Capstone – Upper-Limb Rehabilitation Exoskeleton", "2018 – 2019",
      "Siddaganga Institute of Technology, Tumakuru, India")
@@ -55,9 +56,9 @@ bullet(d, "Led CAD design, machining, hands-on assembly and user testing; Best M
           "TATA Technologies Innovation Grant.")
 
 heading(d, "Skills")
-bullet(d, "PID, gain scheduling, neural-network-based control, Assist-as-Needed control, motion control",
+bullet(d, "PID tuning, gain scheduling, Assist-as-Needed control, motion control",
        "Control engineering: ")
-bullet(d, "System dynamics, kinematics, Jacobian-based estimation, empirical modelling from test data",
+bullet(d, "System dynamics, kinematics, Jacobian-based estimation, analysis of test data",
        "Modelling & analysis: ")
 bullet(d, "MATLAB/Simulink, Python, LabVIEW (basic), Arduino", "Tools: ")
 bullet(d, "Motors, encoders, force and pressure sensors, pneumatic valves, DAQ, embedded control",

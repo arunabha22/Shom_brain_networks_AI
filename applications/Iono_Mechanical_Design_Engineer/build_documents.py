@@ -48,8 +48,9 @@ bullet(d, "Delivered the integrated system by working across mechanical, electro
 
 role(d, "MTech Researcher – Pneumatic Robotic Actuators (Master's Thesis)", "2020 – 2022",
      "CSIR-Central Mechanical Engineering Research Institute (CMERI), National Laboratory, Durgapur, India")
-bullet(d, "Reduced position-tracking error to 0.3–0.78%, outperforming classical PID, by designing a neural-network "
-          "gain-scheduled controller in MATLAB/Simulink for a pneumatic artificial muscle actuator.")
+bullet(d, "Brought position error down to 0.3-0.78%, better than a standard PID, by working on the outer PID loop "
+          "of a neural-network gain-scheduled controller in MATLAB/Simulink. I collected the experimental data, fed it "
+          "to the lab's existing neural network and used its output to set the PID gains (IEEE CONECCT 2022).")
 bullet(d, "Fabricated and assembled the actuator to an existing lab design, tested it on the lab's setup (valves, pressure sensors, DAQ) and characterised "
           "its load–displacement behaviour.")
 

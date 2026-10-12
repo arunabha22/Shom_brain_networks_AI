@@ -27,8 +27,8 @@ body = [
  "It cut energy use by more than 25% and won the Best Research Paper Award at IFToMM ISRM 2026. On a 5-bar parallel "
  "robot I used variable-stiffness actuators and the robot Jacobian to estimate contact force without a sensor at the "
  "tip, within 10% RMS error of a force sensor, and we used it to measure human arm impedance in the gait lab. During "
- "my Master's at CSIR-CMERI I built pneumatic artificial muscles and a neural-network gain-scheduled controller that "
- "brought tracking error down to 0.3-0.78% (IEEE CONECCT 2022). I build my own prototypes and test rigs, and I have "
+ "my Master's at CSIR-CMERI I fabricated pneumatic artificial muscles and worked on the PID loop of a gain-scheduled "
+ "controller that brought tracking error down to 0.3-0.78% (IEEE CONECCT 2022). I build my own prototypes and test rigs, and I have "
  "run experiments with 12 human participants.",
 
  "The idea behind my group would be compliant, low-energy actuation and contact sensing for crop robots. Two PhD "

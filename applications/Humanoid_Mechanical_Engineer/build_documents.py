@@ -48,8 +48,9 @@ bullet(d, "Built my own test rigs to check torque, motion and durability of each
 
 role(d, "MTech Researcher, Pneumatic Actuators (Master's thesis)", "2020 - 2022",
      "CSIR-Central Mechanical Engineering Research Institute (CMERI), Durgapur, India")
-bullet(d, "Brought position error down to 0.3-0.78%, better than a standard PID, with a neural-network "
-          "gain-scheduled controller in MATLAB/Simulink for a pneumatic artificial muscle.")
+bullet(d, "Brought position error down to 0.3-0.78%, better than a standard PID, by working on the outer PID loop "
+          "of a neural-network gain-scheduled controller in MATLAB/Simulink. I collected the experimental data, fed it "
+          "to the lab's existing neural network and used its output to set the PID gains (IEEE CONECCT 2022).")
 bullet(d, "Fabricated and assembled the muscles to an existing lab design and tested them on the lab's setup (valves, pressure sensors, DAQ) to map "
           "load against stroke.")
 

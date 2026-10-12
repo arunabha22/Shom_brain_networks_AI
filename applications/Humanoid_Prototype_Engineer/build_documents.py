@@ -47,7 +47,7 @@ bullet(d, "Wired motors, encoders, force sensors and DAQ into test rigs and an A
 role(d, "MTech Researcher, Pneumatic Actuators (Master's thesis)", "2020 - 2022",
      "CSIR-Central Mechanical Engineering Research Institute (CMERI), Durgapur, India")
 bullet(d, "Fabricated and assembled pneumatic artificial muscles to an existing lab design, tested them on the lab's setup "
-          "(valves, pressure sensors, DAQ), and used the results to tune my controller, which brought position error down "
+          "(valves, pressure sensors, DAQ), and used the data with the lab's neural network to set the PID gains, which brought position error down "
           "to 0.3-0.78%.")
 
 role(d, "Bachelor's Capstone and Student Builds", "2017 - 2019",
