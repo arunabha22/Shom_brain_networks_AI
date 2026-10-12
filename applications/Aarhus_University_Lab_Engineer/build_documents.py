@@ -24,14 +24,14 @@ head(d)
 heading(d, "Summary")
 para(d, "I build experimental setups and keep them running. For the past three years at Aalborg University I have "
         "designed test rigs, fitted force, pressure and motion sensors to them, calibrated them against reference "
-        "sensors and collected data from 12 human participants with EMG and motion capture. Before that I built a "
-        "pneumatic test bench from scratch in a national lab in India. I enjoy the practical side of research and "
+        "sensors and collected data from 12 human participants with EMG and motion capture. Before that I worked "
+        "with pneumatic actuators in a national lab in India. I enjoy the practical side of research and "
         "helping students and colleagues get reliable data out of their experiments.")
 
 heading(d, "Key Results")
 bullet(d, " force error after calibrating a sensorless force estimate against a reference force sensor", "<10%")
 bullet(d, " participants measured with EMG, motion capture and force data across 3 modes and 2 loads", "12")
-bullet(d, " position error on a pneumatic test bench I built, with a controller in MATLAB/Simulink", "0.3-0.78%")
+bullet(d, " position error on a pneumatic muscle with my neural-network controller in MATLAB/Simulink", "0.3-0.78%")
 
 heading(d, "Experience")
 role(d, "PhD Researcher, Experimental Robotics Lab (project VIEXO)", "2023 - Present",
@@ -49,12 +49,12 @@ bullet(d, "Cut energy use by more than 25% (Best Paper Award, IFToMM ISRM 2026) 
 bullet(d, "Taught university students and supervised Bachelor's students in the lab (2023 - 2025), from setting "
           "up equipment to helping them make sense of their measurements.")
 
-role(d, "MTech Researcher, Pneumatic Actuator Test Bench (Master's thesis)", "2020 - 2022",
+role(d, "MTech Researcher, Pneumatic Artificial Muscles (Master's thesis)", "2020 - 2022",
      "CSIR-Central Mechanical Engineering Research Institute (CMERI), National Laboratory, Durgapur, India")
-bullet(d, "Built a test bench from the ground up with proportional valves, pressure sensors and DAQ, made the "
-          "pneumatic muscles by hand and measured their load-displacement behaviour.")
+bullet(d, "Fabricated and assembled pneumatic artificial muscles to an existing lab design, and ran experiments "
+          "on the lab's setup with valves, pressure sensors and DAQ.")
 bullet(d, "Brought position error down to 0.3-0.78%, better than a standard PID, with a neural-network "
-          "gain-scheduled controller in MATLAB/Simulink running on the bench (IEEE CONECCT 2022).")
+          "gain-scheduled controller that I developed in MATLAB/Simulink (IEEE CONECCT 2022).")
 
 role(d, "Bachelor's Capstone, Upper-Limb Rehabilitation Exoskeleton", "2018 - 2019",
      "Siddaganga Institute of Technology, Tumakuru, India")
@@ -112,9 +112,9 @@ body = [
  "DAQ, and I collected data from 12 participants using EMG, Qualisys motion capture and force/torque sensors. That "
  "work meant writing protocols, keeping recordings in order and thinking about participant safety at every session.",
 
- "Before Aalborg I spent two years at CSIR-CMERI, a national research lab in India. There I built a pneumatic test "
- "bench from scratch with proportional valves, pressure sensors and DAQ, and used it to test a controller in "
- "MATLAB/Simulink. My tools are MATLAB, Python, LabVIEW at a basic level and Arduino, and I design fixtures in "
+ "Before Aalborg I spent two years at CSIR-CMERI, a national research lab in India. There I fabricated and assembled "
+ "pneumatic artificial muscles to an existing design and tested my own controller for them in MATLAB/Simulink "
+ "on the lab's setup. My tools are MATLAB, Python, LabVIEW at a basic level and Arduino, and I design fixtures in "
  "SolidWorks and print or machine them as needed.",
 
  "I also like the teaching side of a lab. I have taught university students and supervised Bachelor's students "

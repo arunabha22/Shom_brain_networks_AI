@@ -17,6 +17,9 @@
 - Say "shoulder exoskeleton", never "wearable machines".
 - 5-bar planar parallel robot: VSA + Jacobian force estimation, <10% RMS error vs force sensor.
 - Muscle effort result: keep ">15%" (journal under review). Do not share the PhD video.
+- Master's (CSIR-CMERI): he FABRICATED/ASSEMBLED pneumatic artificial muscles to someone else's existing design and
+  used the lab's existing test setup. He did NOT design the muscles and did NOT build the test bench/rig. His own
+  work there: the neural-network gain-scheduled PID controller in MATLAB/Simulink (0.3-0.78%, IEEE CONECCT 2022).
 - Biomechanics study: Arunabha did the data collection (12 participants), not the analysis.
 - Publications: only IEEE CONECCT 2022 and ISRM 2026 (Best Paper). Never list the ASME JMR paper.
 - No PLC / ROS / Danish experience. "References available upon request"; no referees named in letters.

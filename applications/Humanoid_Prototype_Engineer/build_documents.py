@@ -46,8 +46,8 @@ bullet(d, "Wired motors, encoders, force sensors and DAQ into test rigs and an A
 
 role(d, "MTech Researcher, Pneumatic Actuators (Master's thesis)", "2020 - 2022",
      "CSIR-Central Mechanical Engineering Research Institute (CMERI), Durgapur, India")
-bullet(d, "Made pneumatic artificial muscles by hand from raw materials and built the test bench around them "
-          "(valves, pressure sensors, DAQ), then used it to tune a controller that brought position error down "
+bullet(d, "Fabricated and assembled pneumatic artificial muscles to an existing lab design, tested them on the lab's setup "
+          "(valves, pressure sensors, DAQ), and used the results to tune my controller, which brought position error down "
           "to 0.3-0.78%.")
 
 role(d, "Bachelor's Capstone and Student Builds", "2017 - 2019",

@@ -46,7 +46,7 @@ role(d, "MTech Researcher – Control of Non-Linear Pneumatic Actuators (Master'
      "CSIR-Central Mechanical Engineering Research Institute (CMERI), National Laboratory, Durgapur, India")
 bullet(d, "Reduced position-tracking error to 0.3–0.78%, outperforming classical PID under varying load, by designing "
           "a neural-network-based gain-scheduled PID controller in MATLAB/Simulink for a highly non-linear actuator.")
-bullet(d, "Built an empirical dynamic model from measurement data by fabricating pneumatic muscles and a test rig "
+bullet(d, "Built an empirical dynamic model from measurement data by fabricating pneumatic muscles to an existing lab design and testing them on the lab's setup "
           "(valves, pressure sensors, DAQ) and characterising their load–displacement behaviour.")
 
 role(d, "Bachelor's Capstone – Upper-Limb Rehabilitation Exoskeleton", "2018 – 2019",

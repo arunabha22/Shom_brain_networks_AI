@@ -50,7 +50,7 @@ role(d, "MTech Researcher – Pneumatic Robotic Actuators (Master's Thesis)", "2
      "CSIR-Central Mechanical Engineering Research Institute (CMERI), National Laboratory, Durgapur, India")
 bullet(d, "Reduced position-tracking error to 0.3–0.78%, outperforming classical PID, by designing a neural-network "
           "gain-scheduled controller in MATLAB/Simulink for a pneumatic artificial muscle actuator.")
-bullet(d, "Built the actuator and its test rig from raw materials (valves, pressure sensors, DAQ) and characterised "
+bullet(d, "Fabricated and assembled the actuator to an existing lab design, tested it on the lab's setup (valves, pressure sensors, DAQ) and characterised "
           "its load–displacement behaviour.")
 
 role(d, "Bachelor's Capstone – Upper-Limb Rehabilitation Exoskeleton", "2018 – 2019",
