@@ -21,10 +21,11 @@ d = new_doc()
 head(d)
 
 heading(d, "Summary")
-para(d, "Researcher in wearable robotics and exoskeletons with hands-on experience across the full mechatronic "
-        "chain: actuator and transmission design (compliant and soft pneumatic actuators), CAD (SolidWorks), 3D-printed "
-        "prototypes, sensor integration, motion and force control in MATLAB/Python, and experimental validation with "
-        "human participants. Best Paper Award, IFToMM ISRM 2026.")
+para(d, "I design and build exoskeletons. In my PhD at Aalborg University I took a shoulder exoskeleton from "
+        "hand sketches to a tested prototype: compliant actuator design, SolidWorks, 3D printing, motor and sensor "
+        "integration, control in MATLAB and Python, and experiments with 12 participants. The design cut energy use "
+        "by more than 25% and won the Best Paper Award at IFToMM ISRM 2026. I have also worked hands-on with soft "
+        "pneumatic artificial muscles.")
 
 heading(d, "Key Results")
 bullet(d, " energy reduction with a hybrid-actuated shoulder exoskeleton", ">25%")
@@ -44,17 +45,18 @@ bullet(d, "Reduced user muscle effort by more than 15%, measured with EMG, by in
 bullet(d, "Achieved below 10% RMS force-estimation error, validated against a force sensor, by developing a "
           "force-sensing method for a 5-bar planar parallel robot using variable-stiffness actuators and the robot "
           "Jacobian; applied it to measure human arm impedance in the gait lab.")
-bullet(d, "Collected a full experimental dataset, using EMG and motion capture, by conducting experiments with 12 "
-          "participants across 3 assistance modes and 2 load conditions.")
+bullet(d, "Collected the full experimental dataset with EMG and motion capture in experiments with 12 participants "
+          "across 3 assistance modes and 2 load conditions.")
 bullet(d, "Supervised Bachelor's (B.Tech) students and taught university courses (2023 – 2025); disseminated results "
           "at international conferences.")
 
-role(d, "MTech Researcher – Soft Pneumatic Actuators (Master's Thesis)", "2020 – 2022",
+role(d, "MTech Researcher – Pneumatic Artificial Muscles (Master's Thesis)", "2020 – 2022",
      "CSIR-Central Mechanical Engineering Research Institute (CMERI), National Laboratory, Durgapur, India")
-bullet(d, "Reduced position-tracking error to 0.3–0.78%, outperforming classical PID, by developing a neural-network-"
-          "based gain-scheduled controller in MATLAB/Simulink for a non-linear soft pneumatic artificial muscle.")
-bullet(d, "Characterised soft actuator behaviour experimentally by fabricating pneumatic artificial muscles from raw "
-          "materials and building a test rig with valves, pressure sensors and DAQ; published at IEEE CONECCT 2022.")
+bullet(d, "Brought position error down to 0.3-0.78%, better than a standard PID, by working on the outer PID loop "
+          "of a neural-network gain-scheduled controller in MATLAB/Simulink. I collected the experimental data, fed it "
+          "to the lab's existing neural network and used its output to set the PID gains (IEEE CONECCT 2022).")
+bullet(d, "Fabricated and assembled soft pneumatic artificial muscles to an existing lab design and tested them on "
+          "the lab's setup with valves, pressure sensors and DAQ.")
 
 role(d, "Bachelor's Capstone – Upper-Limb Rehabilitation Exoskeleton", "2018 – 2019",
      "Siddaganga Institute of Technology, Tumakuru, India")
@@ -83,6 +85,8 @@ bullet(d, "Motion and force control, Assist-as-Needed control, PID, neural-netwo
        "Control: ")
 bullet(d, "Motors, encoders, force/torque sensors, pressure sensors, DAQ, EMG, Qualisys motion capture",
        "Sensors & actuators: ")
+bullet(d, "Diploma in Fine Arts; hand sketches of concepts, technical illustrations and figures for papers, "
+          "posters and demos", "Drawing: ")
 bullet(d, "English (C1, fluent), Bengali (Native), Hindi (Conversational)", "Languages: ")
 
 heading(d, "Awards")
@@ -99,7 +103,7 @@ to_pdf(d, OUT + "Arunabha_Majumder_CV_KTH.pdf")
 c = new_doc()
 c.sections[0].top_margin = Cm(2.0)
 head(c, after=8)
-para(c, "October 8, 2026", after=8)
+para(c, "October 13, 2026", after=8)
 para(c, "Robot Design Lab, Division of Mechatronics", after=0)
 para(c, "KTH Royal Institute of Technology, Stockholm, Sweden", after=8)
 para(c, "Personal Letter: Research Engineer in Robot Design and Mechatronics (REMA project)", bold=True, after=8)
@@ -108,15 +112,16 @@ body = [
  "I am applying for the position of Research Engineer in robot design and mechatronics with a focus on soft and "
  "wearable robotics. I hold an MTech in Mechatronics and a BTech in Mechanical Engineering, and I am completing my "
  "PhD in Mechatronics and Robotics at Aalborg University, where I design and test exoskeletons. The REMA project's "
- "goal, new exoskeletons that help older adults stay mobile, is exactly the kind of research I want to dedicate "
- "the next step of my career to.",
+ "goal, exoskeletons that help older adults stay mobile, is the kind of work I want to do next.",
 
  "Wearable robotics has been the thread through my whole education. My Bachelor's capstone was an upper-limb "
  "rehabilitation exoskeleton, which I designed, machined, assembled and tested; it won the Best Major Project "
  "Award and a TATA Technologies Innovation Grant. My "
- "Master's thesis at CSIR-CMERI focused on soft pneumatic artificial muscles: I fabricated them from raw materials, "
- "built the test rig with valves, pressure sensors and DAQ, and developed a neural-network-based gain-scheduled "
- "controller in MATLAB/Simulink that reduced tracking error to 0.3–0.78%, published at IEEE CONECCT 2022.",
+ "Master's thesis at CSIR-CMERI was on soft pneumatic artificial muscles. I fabricated and assembled the muscles "
+ "to an existing lab design, collected test data on the lab's setup and fed it into a neural network developed in "
+ "the group, then used its output to design the outer PID loop of a gain-scheduled controller. Position error came "
+ "down to 0.3-0.78% (IEEE CONECCT 2022). That project is where I first saw how hard and how interesting soft "
+ "actuators are to control.",
 
  "In my PhD project VIEXO, I designed a hybrid-actuated shoulder exoskeleton that combines a compliant parallel "
  "spring with a small 6 Nm motor. I carried out the mechanical design in SolidWorks, built the prototypes through "
@@ -134,10 +139,10 @@ body = [
 
  "What draws me to Robot Design Lab is the combination the REMA project brings together: soft robotics, sensing, "
  "actuation, adaptive control and user-centred design. My experience covers rigid and compliant exoskeleton "
- "actuation and soft pneumatic actuators, and I am eager to deepen my work on soft wearable structures, to use "
+ "actuation and hands-on work with soft pneumatic muscles, and I would like to go deeper into soft wearable structures, to use "
  "multibody simulation such as Simscape Multibody more systematically, and to design with older adults' needs in "
- "mind. I would bring a hands-on, iterative approach: building functional prototypes quickly, verifying them "
- "experimentally, and turning the results into publications.",
+ "mind. I would bring a hands-on, iterative way of working: I sketch ideas by hand first (I hold a Diploma in Fine "
+ "Arts), build functional prototypes quickly, test them and write up what we learn.",
 
  "I would be glad to contribute to the REMA project and to the research of Robot Design Lab. Thank you for "
  "considering my application.",
