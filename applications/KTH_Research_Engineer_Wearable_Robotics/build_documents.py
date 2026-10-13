@@ -29,7 +29,7 @@ para(d, "I design and build exoskeletons. In my PhD at Aalborg University I took
 
 heading(d, "Key Results")
 bullet(d, " energy reduction with a hybrid-actuated shoulder exoskeleton", ">25%")
-bullet(d, " lower user muscle effort with Assist-as-Needed control", ">15%")
+bullet(d, " lower user muscle effort with an Assist-as-Needed controller built in a team of 3", ">15%")
 bullet(d, " RMS force-estimation error for physical human-robot interaction", "<10%")
 
 heading(d, "Research Experience")
@@ -40,8 +40,9 @@ bullet(d, "Reduced energy consumption by more than 25% (Best Paper Award, IFToMM
           "actuator and transmission concept.")
 bullet(d, "Developed functional robot prototypes from concept to experimental validation through iterative design in "
           "SolidWorks and 3D-printed prototypes.")
-bullet(d, "Reduced user muscle effort by more than 15%, measured with EMG, by integrating and controlling the motor, "
-          "encoder and force sensors with an Assist-as-Needed controller for physical human-robot interaction.")
+bullet(d, "Integrated the motor, encoder and force sensors on the exoskeleton, and worked in a team of 3 on its "
+          "Assist-as-Needed controller: I helped with the equations, such as the Fourier fit, and defined how the GUI "
+          "should behave. User muscle effort dropped by more than 15%, measured with EMG.")
 bullet(d, "Achieved below 10% RMS force-estimation error, validated against a force sensor, by developing a "
           "force-sensing method for a 5-bar planar parallel robot using variable-stiffness actuators and the robot "
           "Jacobian; applied it to measure human arm impedance in the gait lab.")
@@ -81,7 +82,7 @@ role(d, "B.Tech, Mechanical Engineering", "2015 – 2019",
 heading(d, "Skills")
 bullet(d, "SolidWorks (CSWA), 3D printing; machining and assembly (Bachelor's)", "Design & prototyping: ")
 bullet(d, "MATLAB/Simulink, Python, LabVIEW (basic), Arduino", "Programming: ")
-bullet(d, "Assist-as-Needed control on hardware, PID tuning, gain scheduling, kinematics and Jacobian-based force estimation",
+bullet(d, "Assist-as-Needed control (team work: equations incl. Fourier fit, GUI logic), PID tuning, kinematics and Jacobian-based force estimation",
        "Control: ")
 bullet(d, "Motors, encoders, force/torque sensors, pressure sensors, DAQ, EMG, Qualisys motion capture",
        "Sensors & actuators: ")
@@ -127,8 +128,9 @@ body = [
  "spring with a small 6 Nm motor. I carried out the mechanical design in SolidWorks, built the prototypes through "
  "3D printing, and integrated the motor, "
  "encoder, force sensors and embedded control. The design reduced energy consumption by more than 25% and received "
- "the Best Research Paper Award at IFToMM ISRM 2026. I also implemented an Assist-as-Needed controller that reduced "
- "user muscle effort by more than 15%, and on a 5-bar planar parallel robot I developed a force-estimation method "
+ "the Best Research Paper Award at IFToMM ISRM 2026. With two colleagues I worked on an Assist-as-Needed controller, "
+ "where I helped with the equations such as the Fourier fit and with how the GUI should work. It reduced "
+ "user muscle effort by more than 15%. On a 5-bar planar parallel robot I developed a force-estimation method "
  "using variable-stiffness actuators and the robot Jacobian, validated against a force sensor to below 10% RMS "
  "error and used to measure human arm impedance.",
 

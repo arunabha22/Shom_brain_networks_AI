@@ -40,8 +40,8 @@ bullet(d, "Got force estimates within 10% RMS of a reference force sensor by wor
 bullet(d, "Went through several versions of each part in weeks rather than months by 3D printing them, fitting "
           "them on the rig and fixing what broke or flexed too much.")
 bullet(d, "Lowered user muscle effort by more than 15%, measured with EMG on 12 participants, after fitting the "
-          "motor, encoder and force sensors into the frame and getting the control running with the electronics "
-          "and software side.")
+          "motor, encoder and force sensors into the frame and working with two colleagues on the controller "
+          "(my part: equations such as the Fourier fit, and the GUI behaviour).")
 bullet(d, "Built my own test rigs to check torque, motion and durability of each version, and kept the drawings, "
           "parts lists and test notes so others could rebuild the setup. Supervised Bachelor's students "
           "(2023 - 2025).")

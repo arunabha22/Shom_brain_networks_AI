@@ -30,9 +30,9 @@ bullet(d, " RMS error from a kinematic (Jacobian) force-estimation model", "<10%
 heading(d, "Experience")
 role(d, "Research Engineer – Mechatronic Systems & Control (PhD Project: VIEXO)", "2023 – Present",
      "Aalborg University, Aalborg, Denmark")
-bullet(d, "Reduced user muscle effort by more than 15%, measured with EMG, by developing and implementing a control "
-          "strategy (Assist-as-Needed hybrid control) on a mechatronic system, then testing and tuning it at system "
-          "level.")
+bullet(d, "Reduced user muscle effort by more than 15%, measured with EMG, as one of 3 people developing an "
+          "Assist-as-Needed controller: I worked on the equations, such as the Fourier fit, and on how the GUI "
+          "should behave, and tested it at system level.")
 bullet(d, "Cut energy consumption by more than 25% (Best Paper Award, IFToMM ISRM 2026) by translating functional "
           "requirements into a system concept: a hybrid actuation architecture with a parallel spring and a 6 Nm motor.")
 bullet(d, "Achieved below 10% RMS error in end-effector force estimation, validated against a force sensor, by "

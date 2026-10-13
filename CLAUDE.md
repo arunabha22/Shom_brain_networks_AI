@@ -24,6 +24,10 @@
   (MATLAB/Simulink, 0.3-0.78% error, IEEE CONECCT 2022). Never say he designed/developed the neural network.
 - NO force controller, no force control, no impedance/admittance control. Force work = force ESTIMATION only
   (5-bar robot, VSA + Jacobian). Do not add skills or methods he has not confirmed; when unsure, leave it out.
+- Assist-as-Needed controller: a TEAM effort of 3 people. His part: helped with the equations (e.g. Fourier fit)
+  and defined what should happen in the GUI. Never say he alone developed/implemented it.
+- He DID integrate the motor, encoder and force sensors on the exoskeleton. He DID teach university courses and
+  supervise Bachelor's students (2023-2025).
 - Biomechanics study: Arunabha did the data collection (12 participants), not the analysis.
 - Publications: only IEEE CONECCT 2022 and ISRM 2026 (Best Paper). Never list the ASME JMR paper.
 - No PLC / ROS / Danish experience. "References available upon request"; no referees named in letters.
