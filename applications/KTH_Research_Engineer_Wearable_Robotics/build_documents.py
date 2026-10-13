@@ -81,7 +81,7 @@ role(d, "B.Tech, Mechanical Engineering", "2015 – 2019",
 heading(d, "Skills")
 bullet(d, "SolidWorks (CSWA), 3D printing; machining and assembly (Bachelor's)", "Design & prototyping: ")
 bullet(d, "MATLAB/Simulink, Python, LabVIEW (basic), Arduino", "Programming: ")
-bullet(d, "Motion and force control, Assist-as-Needed control, PID, neural-network gain scheduling, kinematics",
+bullet(d, "Assist-as-Needed control on hardware, PID tuning, gain scheduling, kinematics and Jacobian-based force estimation",
        "Control: ")
 bullet(d, "Motors, encoders, force/torque sensors, pressure sensors, DAQ, EMG, Qualisys motion capture",
        "Sensors & actuators: ")

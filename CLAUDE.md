@@ -22,6 +22,8 @@
   network was developed by someone else. His part: collected the experimental data, fed it into that neural network,
   used the output to design/tune the OUTER PID loop and understood how the gain-scheduled controller works
   (MATLAB/Simulink, 0.3-0.78% error, IEEE CONECCT 2022). Never say he designed/developed the neural network.
+- NO force controller, no force control, no impedance/admittance control. Force work = force ESTIMATION only
+  (5-bar robot, VSA + Jacobian). Do not add skills or methods he has not confirmed; when unsure, leave it out.
 - Biomechanics study: Arunabha did the data collection (12 participants), not the analysis.
 - Publications: only IEEE CONECCT 2022 and ISRM 2026 (Best Paper). Never list the ASME JMR paper.
 - No PLC / ROS / Danish experience. "References available upon request"; no referees named in letters.
