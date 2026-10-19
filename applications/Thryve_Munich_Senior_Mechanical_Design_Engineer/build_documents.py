@@ -10,8 +10,9 @@ c = new_doc()
 c.sections[0].top_margin = Cm(2.0)
 para(c, NAME, bold=True, size=18, after=0)
 para(c, "Mechanical Design Engineer | Robotics, Electromechanical Assemblies, Prototyping", bold=True, size=11, after=2)
-para(c, SEP.join(["+45 71 62 24 00", "Aalborg, Denmark", "somrkmv1997@gmail.com",
-                  "arunabha22.github.io/arunabha-majumder"]), size=9.5, after=10)
+para(c, SEP.join(["+45 71 62 24 00", "Aalborg, Denmark", "somrkmv1997@gmail.com", "97arunabhasit027@gmail.com"]),
+     size=9.5, after=0)
+para(c, "Portfolio: arunabha22.github.io/arunabha-majumder", size=9.5, after=10)
 para(c, "October 19, 2026", after=8)
 para(c, "Darren Yearsley, Thryve Talent", after=0)
 para(c, "On behalf of a robotics client in Munich, Germany", after=8)
