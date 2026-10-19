@@ -34,4 +34,6 @@
 - Always include his drawing skills: Diploma in Fine Arts; hand sketching of concepts, technical illustrations
   and visuals for papers, posters and demos (plus SolidWorks engineering drawings). Put it in Skills, and in the
   summary/letter when the role values concept sketching, design, communication or demos.
+- ALWAYS put BOTH emails in every CV, cover letter, email signature and message signature:
+  somrkmv1997@gmail.com and 97arunabhasit027@gmail.com (plus phone +45 71 62 24 00 and portfolio link).
 - Resume and cover letter as separate PDFs; cover letters usually 1 page; ATS-friendly.
