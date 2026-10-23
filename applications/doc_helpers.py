@@ -50,8 +50,11 @@ def new_doc():
     st.paragraph_format.line_spacing = 1.08
     return d
 
+# CV_PDF_FONT=Helvetica gives a small PDF (no embedded fonts) when a size limit applies.
+PDF_FONT = __import__("os").environ.get("CV_PDF_FONT", "Arial")
+
 def rl_style(size=10.5, after=2, before=0):
-    return ParagraphStyle("x", fontName="Arial", fontSize=size, leading=size * 1.25,
+    return ParagraphStyle("x", fontName=PDF_FONT, fontSize=size, leading=size * 1.25,
                           spaceAfter=after, spaceBefore=before)
 
 def para(d, text="", bold=False, size=None, align=None, after=None, before=None, italic=False):
