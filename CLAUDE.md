@@ -29,6 +29,8 @@
 - He DID integrate the motor, encoder and force sensors on the exoskeleton. He DID teach university courses and
   supervise Bachelor's students (2023-2025).
 - Biomechanics study: Arunabha did the data collection (12 participants), not the analysis.
+- Study abroad visit at the National University of Singapore (NUS): a short visit only, no project or results.
+  Mention only as one line under Education (year to be confirmed); never invent work done there.
 - Publications: only IEEE CONECCT 2022 and ISRM 2026 (Best Paper). Never list the ASME JMR paper.
 - No PLC / ROS / Danish experience. "References available upon request"; no referees named in letters.
 - Always include his drawing skills: Diploma in Fine Arts; hand sketching of concepts, technical illustrations
