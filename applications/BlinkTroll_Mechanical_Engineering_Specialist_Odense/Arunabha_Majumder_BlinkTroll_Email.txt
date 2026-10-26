@@ -3,22 +3,17 @@ Subject: Application - Mechanical Engineering Specialist, Odense
 
 Dear BlinkTroll team,
 
-I would like to apply for the Mechanical Engineering Specialist role in Odense. I have attached my CV and a motivation letter.
+I would like to apply for the Mechanical Engineering Specialist role in Odense. My CV and motivation letter are attached.
 
-I am a mechanical engineer finishing my PhD in Mechatronics and Robotics at Aalborg University, and I finish in March. For the last 3 years my main project has been a shoulder exoskeleton. The design idea was mine: a spring carries most of the arm load, so a small 6 Nm motor is enough to do the rest. I sketched it by hand, modelled it in SolidWorks, made the 2D drawings and then 3D printed and rebuilt the parts many times until they fitted well and held up in testing. It cut energy use by more than 25% and won the Best Paper Award at IFToMM ISRM 2026.
+I am a mechanical engineer finishing my PhD in robotics at Aalborg University (I finish in March). For the last 3 years I designed and built a motor-assisted shoulder exoskeleton, from hand sketches and SolidWorks drawings to 3D printed prototypes, sensor integration and testing with real people. It won the Best Paper Award at IFToMM ISRM 2026.
 
-A big part of that work was making the mechanics play well with everything else. I fitted the motor, encoder and force sensors into the frame and worked closely with the control and software people to get it running as one system. For our arm studies I built an Arduino-based trigger to sync a 5-bar robot with the Qualisys motion capture cameras. Test days with real participants always meant some troubleshooting on the spot, and I actually enjoy that part. Back in my Bachelor's I did the machining and assembly of a rehab exoskeleton myself, so I am comfortable with tools and the workshop.
-
-I will be honest, I do not have 8 years in industry. What I can bring is fast hands-on prototyping, clear drawings and a habit of owning a design from the first sketch to the final test. I also have a Diploma in Fine Arts, so sketching an idea quickly so the whole team sees the same thing comes naturally to me. That fits well with a small team of hardware, software and embedded engineers like yours.
-
-I like that your products are used in the field by people who depend on them. Building things that have to work in real conditions is the kind of engineering I want to do. I am based in Aalborg and happy to work on-site in Odense.
+I enjoy owning a design from the first sketch to the test bench, and working closely with electronics and software people to make it all work together. I like that your products are used in the field, and I would be happy to work on-site in Odense.
 
 You can see some of my work here: https://arunabha22.github.io/arunabha-majumder/
 
-Thank you for your time. I would be glad to talk more about the role.
+Thank you for your time. I would be glad to talk more.
 
 Kind regards,
 Arunabha Majumder
 +45 71 62 24 00
 somrkmv1997@gmail.com | 97arunabhasit027@gmail.com
-Portfolio: https://arunabha22.github.io/arunabha-majumder/
