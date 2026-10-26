@@ -64,3 +64,4 @@
 - ALWAYS put his photo on every CV for every job (top right of page 1). Photo file: applications/assets/photo.jpeg
   (see the Novo Nordisk build_documents.py for how it is placed). If an ad says "no photo", still make the photo CV
   and just mention that in one line, offering a no-photo copy.
+- Keep the CV headline under the name short (e.g. "Mechanical Design Engineer") so no header line runs into the photo.
