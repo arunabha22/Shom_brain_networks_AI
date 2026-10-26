@@ -11,6 +11,11 @@
 - No hidden watermarks: doc_helpers.py tidies text (no zero-width chars, no em dashes, straight quotes) and
   sets PDF/DOCX metadata author/creator/producer to "Arunabha Majumder" (no ReportLab / python-docx tags).
 
+## Remove-AI-marks step (always)
+- For every document or text produced for him, run the remove-ai-marks routine: check the cleaning service
+  (WATERMARKS_SERVICE_URL, default http://127.0.0.1:8765, GET /health); if it is up, send each output file to
+  /clean and deliver the cleaned version; if it is down, say so in one short line. Never claim it ran if it did not.
+
 ## Outreach rules (see outreach-style.md; check it before drafting outreach)
 - Name is "Arunabha Majumder"; never "Shom" in drafts. Keep messages short.
 - Always include the portfolio: https://arunabha22.github.io/arunabha-majumder/
