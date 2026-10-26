@@ -1,0 +1,7 @@
+I am a mechanical engineer finishing my PhD at Aalborg University, and I also hold a Diploma in Fine Arts. This role asks for both sides of me, the engineer who builds and tests and the person who cares how a product looks and feels.
+
+In my PhD I designed a shoulder exoskeleton that people wear on the body. I went from hand sketches to SolidWorks and then 3D printed and rebuilt the parts many times until they fitted well and held up. My part was the design idea (a spring carries most of the arm load so a small motor is enough), the CAD, the prototypes and the sensor integration. It cut energy use by more than 25% and won the Best Paper Award at IFToMM ISRM 2026. We tested it with 12 people, and watching them use it taught me a lot about comfort and clarity.
+
+I have not worked with cartons or print yet, but I learn fast and I enjoy making things easy for the end user.
+
+Portfolio: https://arunabha22.github.io/arunabha-majumder/
