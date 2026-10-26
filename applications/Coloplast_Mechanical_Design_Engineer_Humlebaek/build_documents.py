@@ -24,7 +24,7 @@ heading(d, "Profile")
 para(d, "Mechanical engineer who designs devices that are worn on or used close to the human body. I turn user "
         "needs into concepts, SolidWorks models and drawings, then test prototypes with real people and change the "
         "design based on what I see. I am finishing my PhD in Mechatronics and Robotics at Aalborg University "
-        "(ends March) and hold a Diploma in Fine Arts, so I explain ideas clearly with sketches as well as words.")
+        "(thesis expected March) and hold a Diploma in Fine Arts, so I explain ideas clearly with sketches as well as words.")
 heading(d, "Core Skills")
 bullet(d, "SolidWorks (CSWA): parts, assemblies, technical drawings, Design for Assembly", "3D CAD: ")
 bullet(d, "Concept generation and evaluation from user needs, iterative 3D printed prototypes, custom test rigs", "Product development: ")
@@ -91,7 +91,7 @@ para(c, "Application: Mechanical Design Engineer (62374)", bold=True, after=6)
 para(c, "Dear Jesper Bruun Jensen,", after=6)
 for t in [
  "I am applying for the Mechanical Design Engineer role in CC & BC Mechanical Engineering. I am a mechanical "
- "engineer finishing my PhD at Aalborg University (I finish in March). Most of my work has been on devices that "
+ "engineer finishing my PhD at Aalborg University (thesis expected to be finished in March). Most of my work has been on devices that "
  "sit close to the human body, where comfort and reliability matter as much as function.",
  "For my PhD I designed a shoulder exoskeleton. I started from what the user needed, an arm that feels lighter "
  "without a big heavy motor, and came up with a design where a spring carries most of the load and a small 6 Nm "

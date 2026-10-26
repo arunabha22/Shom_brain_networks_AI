@@ -23,7 +23,7 @@ heading(d, "Profile")
 para(d, "Mechanical engineer who takes hardware from a hand sketch to CAD, drawings, prototypes and testing with "
         "real users. I have spent the last 3 years designing and building a motor-assisted shoulder exoskeleton, "
         "working next to control, electronics and software people. I am finishing my PhD in Mechatronics and "
-        "Robotics at Aalborg University (ends March) and I hold a Diploma in Fine Arts, so I sketch ideas fast and "
+        "Robotics at Aalborg University (thesis expected March) and I hold a Diploma in Fine Arts, so I sketch ideas fast and "
         "explain them clearly.")
 heading(d, "Core Skills")
 bullet(d, "SolidWorks (CSWA): parts, assemblies, 2D technical drawings, Design for Assembly", "CAD: ")
@@ -90,7 +90,7 @@ para(c, "Application: Mechanical Engineering Specialist", bold=True, after=6)
 para(c, "Dear BlinkTroll team,", after=6)
 for t in [
  "I am applying for the Mechanical Engineering Specialist role in Odense. I am a mechanical engineer finishing my "
- "PhD in robotics at Aalborg University (I finish in March). Most of my work has been taking a mechanical idea all "
+ "PhD in robotics at Aalborg University (thesis expected to be finished in March). Most of my work has been taking a mechanical idea all "
  "the way to something that works on a real person or a real test bench.",
  "My main project is a shoulder exoskeleton. The design idea was mine: a spring carries most of the arm load, so a "
  "small 6 Nm motor is enough. I sketched it by hand, modelled it in SolidWorks, made the drawings, and 3D printed "

@@ -26,7 +26,7 @@ def build_cv(with_photo):
     para(d, "Design engineer with a mechanical engineering background and a Diploma in Fine Arts (Painting). I take "
             "products from a hand sketch to CAD, prototypes and user testing, and I care about how a product looks "
             "and feels in people's hands as much as whether it works. I am finishing my PhD in Mechatronics and "
-            "Robotics at Aalborg University (ends March).")
+            "Robotics at Aalborg University (thesis expected March).")
     heading(d, "Core Skills")
     bullet(d, "Concept sketching, visual design, Adobe Illustrator, Adobe Photoshop, Procreate", "Design and visuals: ")
     bullet(d, "SolidWorks (CSWA), 3D modelling, technical drawings, Design for Assembly", "CAD: ")

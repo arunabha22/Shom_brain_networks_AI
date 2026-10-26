@@ -17,7 +17,7 @@ para(c, "Application: Robotics Research Engineer, CEREBRIS Project (Ref. 020149)
 para(c, "Dear Hiring Committee,", after=6)
 for t in [
  "I am applying for the Robotics Research Engineer role on the CEREBRIS project. I am finishing my PhD in "
- "Mechatronics and Robotics at Aalborg University (I finish in March), and almost all my work so far has been "
+ "Mechatronics and Robotics at Aalborg University (thesis expected to be finished in March), and almost all my work so far has been "
  "robots that physically touch and move people. Building a robotic stimulator that helps measure how sensation "
  "comes back after a stroke is exactly the kind of work I want to keep doing.",
  "In my PhD I designed a hybrid shoulder exoskeleton where a spring carries most of the arm load and a small 6 Nm "
