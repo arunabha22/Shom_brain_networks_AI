@@ -11,6 +11,13 @@
 - No hidden watermarks: doc_helpers.py tidies text (no zero-width chars, no em dashes, straight quotes) and
   sets PDF/DOCX metadata author/creator/producer to "Arunabha Majumder" (no ReportLab / python-docx tags).
 
+## Outreach rules (see outreach-style.md; check it before drafting outreach)
+- Name is "Arunabha Majumder"; never "Shom" in drafts. Keep messages short.
+- Always include the portfolio: https://arunabha22.github.io/arunabha-majumder/
+- Never mention automated rejections or frustration with applications.
+- Never write "FEA"; use "analysis" or "mechanical analysis" (only where true).
+- Friend recommendations: no technical claims.
+
 ## Facts (never exaggerate)
 - PhD (Aalborg, 2023 – present): SolidWorks + 3D printing. NO Fusion 360, NO FEA/FEM claimed.
 - Machining and hands-on assembly belong to the Bachelor's capstone, not the PhD.
