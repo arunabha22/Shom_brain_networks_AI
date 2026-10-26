@@ -59,3 +59,6 @@
 - ALWAYS put BOTH emails in every CV, cover letter, email signature and message signature:
   somrkmv1997@gmail.com and 97arunabhasit027@gmail.com (plus phone +45 71 62 24 00 and portfolio link).
 - Resume and cover letter as separate PDFs; cover letters usually 1 page; ATS-friendly.
+- ALWAYS put his photo on every CV for every job (top right of page 1). Photo file: applications/assets/photo.jpeg
+  (see the Novo Nordisk build_documents.py for how it is placed). If an ad says "no photo", still make the photo CV
+  and just mention that in one line, offering a no-photo copy.
