@@ -42,7 +42,11 @@
   and defined what should happen in the GUI. Never say he alone developed/implemented it.
 - He DID integrate the motor, encoder and force sensors on the exoskeleton. He DID teach university courses and
   supervise Bachelor's students (2023-2025).
-- Biomechanics study: Arunabha did the data collection (12 participants), not the analysis.
+- Biomechanics study: Arunabha did the data collection (12 participants), not the analysis. He recorded EMG with the
+  Qualisys data acquisition system.
+- Arm impedance study: Qualisys motion-capture cameras tracked arm motion to quantify human arm impedance with the
+  5-bar robot, 6 participants. He built an Arduino-based trigger to sync the robot's motion with the Qualisys recording.
+- Do NOT mention the journal papers under review (papers 2 and 3) in any document.
 - Study abroad stay at the National University of Singapore (NUS) during the PhD, Sep-Nov 2025 (3 months).
   Mention only as one line under Education; no project or results to claim; never invent work done there.
 - References: he will later provide 3 referees and ask for them to be added. Until then keep "References

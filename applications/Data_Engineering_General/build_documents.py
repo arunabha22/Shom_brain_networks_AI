@@ -3,8 +3,8 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from doc_helpers import *
 
 # General cover letter for data engineering roles. Facts from Arunabha (Oct 2026): Qualisys DAQ for EMG in the
-# exoskeleton study (16 participants, journal paper 3, under review); Qualisys cameras for arm motion to quantify
-# impedance with the 5-bar robot (6 participants, journal paper 2, under review). Data collection, not analysis.
+# exoskeleton study (12 participants); Qualisys cameras for arm motion to quantify impedance with the 5-bar robot
+# (6 participants); Arduino trigger synced robot motion and Qualisys recording. Do not mention the journal papers.
 OUT = os.path.dirname(os.path.abspath(__file__)) + "/"
 SEP = "  |  "
 
@@ -20,10 +20,11 @@ for t in [
  "I am applying for the Data Engineer position. I am finishing my PhD in Mechatronics and Robotics at Aalborg "
  "University, and I hold an MTech in Mechatronics and a BTech in Mechanical Engineering. My PhD ends in March.",
  "A big part of my PhD has been getting good data out of real experiments. For my shoulder exoskeleton study, I "
- "used the Qualisys data acquisition system to record EMG from 16 participants across different assistance modes "
+ "used the Qualisys data acquisition system to record EMG from 12 participants across different assistance modes "
  "and loads. In a second study, I used Qualisys motion-capture cameras to track arm motion while people interacted "
- "with a 5-bar planar parallel robot, so we could quantify human arm impedance with 6 participants. Both datasets "
- "are behind two journal papers that are now under review.",
+ "with a 5-bar planar parallel robot, so we could quantify human arm impedance with 6 participants. To line up the "
+ "two data streams, I built an Arduino-based trigger that synchronised the robot's motion with the Qualisys "
+ "recording.",
  "That work taught me what data engineering looks like in practice. EMG, motion capture and robot sensor data all "
  "come in at different rates, from different systems, and they only make sense if they are recorded, labelled and "
  "stored carefully for every session. I set up the recordings, kept the data organised per participant and "
