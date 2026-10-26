@@ -39,3 +39,13 @@
 - CV and cover letter as separate PDFs, named like "<Company>_CV_Arunabha_Majumder" and
   "<Company>_Cover_Letter_Arunabha_Majumder". Cover letters usually 1 page. ATS-friendly.
 - File properties show only my name.
+
+## Humanize every text, then run remove-ai-marks
+1. Write it the way I would say it out loud: plain words, mixed sentence lengths, some sentences start with "I",
+   one small concrete detail from my real work, no buzzwords, no em dashes, no perfect three-item lists, no tidy
+   summary line at the end of each paragraph.
+2. Before giving me the final text, reread it once and rewrite any sentence that sounds polished, generic or
+   "AI-like" in simpler words.
+3. Then run /anthropic-skills:remove-ai-marks on the final text or file (check the cleaning service first).
+   If the service is down, tell me in one short line. Never say it ran if it did not.
+4. Never invent facts to make text sound more human. Only use my confirmed facts.
