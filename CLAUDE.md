@@ -40,6 +40,9 @@
   (5-bar robot, VSA + Jacobian). Do not add skills or methods he has not confirmed; when unsure, leave it out.
 - Assist-as-Needed controller: a TEAM effort of 3 people. His part: helped with the equations (e.g. Fourier fit)
   and defined what should happen in the GUI. Never say he alone developed/implemented it.
+- He DID optimise his exoskeleton design with a genetic algorithm, and he DID stiffness analysis in SolidWorks.
+  Always add both (Skills + PhD bullet; letter where analysis/optimisation matters). Write "stiffness analysis in
+  SolidWorks", never "FEA"; still no Abaqus/Ansys/HyperWorks claims.
 - He DID integrate the motor, encoder and force sensors on the exoskeleton. He DID teach university courses and
   supervise Bachelor's students (2023-2025).
 - Biomechanics study: Arunabha did the data collection (12 participants), not the analysis. He recorded EMG with the
