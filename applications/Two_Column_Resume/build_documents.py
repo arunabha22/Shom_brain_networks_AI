@@ -80,9 +80,8 @@ right = sec("Profile") + [
     Spacer(0, 3),
 ] + role("MTech Researcher, Pneumatic Artificial Muscles", "CSIR-CMERI (National Laboratory), Durgapur, India", "2020 - 2022") + [
     bl("Fabricated and assembled pneumatic muscles to an existing lab design and collected test data on the lab's setup."),
-    bl("Built a MATLAB/Simulink model and implemented it in LabVIEW to drive the pneumatic muscles."),
-    bl("Used the data to design the outer PID loop of a gain-scheduled controller in MATLAB/Simulink "
-       "(0.3 - 0.78% position error, IEEE CONECCT 2022)."),
+    bl("Designed the outer PID loop of a neural network-based gain-scheduled controller in MATLAB/Simulink and "
+       "implemented it in LabVIEW to drive the pneumatic muscle (0.3 - 0.78% position error, IEEE CONECCT 2022)."),
     Spacer(0, 3),
 ] + role("Bachelor's Capstone, Upper-Limb Rehabilitation Exoskeleton", "Siddaganga Institute of Technology, India", "2018 - 2019") + [
     bl("Designed and built an upper-limb rehabilitation exoskeleton for a paralysed arm, my first exoskeleton."),

@@ -40,7 +40,9 @@
   network was developed by someone else. His part: collected the experimental data, fed it into that neural network,
   used the output to design/tune the OUTER PID loop and understood how the gain-scheduled controller works
   (MATLAB/Simulink, 0.3-0.78% error, IEEE CONECCT 2022). Never say he designed/developed the neural network.
-  He DID build a MATLAB/Simulink model and implement it in LabVIEW to drive the pneumatic muscles; always include it.
+  Exact wording: he designed the OUTER PID loop of the neural network-based gain-scheduled controller in MATLAB/Simulink
+  and implemented it in LabVIEW to drive the pneumatic muscle. Write this as ONE point (never a separate "Simulink
+  model" line, never repeat it).
 - NO force controller, no force control, no impedance/admittance control. Force work = force ESTIMATION only
   (5-bar robot, VSA + Jacobian). Do not add skills or methods he has not confirmed; when unsure, leave it out.
 - Assist-as-Needed controller: a TEAM effort of 3 people. His part: helped with the equations (e.g. Fourier fit)

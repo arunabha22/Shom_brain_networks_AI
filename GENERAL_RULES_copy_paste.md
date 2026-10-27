@@ -32,7 +32,8 @@
   to sync the robot's motion with Qualisys motion capture.
 - Master's: I fabricated/assembled pneumatic muscles to someone else's design on the lab's existing setup;
   the neural network was someone else's; my part = data collection and the outer PID loop (0.3-0.78% error).
-  I also built a MATLAB/Simulink model and implemented it in LabVIEW to drive the pneumatic muscles.
+  I designed the outer PID loop of the neural network-based controller in MATLAB/Simulink and implemented it in
+  LabVIEW to drive the pneumatic muscle (one point, never repeated).
 - Machining and hands-on assembly: Bachelor's only (Go-Kart, Efficycle). My Bachelor's capstone was an
   upper-limb rehabilitation EXOSKELETON for a paralysed arm; always name it as an exoskeleton.
 - Taught courses and supervised Bachelor's students (2023 - 2025). Diploma in Fine Arts: always include my
