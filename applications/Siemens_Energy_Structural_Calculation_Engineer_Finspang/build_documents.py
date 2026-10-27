@@ -81,3 +81,32 @@ p[0].insert_image(pymupdf.Rect(470, 40, 541, 128), filename=PHOTO, keep_proporti
 meta = p.metadata; meta.update(author=NAME, creator=NAME, producer=NAME); p.set_metadata(meta)
 p.save(OUT + "tmp.pdf", garbage=3, deflate=True); p.close(); os.replace(OUT + "tmp.pdf", OUT + BASE + "_CV.pdf")
 
+
+c = new_doc(); c.sections[0].top_margin = Cm(1.8)
+head(c, after=8)
+para(c, "October 27, 2026", after=6)
+para(c, "Siemens Energy, Gas Services, Finspang", after=6)
+para(c, "Application: Structural Calculation Engineer (id 287947)", bold=True, after=6)
+para(c, "Dear Hiring Team,", after=6)
+for t in [
+ "I am applying for the Structural Calculation Engineer role in Finspang. I am a mechanical engineer doing my PhD "
+ "in Mechatronics and Robotics at Aalborg University, with my thesis expected to be finished in March. What I enjoy "
+ "most in my work is the part where a model meets a measurement, and you find out if your numbers were right. That "
+ "is a big part of this role, and it is why I am applying.",
+ "In my PhD I worked on stiffness modelling and Jacobian-based force estimation for a 5-bar parallel robot with "
+ "variable-stiffness actuators. I checked the estimated forces against a force sensor and got them within 10% RMS "
+ "error. I also designed the load-carrying parts of a shoulder exoskeleton in SolidWorks, built test rigs, and "
+ "integrated motors, encoders and force sensors to measure how the system really behaved. I use MATLAB nearly every "
+ "day for calculations and processing test data, and I have basic Python.",
+ "I want to be honest about the main gap. I have not used finite element tools like Abaqus or Ansys in my projects "
+ "so far. My base in mechanics, modelling and validation is solid, and FEM is the skill I most want to build next. "
+ "I learn new tools fast when I can see how they connect to real hardware and test results, and I think a team of "
+ "experienced calculation engineers is the best place to learn it properly.",
+ "I am also comfortable explaining technical results. I have written conference papers, taught university courses "
+ "and supervised students, and I have a Diploma in Fine Arts, so I make clear figures and visuals for reports and "
+ "presentations.",
+ "Thank you for considering my application. My portfolio is at arunabha22.github.io/arunabha-majumder.",
+]:
+    para(c, t, after=6)
+para(c, "Kind regards,", after=2); para(c, NAME)
+c.save(OUT + BASE + "_Cover_Letter.docx"); to_pdf(c, OUT + BASE + "_Cover_Letter.pdf", top=1.8)
