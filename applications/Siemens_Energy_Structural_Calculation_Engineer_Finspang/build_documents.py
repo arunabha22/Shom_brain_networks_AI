@@ -74,7 +74,7 @@ bullet(d, "Best Research Paper Award, 9th IFToMM ISRM (2026); Certified SolidWor
 bullet(d, "Majumder, A., et al. \"A Hybrid Actuated Shoulder Exoskeleton for Energy-Efficient Upper Arm Support.\" "
           "ISRM 2026, Springer. Also IEEE CONECCT 2022.")
 heading(d, "Languages")
-para(d, "English (C1), Bengali (native), Hindi (spoken), Danish (willing to learn)")
+para(d, "English (C1), Bengali (native), Hindi (spoken)")
 heading(d, "References")
 para(d, "Available upon request.")
 d.paragraphs[0].runs[0].add_picture(PHOTO, width=DCm(2.2))

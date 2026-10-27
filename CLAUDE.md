@@ -57,6 +57,7 @@
 - References: he will later provide 3 referees and ask for them to be added. Until then keep "References
   available upon request" and never name referees in letters unless he asks.
 - Publications: only IEEE CONECCT 2022 and ISRM 2026 (Best Paper). Never list the ASME JMR paper.
+- Languages: list Danish ("willing to learn") ONLY when the company/job is in Denmark; leave it out otherwise.
 - No PLC / ROS / Danish experience. "References available upon request"; no referees named in letters.
 - Always include his drawing skills: Diploma in Fine Arts; hand sketching of concepts, technical illustrations
   and visuals for papers, posters and demos (plus SolidWorks engineering drawings). Put it in Skills, and in the
