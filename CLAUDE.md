@@ -1,5 +1,9 @@
 # Standing instructions from Arunabha (apply to every chat and every document)
 
+## Self-update rule (always)
+- Whenever Arunabha corrects a fact, adds a new fact or gives a new preference, IMMEDIATELY add it to this file
+  (and to GENERAL_RULES_copy_paste.md), fix the documents being worked on, commit and push. Never wait to be asked.
+
 ## Write like a person, not like an AI
 - TOP PRIORITY, ALWAYS: every word must sound like Arunabha wrote it himself. Simple, warm, direct, a little
   imperfect. If a sentence sounds polished or generic, rewrite it in plainer words.
