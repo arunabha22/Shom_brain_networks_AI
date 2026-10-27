@@ -48,7 +48,10 @@
 - Biomechanics study: Arunabha did the data collection (12 participants), not the analysis. He recorded EMG with the
   Qualisys data acquisition system.
 - Arm impedance study: Qualisys motion-capture cameras tracked arm motion to quantify human arm impedance with the
-  5-bar robot, 6 participants. He built an Arduino-based trigger to sync the robot's motion with the Qualisys recording.
+  5-bar robot, 6 participants. He IMPLEMENTED (did not build) an Arduino-based trigger system to sync the robot's motion with the Qualisys
+  recording; he has experience synchronising robot motion with Qualisys. Never say he built it.
+- Bachelor's capstone was an upper-limb rehabilitation EXOSKELETON (for a paralysed arm); always name it as an
+  exoskeleton in CVs and letters.
 - Do NOT mention the journal papers under review (papers 2 and 3) in any document.
 - PhD timing: write "thesis expected to be finished in March" (or "thesis expected March"). Never "I finish in
   March" or "ends March". Defence year 2027, no month.

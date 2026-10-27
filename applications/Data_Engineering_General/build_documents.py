@@ -23,7 +23,7 @@ for t in [
  "used the Qualisys data acquisition system to record EMG from 12 participants across different assistance modes "
  "and loads. In a second study, I used Qualisys motion-capture cameras to track arm motion while people interacted "
  "with a 5-bar planar parallel robot, so we could quantify human arm impedance with 6 participants. To line up the "
- "two data streams, I built an Arduino-based trigger that synchronised the robot's motion with the Qualisys "
+ "two data streams, I implemented an Arduino-based trigger that synchronised the robot's motion with the Qualisys "
  "recording.",
  "That work taught me what data engineering looks like in practice. EMG, motion capture and robot sensor data all "
  "come in at different rates, from different systems, and they only make sense if they are recorded, labelled and "

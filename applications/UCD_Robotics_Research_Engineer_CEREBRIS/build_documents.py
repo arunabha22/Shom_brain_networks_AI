@@ -24,7 +24,7 @@ for t in [
  "motor adds the rest. I did the design in SolidWorks, 3D printed and rebuilt the parts many times, and integrated "
  "the motor, encoder and force sensors myself. It cut energy use by more than 25% and won the Best Paper Award at "
  "IFToMM ISRM 2026. I also worked with a 5-bar planar parallel robot that interacts with the human arm. I estimated "
- "the force at its tip from the variable-stiffness actuators, within 10% RMS error of a force sensor, and built an "
+ "the force at its tip from the variable-stiffness actuators, within 10% RMS error of a force sensor, and implemented an "
  "Arduino-based trigger to sync the robot's motion with Qualisys motion capture for arm tests with 6 participants.",
  "I am used to working with people in the loop. I collected EMG and motion data from 12 participants in our "
  "exoskeleton study, and I know how much care it takes to make a session safe, repeatable and comfortable for the "

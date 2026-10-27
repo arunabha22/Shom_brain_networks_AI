@@ -44,7 +44,7 @@ bullet(d, "Collected data from 12 participants (EMG with the Qualisys data acqui
 bullet(d, "Worked in a team of 3 on an Assist-as-Needed controller (my part: equations such as the Fourier fit, and "
           "defining how the GUI should behave); muscle effort dropped by more than 15%.")
 bullet(d, "Estimated tip force on a 5-bar parallel robot from its variable-stiffness actuators (within 10% RMS error "
-          "vs a force sensor), so no extra sensor was needed; built an Arduino-based trigger to sync robot motion "
+          "vs a force sensor), so no extra sensor was needed; implemented an Arduino-based trigger to sync robot motion "
           "with Qualisys cameras for arm impedance tests (6 participants).")
 bullet(d, "Taught university courses and supervised Bachelor's students (2023 - 2025).")
 role(d, "MTech Researcher, Pneumatic Artificial Muscles (Master's thesis)", "2020 - 2022",
@@ -97,7 +97,7 @@ for t in [
  "and rebuilt the parts many times. I also fitted the motor, encoder and force sensors into the frame and worked "
  "with the control and software people to get it running as one system. It cut energy use by more than 25% and "
  "won the Best Paper Award at IFToMM ISRM 2026.",
- "I like the testing side as much as the design. For our arm studies I built an Arduino-based trigger to sync a "
+ "I like the testing side as much as the design. For our arm studies I implemented an Arduino-based trigger to sync a "
  "5-bar robot with the Qualisys motion capture, and test days with participants always came with some "
  "troubleshooting on the spot. In my Bachelor's capstone I did the machining and assembly of a rehab exoskeleton "
  "myself.",

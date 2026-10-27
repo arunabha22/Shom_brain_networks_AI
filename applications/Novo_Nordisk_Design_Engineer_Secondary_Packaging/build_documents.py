@@ -45,7 +45,7 @@ def build_cv(with_photo):
     bullet(d, "Worked in a team of 3 on an Assist-as-Needed controller (my part: equations such as the Fourier fit, "
               "and defining how the GUI should behave for the user); muscle effort dropped by more than 15%.")
     bullet(d, "Removed the need for a force sensor at the tip of a 5-bar parallel robot by estimating force from its "
-              "variable-stiffness actuators (within 10% RMS error), cutting cost and mass; built an Arduino-based "
+              "variable-stiffness actuators (within 10% RMS error), cutting cost and mass; implemented an Arduino-based "
               "trigger to sync robot motion with Qualisys motion capture for arm impedance tests (6 participants).")
     bullet(d, "Taught and supervised Bachelor's students (2023 - 2025) and presented work at international "
               "conferences.")

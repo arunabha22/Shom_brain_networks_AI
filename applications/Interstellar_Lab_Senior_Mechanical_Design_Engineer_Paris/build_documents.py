@@ -45,7 +45,7 @@ bullet(d, "Collected data from 12 participants (EMG with the Qualisys data acqui
 bullet(d, "Worked in a team of 3 on an Assist-as-Needed controller (my part: equations such as the Fourier fit, and "
           "defining how the GUI should behave); muscle effort dropped by more than 15%.")
 bullet(d, "Estimated tip force on a 5-bar parallel robot from its variable-stiffness actuators (within 10% RMS error "
-          "vs a force sensor), so no extra sensor was needed; built an Arduino-based trigger to sync robot motion "
+          "vs a force sensor), so no extra sensor was needed; implemented an Arduino-based trigger to sync robot motion "
           "with Qualisys cameras for arm impedance tests (6 participants).")
 bullet(d, "Taught university courses and supervised Bachelor's students (2023 - 2025).")
 role(d, "MTech Researcher, Pneumatic Artificial Muscles (Master's thesis)", "2020 - 2022",
@@ -98,8 +98,8 @@ for t in [
  "SolidWorks assemblies and drawings. I 3D printed and rebuilt the parts many times, keeping track of each revision, "
  "and integrated the motor, encoder and force sensors with the control and software people. It cut energy use by "
  "more than 25% and won the Best Paper Award at IFToMM ISRM 2026.",
- "I am happiest in the lab with the hardware in front of me. I built custom test rigs, an Arduino-based trigger to "
- "sync a 5-bar robot with Qualisys motion capture, and collected data from 12 participants to check the design on "
+ "I am happiest in the lab with the hardware in front of me. I built custom test rigs, implemented an Arduino-based trigger "
+ "to sync a 5-bar robot with Qualisys motion capture, and collected data from 12 participants to check the design on "
  "real people. In my Bachelor's capstone I did the CAD, machining and assembly of a rehab exoskeleton myself.",
  "I want to be honest that I do not have 6 years in industry, and I have not used Onshape yet, though moving from "
  "SolidWorks should be quick. I have not worked on plant growth or space hardware either. What I bring is full "

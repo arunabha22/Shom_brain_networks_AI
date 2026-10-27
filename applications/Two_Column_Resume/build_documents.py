@@ -75,7 +75,7 @@ right = sec("Profile") + [
     bl("Collected data from 12 participants (EMG with the Qualisys data acquisition system, and motion capture)."),
     bl("Estimated tip force on a 5-bar parallel robot from its variable-stiffness actuators (within 10% RMS error vs "
        "a force sensor), removing the need for an extra sensor; mapped actuator stiffness to workspace stiffness."),
-    bl("Built an Arduino-based trigger to sync robot motion with Qualisys cameras for arm impedance tests (6 participants)."),
+    bl("Implemented an Arduino-based trigger system to synchronise robot motion with Qualisys motion capture for arm impedance tests (6 participants)."),
     bl("Taught university courses and supervised Bachelor's students (2023 - 2025)."),
     Spacer(0, 3),
 ] + role("MTech Researcher, Pneumatic Artificial Muscles", "CSIR-CMERI (National Laboratory), Durgapur, India", "2020 - 2022") + [
@@ -84,6 +84,7 @@ right = sec("Profile") + [
        "(0.3 - 0.78% position error, IEEE CONECCT 2022)."),
     Spacer(0, 3),
 ] + role("Bachelor's Capstone, Upper-Limb Rehabilitation Exoskeleton", "Siddaganga Institute of Technology, India", "2018 - 2019") + [
+    bl("Designed and built an upper-limb rehabilitation exoskeleton for a paralysed arm, my first exoskeleton."),
     bl("Led CAD design, machining, assembly and user testing; Best Major Project Award and TATA Technologies grant."),
 ] + sec("Publications") + [
     bl("Majumder, A., Wagner, J.W., Zhu, Y., Oliveira, A.S., Bai, S. \"A Hybrid Actuated Shoulder Exoskeleton for "
