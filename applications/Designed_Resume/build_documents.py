@@ -64,7 +64,7 @@ c._doc.info.producer = NAME
 
 # decoration
 c.setFillColor(NAVY); c.rect(0, H - 118, 148, 118, stroke=0, fill=1)
-hatch_circle(c, W - 8, H - 10, 55); hatch_circle(c, 6, 40, 48); hatch_circle(c, W - 10, 20, 62)
+hatch_circle(c, W - 8, H - 10, 55); hatch_circle(c, -4, 22, 40); hatch_circle(c, W - 10, 20, 62)
 
 # round photo
 cx, cy, r = 128, H - 128, 72
@@ -92,9 +92,12 @@ y -= 4
 y = bar(c, "Language", LX, y, LW)
 y = bullets(c, ["English (C1)", "Bengali (native)", "Hindi (spoken)"], LX + 6, y, LW - 6) - 6
 y = bar(c, "Expertise", LX, y, LW)
-y = bullets(c, ["SolidWorks (CSWA), 3D printing", "Stiffness analysis in SolidWorks", "Genetic algorithm optimisation",
-                "MATLAB/Simulink, LabVIEW, Arduino", "Sensor integration, test rigs", "Qualisys motion capture, EMG",
-                "Hand sketching, illustration"], LX + 6, y, LW - 6)
+y = bullets(c, ["Mechanical design and prototyping", "Stiffness analysis in SolidWorks", "Genetic algorithm optimisation",
+                "Sensor integration, test rigs", "Motion capture and EMG testing", "Hand sketching, illustration"],
+            LX + 6, y, LW - 6) - 6
+y = bar(c, "Software", LX, y, LW)
+y = bullets(c, ["SolidWorks (CSWA)", "MATLAB/Simulink, LabVIEW", "Arduino, Python (basic)", "Qualisys",
+                "Bambu Lab, Ultimaker Cura", "Adobe Illustrator, Photoshop", "Procreate, LaTeX"], LX + 6, y, LW - 6)
 
 # right column
 y = H - 214
@@ -120,6 +123,8 @@ for uni, deg in [("Aalborg University, Denmark", "PhD, Mechatronics and Robotics
     y = para(c, "<b>%s</b><br/>%s" % (uni, deg), RX, y, RW, size=8.8) - 6
 y -= 4
 y = bar(c, "Awards and Publications", RX, y, RW)
-bullets(c, ["Best Paper Award, IFToMM ISRM 2026 (Springer)", "IEEE CONECCT 2022 paper",
-            "Best Major Project Award and TATA Technologies grant, 2019"], RX, y, RW, size=8.8)
+y = bullets(c, ["Best Paper Award, IFToMM ISRM 2026 (Springer)", "IEEE CONECCT 2022 paper",
+            "Best Major Project Award and TATA Technologies grant, 2019"], RX, y, RW, size=8.8) - 8
+y = bar(c, "References", RX, y, RW)
+para(c, "Available upon request.", RX, y, RW, size=8.8)
 c.showPage(); c.save()
