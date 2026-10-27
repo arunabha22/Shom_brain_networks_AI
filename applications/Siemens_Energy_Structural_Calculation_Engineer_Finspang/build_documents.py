@@ -11,7 +11,7 @@ BASE = "Arunabha_Majumder_Siemens_Energy"
 
 def head(doc, after=6):
     para(doc, NAME, bold=True, size=18, after=0)
-    para(doc, "Mechanical Engineer", bold=True, size=11, after=2)
+    para(doc, "Mechanical | Mechatronics Engineer", bold=True, size=11, after=2)
     para(doc, "+45 71 62 24 00  |  Aalborg, Denmark", size=9.5, after=0)
     para(doc, "somrkmv1997@gmail.com  |  97arunabhasit027@gmail.com", size=9.5, after=0)
     para(doc, "Portfolio: arunabha22.github.io/arunabha-majumder", size=9.5, after=0)
