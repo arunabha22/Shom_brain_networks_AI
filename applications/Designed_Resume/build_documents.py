@@ -83,7 +83,7 @@ c.setFillColor(TXT); c.setFont("Arial", 13); c.drawString(300, H - 150, "Mechani
 y = H - 228
 c.setFillColor(TXT); c.setFont("Arial", 15); c.drawCentredString(LX + LW / 2, y, "About Me"); y -= 10
 y = para(c, "I design, build and test robotic hardware and exoskeletons, from the first hand sketch to a tested "
-            "prototype. PhD at Aalborg University, thesis expected March.", LX + 4, y, LW - 8, size=9, center=True) - 14
+            "prototype. PhD researcher at Aalborg University.", LX + 4, y, LW - 8, size=9, center=True) - 14
 for kind, t in [("phone", "+45 71 62 24 00"), ("mail", "somrkmv1997@gmail.com"), ("mail", "97arunabhasit027@gmail.com"),
                 ("web", "arunabha22.github.io/arunabha-majumder"), ("home", "Aalborg, Denmark")]:
     icon(c, kind, LX + 10, y - 3); c.setFillColor(TXT); c.setFont("Arial", 8.2 if kind == "web" else 8.8)
@@ -106,7 +106,8 @@ for org, place, yrs, desc in [
     ("Aalborg University", "PhD Researcher, Shoulder Exoskeleton", "2023 - Present",
      "Designed a hybrid exoskeleton (spring + 6 Nm motor) that uses over 25% less energy, Best Paper Award. "
      "Integrated motor, encoder and force sensors, built test rigs, and tested with 12 people. "
-     "Implemented an Arduino trigger to sync a robot with Qualisys. Taught courses and supervised students."),
+     "Estimated force on a 5-bar robot within 10% RMS error. Implemented an Arduino trigger to sync the robot "
+     "with Qualisys. Taught courses and supervised students."),
     ("CSIR-CMERI, India", "MTech Researcher, Pneumatic Muscles", "2020 - 2022",
      "Fabricated pneumatic muscles. Designed the outer PID loop of a neural network-based controller in "
      "MATLAB/Simulink and implemented it in LabVIEW to drive the muscle (0.3 - 0.78% error)."),

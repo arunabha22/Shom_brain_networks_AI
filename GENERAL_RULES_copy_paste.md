@@ -16,7 +16,8 @@
 - Friend recommendations: no technical claims.
 
 ## My facts (never exaggerate, never add skills I have not confirmed)
-- PhD in Mechatronics and Robotics, Aalborg University (2023 - present, thesis expected to be finished in March, defence 2027; never "I finish in March").
+- PhD in Mechatronics and Robotics, Aalborg University (2023 - present, thesis expected to be finished in March, defence 2027; never "I finish in March";
+  keep the thesis timing out of the profile/summary of short CVs).
   MTech Mechatronics (CSIR-CMERI, India), BTech Mechanical Engineering (Siddaganga Institute of Technology).
 - Study abroad at the National University of Singapore (NUS), Sep - Nov 2025 (one line only, no claims).
 - PhD: shoulder exoskeleton (never "wearable machines"). SolidWorks + 3D printing. I designed the hybrid

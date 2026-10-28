@@ -63,7 +63,8 @@
   exoskeleton in CVs and letters.
 - Do NOT mention the journal papers under review (papers 2 and 3) in any document.
 - PhD timing: write "thesis expected to be finished in March" (or "thesis expected March"). Never "I finish in
-  March" or "ends March". Defence year 2027, no month.
+  March" or "ends March". Defence year 2027, no month. Do NOT put the thesis timing in the profile/summary of
+  short CVs (Education or letters only).
 - Study abroad stay at the National University of Singapore (NUS) during the PhD, Sep-Nov 2025 (3 months).
   Mention only as one line under Education; no project or results to claim; never invent work done there.
 - References: he will later provide 3 referees and ask for them to be added. Until then keep "References
