@@ -27,7 +27,9 @@
   general skill, never tied to the exoskeleton. Never write "FEA"; no Abaqus/Ansys. NO Fusion 360.
 - Assist-as-Needed controller: team of 3; my part = equations (e.g. Fourier fit) and GUI behaviour.
   Muscle effort: ">15%" only.
-- 5-bar parallel robot: force ESTIMATION with VSA + Jacobian, <10% RMS error vs force sensor. NO force control.
+- 5-bar robot, exact wording: "Designed and modelled a novel 5-bar planar parallel robot with variable stiffness
+  mechanisms (VSM), estimated its stiffness with less than 10% error, and quantified human arm impedance."
+  Never shorten it to just "estimated force". NO force control.
 - 12-participant study: I did the data collection (EMG with Qualisys data acquisition), not the analysis.
   Do not share my PhD video. Do not mention the journal papers under review.
 - Arm impedance study (5-bar robot, 6 participants): I IMPLEMENTED (not built) an Arduino-based trigger system

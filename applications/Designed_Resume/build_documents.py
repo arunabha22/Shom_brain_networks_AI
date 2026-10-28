@@ -106,8 +106,8 @@ for org, place, yrs, desc in [
     ("Aalborg University", "PhD Researcher, Shoulder Exoskeleton", "2023 - Present",
      "Designed a hybrid exoskeleton (spring + 6 Nm motor) that uses over 25% less energy, Best Paper Award. "
      "Integrated motor, encoder and force sensors, built test rigs, and tested with 12 people. "
-     "Estimated force on a 5-bar robot within 10% RMS error. Implemented an Arduino trigger to sync the robot "
-     "with Qualisys. Taught courses and supervised students."),
+     "Designed and modelled a novel 5-bar planar parallel robot with VSM, estimated its stiffness with less than "
+     "10% error and quantified human arm impedance. Implemented an Arduino trigger to sync the robot with Qualisys. Taught courses and supervised students."),
     ("CSIR-CMERI, India", "MTech Researcher, Pneumatic Muscles", "2020 - 2022",
      "Fabricated pneumatic muscles. Designed the outer PID loop of a neural network-based controller in "
      "MATLAB/Simulink and implemented it in LabVIEW to drive the muscle (0.3 - 0.78% error)."),

@@ -56,7 +56,7 @@ right = sec("Profile") + [
     bl("Designed a hybrid exoskeleton (spring + 6 Nm motor) that uses over 25% less energy. Best Paper Award.", 9),
     bl("SolidWorks design and genetic algorithm optimisation; stiffness tested on a physical test setup.", 9),
     bl("Integrated the motor, encoder and force sensors; built test rigs.", 9),
-    bl("Estimated force on a 5-bar robot within 10% RMS error, so no extra sensor was needed.", 9),
+    bl("Designed and modelled a novel 5-bar parallel robot with VSM; estimated its stiffness with less than 10% error and quantified human arm impedance.", 9),
     bl("Collected EMG and motion data from 12 people; implemented an Arduino trigger to sync robot and Qualisys.", 9),
     bl("Taught university courses and supervised Bachelor's students.", 9),
     Spacer(0, 5),

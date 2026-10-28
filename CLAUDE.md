@@ -33,7 +33,10 @@
 - PhD (Aalborg, 2023 – present): SolidWorks + 3D printing. NO Fusion 360, NO FEA/FEM claimed.
 - Machining and hands-on assembly belong to the Bachelor's capstone, not the PhD.
 - Say "shoulder exoskeleton", never "wearable machines".
-- 5-bar planar parallel robot: VSA + Jacobian force estimation, <10% RMS error vs force sensor.
+- 5-bar planar parallel robot, EXACT wording to use (never reduce it to just "estimated force"): "Designed and
+  modelled a novel 5-bar planar parallel robot with variable stiffness mechanisms (VSM), estimated its stiffness with
+  less than 10% error, and quantified human arm impedance." (Short form: "...with VSM; estimated its stiffness with
+  less than 10% error and quantified human arm impedance.") Force estimation via VSA + Jacobian may be added as detail.
 - Muscle effort result: keep ">15%" (journal under review). Do not share the PhD video.
 - Master's (CSIR-CMERI): he FABRICATED/ASSEMBLED pneumatic artificial muscles to someone else's existing design and
   used the lab's existing test setup. He did NOT design the muscles and did NOT build the test bench/rig. The neural

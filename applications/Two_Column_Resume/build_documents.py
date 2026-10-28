@@ -73,8 +73,7 @@ right = sec("Profile") + [
     bl("Worked in a team of 3 on an Assist-as-Needed controller (my part: equations such as the Fourier fit, and "
        "defining the GUI behaviour); muscle effort dropped by more than 15%."),
     bl("Collected data from 12 participants (EMG with the Qualisys data acquisition system, and motion capture)."),
-    bl("Estimated tip force on a 5-bar parallel robot from its variable-stiffness actuators (within 10% RMS error vs "
-       "a force sensor), removing the need for an extra sensor; mapped actuator stiffness to workspace stiffness."),
+    bl("Designed and modelled a novel 5-bar planar parallel robot with variable stiffness mechanisms (VSM), estimated its stiffness with less than 10% error, and quantified human arm impedance."),
     bl("Implemented an Arduino-based trigger system to synchronise robot motion with Qualisys motion capture for arm impedance tests (6 participants)."),
     bl("Taught university courses and supervised Bachelor's students (2023 - 2025)."),
     Spacer(0, 3),
