@@ -22,8 +22,8 @@ head(d)
 heading(d, "Profile")
 para(d, "Mechanical engineer with a strong base in modelling, calculations and test validation. In my PhD I "
         "worked on stiffness modelling and Jacobian-based force estimation for a parallel robot, checked against "
-        "force sensor measurements. I designed the load-carrying parts of a shoulder exoskeleton, checked them with "
-        "stiffness analysis in SolidWorks and optimised the design with a genetic algorithm. I use MATLAB "
+        "force sensor measurements. I designed the load-carrying parts of a shoulder exoskeleton, optimised the "
+        "design with a genetic algorithm and measured its stiffness on a physical test setup. I use MATLAB "
         "daily for calculations and data processing, and I write clear technical reports and papers. PhD in "
         "Mechatronics and Robotics at Aalborg University (thesis expected March).")
 heading(d, "Core Skills")
@@ -40,8 +40,8 @@ bullet(d, "Came up with and designed a hybrid shoulder exoskeleton where a sprin
           "small 6 Nm motor adds the rest; it cut energy use by more than 25% (Best Paper Award, IFToMM ISRM 2026).")
 bullet(d, "Owned the mechanical design from hand sketches to SolidWorks models and drawings, then 3D printed and "
           "rebuilt parts many times to improve fit, strength and ease of assembly.")
-bullet(d, "Optimised the exoskeleton design with a genetic algorithm and checked part stiffness with stiffness "
-          "analysis in SolidWorks.")
+bullet(d, "Optimised the exoskeleton design with a genetic algorithm and measured the stiffness it provides on a "
+          "physical test setup.")
 bullet(d, "Integrated the motor, encoder and force sensors into the frame and worked with control and software "
           "colleagues to get it running as one system; built custom test rigs.")
 bullet(d, "Collected data from 12 participants (EMG with the Qualisys data acquisition system and motion capture).")
@@ -99,8 +99,8 @@ for t in [
  "is a big part of this role, and it is why I am applying.",
  "In my PhD I worked on stiffness modelling and Jacobian-based force estimation for a 5-bar parallel robot with "
  "variable-stiffness actuators. I checked the estimated forces against a force sensor and got them within 10% RMS "
- "error. I also designed the load-carrying parts of a shoulder exoskeleton, checked them with stiffness analysis in "
- "SolidWorks and optimised the design with a genetic algorithm. I built test rigs and "
+ "error. I also designed the load-carrying parts of a shoulder exoskeleton, optimised the design with a genetic "
+ "algorithm and measured the stiffness it provides on a physical test setup. I built test rigs and "
  "integrated motors, encoders and force sensors to measure how the system really behaved. I use MATLAB nearly every "
  "day for calculations and processing test data, and I have basic Python.",
  "I want to be honest about the main gap. Apart from stiffness analysis in SolidWorks, I have not used dedicated "

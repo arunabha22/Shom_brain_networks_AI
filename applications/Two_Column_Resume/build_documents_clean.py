@@ -54,7 +54,7 @@ right = sec("Profile") + [
       "from the first sketch to a tested prototype.", size=9.2, after=1)
 ] + sec("Experience") + role("Research Engineer, Shoulder Exoskeleton (PhD)", "Aalborg University, Denmark", "2023 - Present") + [
     bl("Designed a hybrid exoskeleton (spring + 6 Nm motor) that uses over 25% less energy. Best Paper Award.", 9),
-    bl("SolidWorks design, stiffness analysis and genetic algorithm optimisation; 3D printed prototypes.", 9),
+    bl("SolidWorks design and genetic algorithm optimisation; stiffness tested on a physical test setup.", 9),
     bl("Integrated the motor, encoder and force sensors; built test rigs.", 9),
     bl("Estimated force on a 5-bar robot within 10% RMS error, so no extra sensor was needed.", 9),
     bl("Collected EMG and motion data from 12 people; implemented an Arduino trigger to sync robot and Qualisys.", 9),

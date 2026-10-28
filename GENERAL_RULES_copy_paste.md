@@ -21,8 +21,9 @@
 - Study abroad at the National University of Singapore (NUS), Sep - Nov 2025 (one line only, no claims).
 - PhD: shoulder exoskeleton (never "wearable machines"). SolidWorks + 3D printing. I designed the hybrid
   spring + 6 Nm motor concept (>25% less energy, Best Paper Award, IFToMM ISRM 2026) and integrated the motor,
-  encoder and force sensors. I optimised the design with a genetic algorithm and did stiffness analysis in
-  SolidWorks (always include both; never write "FEA"; no Abaqus/Ansys). NO Fusion 360.
+  encoder and force sensors. I optimised the design with a genetic algorithm and measured the stiffness it can
+  provide on a PHYSICAL test setup (it was not tested in SolidWorks). "Stiffness analysis in SolidWorks" only as a
+  general skill, never tied to the exoskeleton. Never write "FEA"; no Abaqus/Ansys. NO Fusion 360.
 - Assist-as-Needed controller: team of 3; my part = equations (e.g. Fourier fit) and GUI behaviour.
   Muscle effort: ">15%" only.
 - 5-bar parallel robot: force ESTIMATION with VSA + Jacobian, <10% RMS error vs force sensor. NO force control.

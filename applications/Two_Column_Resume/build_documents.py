@@ -67,8 +67,8 @@ right = sec("Profile") + [
 ] + sec("Experience") + role("Research Engineer, Shoulder Exoskeleton (PhD project VIEXO)", "Aalborg University, Denmark", "2023 - Present") + [
     bl("Designed a hybrid shoulder exoskeleton where a parallel spring carries most of the arm load and a 6 Nm motor "
        "adds the rest; cut energy use by more than 25% (Best Paper Award, IFToMM ISRM 2026)."),
-    bl("Took the design from hand sketches to SolidWorks models and drawings, checked parts with stiffness analysis in "
-       "SolidWorks, optimised the design with a genetic algorithm, and 3D printed and rebuilt parts after each test."),
+    bl("Took the design from hand sketches to SolidWorks models and drawings, optimised it with a genetic algorithm, "
+       "and measured the stiffness it provides on a physical test setup; 3D printed and rebuilt parts after each test."),
     bl("Integrated the motor, encoder and force sensors into the frame and built custom test rigs."),
     bl("Worked in a team of 3 on an Assist-as-Needed controller (my part: equations such as the Fourier fit, and "
        "defining the GUI behaviour); muscle effort dropped by more than 15%."),

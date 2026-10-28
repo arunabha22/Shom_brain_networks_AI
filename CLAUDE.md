@@ -47,9 +47,11 @@
   (5-bar robot, VSA + Jacobian). Do not add skills or methods he has not confirmed; when unsure, leave it out.
 - Assist-as-Needed controller: a TEAM effort of 3 people. His part: helped with the equations (e.g. Fourier fit)
   and defined what should happen in the GUI. Never say he alone developed/implemented it.
-- He DID optimise his exoskeleton design with a genetic algorithm, and he DID stiffness analysis in SolidWorks.
-  Always add both (Skills + PhD bullet; letter where analysis/optimisation matters). Write "stiffness analysis in
-  SolidWorks", never "FEA"; still no Abaqus/Ansys/HyperWorks claims.
+- He DID optimise his exoskeleton design with a genetic algorithm (always include it).
+- The exoskeleton was NOT tested in SolidWorks. Its stiffness (how much stiffness it can provide) was measured on a
+  PHYSICAL test setup. Never write that exoskeleton parts were checked with SolidWorks stiffness analysis.
+  "Stiffness analysis in SolidWorks" may appear only as a general skill (he has done it before), never tied to the
+  exoskeleton. Never write "FEA"; no Abaqus/Ansys/HyperWorks claims.
 - He DID integrate the motor, encoder and force sensors on the exoskeleton. He DID teach university courses and
   supervise Bachelor's students (2023-2025).
 - Biomechanics study: Arunabha did the data collection (12 participants), not the analysis. He recorded EMG with the

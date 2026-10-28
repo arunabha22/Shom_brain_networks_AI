@@ -22,8 +22,8 @@ head(d)
 heading(d, "Profile")
 para(d, "Mechanical design engineer who turns ideas into 3D models, drawings, prototypes and engineering "
         "reports. For 3 years I have owned the mechanical design of a motor-assisted shoulder exoskeleton, from "
-        "concept to tested hardware, including stiffness analysis in SolidWorks and design optimisation with a "
-        "genetic algorithm. I work well across disciplines and explain designs clearly with sketches and reports. "
+        "concept to tested hardware, including design optimisation with a genetic algorithm and stiffness tests "
+        "on a physical test setup. I work well across disciplines and explain designs clearly with sketches and reports. "
         "PhD in Mechatronics and Robotics at Aalborg University (thesis expected March).")
 heading(d, "Core Skills")
 bullet(d, "SolidWorks (CSWA): 3D models, assemblies, 2D technical drawings, Design for Assembly", "CAD: ")
@@ -39,8 +39,8 @@ bullet(d, "Came up with and designed a hybrid shoulder exoskeleton where a sprin
           "small 6 Nm motor adds the rest; it cut energy use by more than 25% (Best Paper Award, IFToMM ISRM 2026).")
 bullet(d, "Owned the mechanical design from hand sketches to SolidWorks models and drawings, then 3D printed and "
           "rebuilt parts many times to improve fit, strength and ease of assembly.")
-bullet(d, "Optimised the exoskeleton design with a genetic algorithm and checked part stiffness with stiffness "
-          "analysis in SolidWorks.")
+bullet(d, "Optimised the exoskeleton design with a genetic algorithm and measured the stiffness it provides on a "
+          "physical test setup.")
 bullet(d, "Integrated the motor, encoder and force sensors into the frame and worked with control and software "
           "colleagues to get it running as one system; built custom test rigs.")
 bullet(d, "Collected data from 12 participants (EMG with the Qualisys data acquisition system and motion capture).")
