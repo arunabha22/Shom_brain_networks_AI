@@ -38,7 +38,7 @@ left = sec("Education") + [
     P("Thesis expected March", size=8.2, after=0), P("Study abroad: NUS Singapore, 2025", size=8.2, after=4),
     P("<b>MTech, Mechatronics</b>", after=0), P("CSIR-CMERI, India | 2020 - 2022", after=4),
     P("<b>BTech, Mechanical Engineering</b>", after=0), P("SIT (VTU), India | 2015 - 2019", after=4),
-    P("<b>Diploma in Fine Arts</b>", after=0), P("Bangiya Sangeet Parishad, India", after=0),
+    P("<b>Senior Diploma in Fine Arts (Painting)</b>", after=0), P("Bangiya Sangeet Parishad | 2008, Distinction", after=0),
 ] + sec("Skills") + [
     P("SolidWorks (CSWA) | 3D printing"), P("Stiffness analysis in SolidWorks"), P("Genetic algorithm optimisation"),
     P("MATLAB/Simulink | LabVIEW | Arduino"), P("Sensor integration | Test rigs"), P("Qualisys motion capture and EMG"),

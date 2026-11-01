@@ -40,7 +40,8 @@ left = sec("Education") + [
     P("<b>MTech, Mechatronics</b>", after=0), P("AcSIR - CSIR-CMERI, Durgapur, India", after=0), P("<i>2020 - 2022</i>", after=3),
     P("<b>BTech, Mechanical Engineering</b>", after=0), P("Siddaganga Institute of Technology (VTU), India", after=0),
     P("<i>2015 - 2019</i>", after=3),
-    P("<b>Diploma in Fine Arts (Painting)</b>", after=0), P("Bangiya Sangeet Parishad, India", after=0),
+    P("<b>Senior Diploma in Fine Arts (Painting)</b>", after=0), P("Bangiya Sangeet Parishad, India", after=0),
+    P("<i>2008, First Division with Distinction</i>", after=0),
 ] + sec("Skills") + [
     P("<b>Design:</b> mechanical product development, actuators and robotic mechanisms, Design for Assembly"),
     P("<b>Analysis:</b> stiffness and kinematic modelling, stiffness analysis in SolidWorks, design optimisation with a genetic algorithm"),

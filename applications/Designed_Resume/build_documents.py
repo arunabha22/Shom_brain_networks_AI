@@ -120,7 +120,7 @@ y = bar(c, "Education", RX, y, RW)
 for uni, deg in [("Aalborg University, Denmark", "PhD, Mechatronics and Robotics | 2023 - present"),
                  ("CSIR-CMERI (AcSIR), India", "MTech, Mechatronics | 2020 - 2022"),
                  ("Siddaganga Institute of Technology, India", "BTech, Mechanical Engineering | 2015 - 2019"),
-                 ("Bangiya Sangeet Parishad, India", "Diploma in Fine Arts (Painting)")]:
+                 ("Bangiya Sangeet Parishad, India", "Senior Diploma in Fine Arts (Painting) | 2008, First Division with Distinction")]:
     y = para(c, "<b>%s</b><br/>%s" % (uni, deg), RX, y, RW, size=8.8) - 6
 y -= 4
 y = bar(c, "Awards and Publications", RX, y, RW)

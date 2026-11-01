@@ -40,6 +40,7 @@
   LabVIEW to drive the pneumatic muscle (one point, never repeated).
 - Machining and hands-on assembly: Bachelor's only (Go-Kart, Efficycle). My Bachelor's capstone was an
   upper-limb rehabilitation EXOSKELETON for a paralysed arm; always name it as an exoskeleton.
+- Senior Diploma in Fine Arts (Painting), Bangiya Sangeet Parishad, 2008, First Division with Distinction.
 - Taught courses and supervised Bachelor's students (2023 - 2025). Diploma in Fine Arts: always include my
   drawing skills (hand sketching, technical illustrations).
 - Publications: only IEEE CONECCT 2022 and ISRM 2026. Never list the ASME JMR paper.

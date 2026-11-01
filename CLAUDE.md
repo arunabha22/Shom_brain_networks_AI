@@ -79,6 +79,9 @@
 - Publications: only IEEE CONECCT 2022 and ISRM 2026 (Best Paper). Never list the ASME JMR paper.
 - Languages: list Danish ("willing to learn") ONLY when the company/job is in Denmark; leave it out otherwise.
 - No PLC / ROS / Danish experience. No referees named in letters (CVs list the two referees above).
+- Fine arts certificate (verified from his certificate): "Senior Diploma in Fine Arts (Painting)" (Ankan Sree,
+  Ankan Kala Bibhag), Bangiya Sangeet Parishad, West Bengal, 3rd-year exam 2007-2008, dated 25 Aug 2008, First
+  Division with Distinction. Use this in Education.
 - Always include his drawing skills: Diploma in Fine Arts; hand sketching of concepts, technical illustrations
   and visuals for papers, posters and demos (plus SolidWorks engineering drawings). Put it in Skills, and in the
   summary/letter when the role values concept sketching, design, communication or demos.
