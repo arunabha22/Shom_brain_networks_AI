@@ -13,7 +13,7 @@ from reportlab.lib.utils import ImageReader
 # No skill-percentage bars: no made-up numbers. Facts follow CLAUDE.md.
 OUT = os.path.dirname(os.path.abspath(__file__)) + "/"
 PHOTO = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "/assets/photo.jpeg"
-PATH = OUT + "Arunabha_Majumder_CV_Designed.pdf"
+PATH = OUT + "Arunabha_Majumder_CV_1_page.pdf"
 NAVY = HexColor("#25344F"); TXT = HexColor("#222222"); HATCH = HexColor("#BFC5CE")
 W, H = A4
 LX, LW = 38, 178          # left column
