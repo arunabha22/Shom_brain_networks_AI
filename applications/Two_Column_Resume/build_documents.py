@@ -56,9 +56,8 @@ left = sec("Education") + [
     bl("Certified SolidWorks Associate (CSWA)"),
     bl("Best Major Project Award (2019)"),
     bl("TATA Technologies Innovation Grant, INR 100,000 (2019)"),
-] + sec("Languages") + [P("English (C1), Bengali (native), Hindi (spoken)")] + sec("Interests") + [
-    P("Painting and illustration; built a Go-Kart (2017) and an Efficycle hybrid vehicle (2018) with student teams"),
-] + sec("References") + [P("Available upon request.")]
+] + sec("Languages") + [P("English (C1), Bengali (native), Hindi (spoken)")] + sec("References") + [P("<b>Shaoping Bai</b>, Professor", after=0), P("Aalborg University | sbh@mp.aau.dk", size=8.2, after=3),
+    P("<b>Lars Rosgaard Jensen</b>, Associate Professor", after=0), P("Head of Section and Head of Labs, Aalborg University", size=8.2)]
 
 right = sec("Profile") + [
     P("Mechanical and mechatronics engineer who takes robotic hardware from a hand sketch to CAD, prototypes and "

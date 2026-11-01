@@ -70,11 +70,15 @@
   short CVs (Education or letters only).
 - Study abroad stay at the National University of Singapore (NUS) during the PhD, Sep-Nov 2025 (3 months).
   Mention only as one line under Education; no project or results to claim; never invent work done there.
-- References: he will later provide 3 referees and ask for them to be added. Until then keep "References
-  available upon request" and never name referees in letters unless he asks.
+- References (PERMANENT RULE): every CV/resume gets a References section with these two referees (he has their
+  recommendation letters):
+  1. Shaoping Bai, PhD, Professor, Department of Materials and Production, Aalborg University, sbh@mp.aau.dk
+  2. Lars Rosgaard Jensen, Associate Professor, Head of Section (Physics, Mechanics and Materials), Head of Labs,
+     Department of Materials and Production, Aalborg University (no email given yet; never invent one)
+  Do not name referees in cover letters unless he asks. A third referee may be added later.
 - Publications: only IEEE CONECCT 2022 and ISRM 2026 (Best Paper). Never list the ASME JMR paper.
 - Languages: list Danish ("willing to learn") ONLY when the company/job is in Denmark; leave it out otherwise.
-- No PLC / ROS / Danish experience. "References available upon request"; no referees named in letters.
+- No PLC / ROS / Danish experience. No referees named in letters (CVs list the two referees above).
 - Always include his drawing skills: Diploma in Fine Arts; hand sketching of concepts, technical illustrations
   and visuals for papers, posters and demos (plus SolidWorks engineering drawings). Put it in Skills, and in the
   summary/letter when the role values concept sketching, design, communication or demos.
