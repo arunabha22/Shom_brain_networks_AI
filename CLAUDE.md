@@ -23,6 +23,7 @@
   /clean and deliver the cleaned version; if it is down, say so in one short line. Never claim it ran if it did not.
 
 ## Outreach rules (see outreach-style.md; check it before drafting outreach)
+- When he sends a job for hiring-contact research, follow applications/job_search/hiring_contact_research_prompt.md.
 - Name is "Arunabha Majumder"; never "Shom" in drafts. Keep messages short.
 - Always include the portfolio: https://arunabha22.github.io/arunabha-majumder/
 - Never mention automated rejections or frustration with applications.
