@@ -79,6 +79,8 @@
      University (no email given yet; never invent one)
   Do not name referees in cover letters unless he asks.
 - Publications: only IEEE CONECCT 2022 and ISRM 2026 (Best Paper). Never list the ASME JMR paper.
+- Achievements he confirmed: GATE exam qualified (no year/score given; never invent one). The INR 100,000 TATA
+  Technologies grant for the Bachelor's exoskeleton was through TATA Technologies "Prayatna".
 - Languages: list Danish ("willing to learn") ONLY when the company/job is in Denmark; leave it out otherwise.
 - No PLC / ROS / Danish experience. No referees named in letters (CVs list the two referees above).
 - Fine arts certificate (verified from his certificate): "Senior Diploma in Fine Arts (Painting)" (Ankan Sree,

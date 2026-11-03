@@ -44,6 +44,7 @@
 - Taught courses and supervised Bachelor's students (2023 - 2025). Diploma in Fine Arts: always include my
   drawing skills (hand sketching, technical illustrations).
 - Publications: only IEEE CONECCT 2022 and ISRM 2026. Never list the ASME JMR paper.
+- GATE exam qualified (no score given). The INR 100,000 TATA Technologies grant was through "Prayatna".
 - No PLC, ROS or Danish experience. List Danish ("willing to learn") only for jobs in Denmark.
 - References on every CV: (1) Shaoping Bai, PhD, Professor, Dept. of Materials and Production, Aalborg University,
   sbh@mp.aau.dk; (2) Lars Rosgaard Jensen, Associate Professor, Head of Section (Physics, Mechanics and Materials),
