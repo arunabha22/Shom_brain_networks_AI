@@ -47,7 +47,8 @@
 - No PLC, ROS or Danish experience. List Danish ("willing to learn") only for jobs in Denmark.
 - References on every CV: (1) Shaoping Bai, PhD, Professor, Dept. of Materials and Production, Aalborg University,
   sbh@mp.aau.dk; (2) Lars Rosgaard Jensen, Associate Professor, Head of Section (Physics, Mechanics and Materials),
-  Head of Labs, Dept. of Materials and Production, Aalborg University. Not named in cover letters unless I ask.
+  Head of Labs, Dept. of Materials and Production, Aalborg University; (3) Anderson de Souza Castelo Oliveira,
+  Associate Professor, Dept. of Materials and Production, Aalborg University. Not named in cover letters unless I ask.
 
 ## Documents
 - CV and cover letter as separate PDFs, named like "<Company>_CV_Arunabha_Majumder" and

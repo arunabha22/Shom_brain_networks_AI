@@ -75,7 +75,9 @@
   1. Shaoping Bai, PhD, Professor, Department of Materials and Production, Aalborg University, sbh@mp.aau.dk
   2. Lars Rosgaard Jensen, Associate Professor, Head of Section (Physics, Mechanics and Materials), Head of Labs,
      Department of Materials and Production, Aalborg University (no email given yet; never invent one)
-  Do not name referees in cover letters unless he asks. A third referee may be added later.
+  3. Anderson de Souza Castelo Oliveira, Associate Professor, Department of Materials and Production, Aalborg
+     University (no email given yet; never invent one)
+  Do not name referees in cover letters unless he asks.
 - Publications: only IEEE CONECCT 2022 and ISRM 2026 (Best Paper). Never list the ASME JMR paper.
 - Languages: list Danish ("willing to learn") ONLY when the company/job is in Denmark; leave it out otherwise.
 - No PLC / ROS / Danish experience. No referees named in letters (CVs list the two referees above).

@@ -48,7 +48,8 @@ left = sec("Education") + [
 ] + sec("Publications") + [
     P("Hybrid actuated shoulder exoskeleton, ISRM 2026 (Springer)"), P("Neural network-based control of a pneumatic muscle, IEEE CONECCT 2022"),
 ] + sec("Languages") + [P("English (C1) | Bengali | Hindi")] + sec("References") + [P("<b>Shaoping Bai</b>, Professor", after=0), P("Aalborg University | sbh@mp.aau.dk", size=8.2, after=3),
-    P("<b>Lars Rosgaard Jensen</b>, Associate Professor", after=0), P("Head of Section and Head of Labs, Aalborg University", size=8.2)]
+    P("<b>Lars Rosgaard Jensen</b>, Associate Professor", after=0), P("Head of Section and Head of Labs, Aalborg University", size=8.2, after=3),
+    P("<b>Anderson de Souza Castelo Oliveira</b>, Associate Professor", after=0), P("Materials and Production, Aalborg University", size=8.2)]
 
 right = sec("Profile") + [
     P("Mechanical and mechatronics engineer. I design, build and test robotic hardware and exoskeletons, "

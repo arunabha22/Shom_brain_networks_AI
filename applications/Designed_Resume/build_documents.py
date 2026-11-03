@@ -127,8 +127,8 @@ y = bar(c, "Awards and Publications", RX, y, RW)
 y = bullets(c, ["Best Paper Award, IFToMM ISRM 2026 (Springer)", "IEEE CONECCT 2022 paper",
             "Best Major Project Award and TATA Technologies grant, 2019"], RX, y, RW, size=8.8) - 8
 y = bar(c, "References", RX, y, RW)
-y = para(c, "<b>Shaoping Bai, PhD, Professor</b><br/>Department of Materials and Production, Aalborg University"
-            "<br/>sbh@mp.aau.dk", RX, y, RW, size=8.6) - 5
-para(c, "<b>Lars Rosgaard Jensen, Associate Professor</b><br/>Head of Section, Physics, Mechanics and Materials; "
-        "Head of Labs<br/>Department of Materials and Production, Aalborg University", RX, y, RW, size=8.6)
+y = para(c, "<b>Shaoping Bai, PhD, Professor</b> | sbh@mp.aau.dk", RX, y, RW, size=8.4) - 3
+y = para(c, "<b>Lars Rosgaard Jensen, Associate Professor</b> | Head of Section and Head of Labs", RX, y, RW, size=8.4) - 3
+y = para(c, "<b>Anderson de Souza Castelo Oliveira, Associate Professor</b>", RX, y, RW, size=8.4) - 2
+para(c, "All: Department of Materials and Production, Aalborg University", RX, y, RW, size=8.4)
 c.showPage(); c.save()
