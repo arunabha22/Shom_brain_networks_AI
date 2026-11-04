@@ -51,7 +51,8 @@
 - Publications: only IEEE CONECCT 2022 and ISRM 2026. Never list the ASME JMR paper.
 - GATE exam qualified (no score given). The INR 100,000 TATA Technologies grant was through "Prayatna".
 - Willing to relocate to France; no French yet but willing to learn.
-- Start date: as soon as possible, allowing time for the visa and relocation.
+- Start date: as soon as possible, allowing time for the visa and relocation. My PhD research is finished; I can
+  write my thesis alongside a job.
 - No PLC, ROS or Danish experience. List Danish ("willing to learn") only for jobs in Denmark.
 - References on every CV: (1) Shaoping Bai, PhD, Professor, Dept. of Materials and Production, Aalborg University,
   sbh@mp.aau.dk; (2) Lars Rosgaard Jensen, Associate Professor, Head of Section (Physics, Mechanics and Materials),
