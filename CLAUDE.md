@@ -57,6 +57,9 @@
   the stiffness range.
 - He DID optimise his exoskeleton design with a genetic algorithm (always include it). The GA optimised the VSM
   diameter, the spring stiffness value and the pretension force (objective not yet confirmed; do not invent it).
+- Exoskeleton clutch story (his words): the design has a clutch that locks the spring; the first clutch kept breaking
+  and was hard to manufacture with the institute's facilities, so he switched to a simple bolt-locking clutch. Both
+  versions can lock at 8 different angles. Good "failure / design for manufacturing" story.
 - The exoskeleton was NOT tested in SolidWorks. Its stiffness (how much stiffness it can provide) was measured on a
   PHYSICAL test setup. Never write that exoskeleton parts were checked with SolidWorks stiffness analysis.
   "Stiffness analysis in SolidWorks" may appear only as a general skill (he has done it before), never tied to the
