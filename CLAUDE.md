@@ -51,6 +51,9 @@
   (5-bar robot, VSA + Jacobian). Do not add skills or methods he has not confirmed; when unsure, leave it out.
 - Assist-as-Needed controller: a TEAM effort of 3 people. His part: helped with the equations (e.g. Fourier fit)
   and defined what should happen in the GUI. Never say he alone developed/implemented it.
+- Exoskeleton design detail (his words): a variable stiffness mechanism (VSM) stores energy over a range that can be
+  adjusted to the user's needs, and a motor works in parallel with it; together they provide the torque needed to
+  lift the arm/object (shoulder flexion/extension).
 - He DID optimise his exoskeleton design with a genetic algorithm (always include it).
 - The exoskeleton was NOT tested in SolidWorks. Its stiffness (how much stiffness it can provide) was measured on a
   PHYSICAL test setup. Never write that exoskeleton parts were checked with SolidWorks stiffness analysis.
