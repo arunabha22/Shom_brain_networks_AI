@@ -92,6 +92,8 @@
   Technologies grant for the Bachelor's exoskeleton was through TATA Technologies "Prayatna".
 - Languages: list Danish ("willing to learn") ONLY when the company/job is in Denmark; leave it out otherwise.
 - He is willing to relocate to France (confirmed 2026-11). No French, but willing to learn (say so for French jobs).
+- Start date (his words, 2026-11): he can start as soon as possible, but needs time to apply for a visa and relocate.
+  Use this instead of "from spring 2027" when asked about start dates.
 - No PLC / ROS / Danish experience. No referees named in letters (CVs list the two referees above).
 - Fine arts certificate (verified from his certificate): "Senior Diploma in Fine Arts (Painting)" (Ankan Sree,
   Ankan Kala Bibhag), Bangiya Sangeet Parishad, West Bengal, 3rd-year exam 2007-2008, dated 25 Aug 2008, First
