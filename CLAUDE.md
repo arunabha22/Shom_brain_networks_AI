@@ -55,7 +55,8 @@
   adjusted to the user's needs, and a motor works in parallel with it; together they provide the torque needed to
   lift the arm/object (shoulder flexion/extension). A secondary worm gear system pretensions the spring to adjust
   the stiffness range.
-- He DID optimise his exoskeleton design with a genetic algorithm (always include it).
+- He DID optimise his exoskeleton design with a genetic algorithm (always include it). The GA optimised the VSM
+  diameter, the spring stiffness value and the pretension force (objective not yet confirmed; do not invent it).
 - The exoskeleton was NOT tested in SolidWorks. Its stiffness (how much stiffness it can provide) was measured on a
   PHYSICAL test setup. Never write that exoskeleton parts were checked with SolidWorks stiffness analysis.
   "Stiffness analysis in SolidWorks" may appear only as a general skill (he has done it before), never tied to the

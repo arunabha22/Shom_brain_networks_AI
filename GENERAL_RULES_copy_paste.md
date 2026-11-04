@@ -27,6 +27,7 @@
   general skill, never tied to the exoskeleton. Never write "FEA"; no Abaqus/Ansys. NO Fusion 360.
 - Exoskeleton detail: a variable stiffness mechanism (VSM) stores energy over an adjustable range, with a motor
   working in parallel; together they provide the lifting torque. A secondary worm gear system pretensions the spring.
+  The genetic algorithm optimised the VSM diameter, spring stiffness and pretension force.
 - Assist-as-Needed controller: team of 3; my part = equations (e.g. Fourier fit) and GUI behaviour.
   Muscle effort: ">15%" only.
 - 5-bar robot, exact wording: "Designed and modelled a novel 5-bar planar parallel robot with variable stiffness
