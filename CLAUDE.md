@@ -91,7 +91,8 @@
 - Achievements he confirmed: GATE exam qualified (no year/score given; never invent one). The INR 100,000 TATA
   Technologies grant for the Bachelor's exoskeleton was through TATA Technologies "Prayatna".
 - Languages: list Danish ("willing to learn") ONLY when the company/job is in Denmark; leave it out otherwise.
-- He is willing to relocate to France (confirmed 2026-11) and to Lausanne, Switzerland (confirmed 2026-11). No French,
+- He is willing to relocate to France (confirmed 2026-11), to Lausanne, Switzerland (confirmed 2026-11) and to
+  Germany (confirmed 2026-11). No French,
   but willing to learn (say so for French jobs).
 - His own wording (2026-11): exoskeleton parts were optimised with the GA, designed in SolidWorks, 3D printed for
   initial testing, then MANUFACTURED (do not say he machined them himself in the PhD); torque/force sensors were

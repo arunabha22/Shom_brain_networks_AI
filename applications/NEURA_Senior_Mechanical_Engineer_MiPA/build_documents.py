@@ -105,7 +105,7 @@ def letter():
         "I want to be honest: I do not have 10 years in industry, and I have not yet run series production, PDM/PLM "
         "systems or injection moulding projects. If this senior role is a step too far, I would be glad to be "
         "considered for a mechanical engineer position in the MiPA team. My research is finished, so I can start "
-        "soon. Thank you for considering my application.",
+        "soon, and I am ready to move to Germany. Thank you for considering my application.",
     ]
     body = [P(t, size=10.2, after=7, lead=1.3) for t in paras] + [P("Kind regards,", size=10.2, after=2),
                                                                    P(NAME, size=10.2)]
