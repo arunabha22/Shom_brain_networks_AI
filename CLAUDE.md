@@ -91,7 +91,14 @@
 - Achievements he confirmed: GATE exam qualified (no year/score given; never invent one). The INR 100,000 TATA
   Technologies grant for the Bachelor's exoskeleton was through TATA Technologies "Prayatna".
 - Languages: list Danish ("willing to learn") ONLY when the company/job is in Denmark; leave it out otherwise.
-- He is willing to relocate to France (confirmed 2026-11). No French, but willing to learn (say so for French jobs).
+- He is willing to relocate to France (confirmed 2026-11) and to Lausanne, Switzerland (confirmed 2026-11). No French,
+  but willing to learn (say so for French jobs).
+- His own wording (2026-11): exoskeleton parts were optimised with the GA, designed in SolidWorks, 3D printed for
+  initial testing, then MANUFACTURED (do not say he machined them himself in the PhD); torque/force sensors were
+  used to define its mechanical properties; the >25% saving is motor energy, which improves battery life.
+- Master's pneumatic artificial muscles were part of a SOFT EXOSUIT project.
+- Bachelor's capstone: an arm exoskeleton AND an exo glove for the human arm, funded by a TATA Technologies grant
+  under the "Prayatna Innovation Fund"; won Best Major Project in the department.
 - Start date (his words, 2026-11): he can start as soon as possible, but needs time to apply for a visa and relocate.
   Use this instead of "from spring 2027" when asked about start dates. His PhD research work is finished; only the
   thesis writing is ongoing, and he can start a job alongside finishing the thesis.

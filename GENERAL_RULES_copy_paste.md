@@ -50,7 +50,10 @@
   drawing skills (hand sketching, technical illustrations).
 - Publications: only IEEE CONECCT 2022 and ISRM 2026. Never list the ASME JMR paper.
 - GATE exam qualified (no score given). The INR 100,000 TATA Technologies grant was through "Prayatna".
-- Willing to relocate to France; no French yet but willing to learn.
+- Willing to relocate to France and to Lausanne (Switzerland); no French yet but willing to learn.
+- Exoskeleton parts: GA-optimised, SolidWorks, 3D printed for initial tests, then manufactured. >25% less motor
+  energy (better battery life). Master's muscles were part of a soft exosuit. Bachelor's: arm exoskeleton and
+  exo glove, TATA Technologies Prayatna Innovation Fund grant, Best Major Project.
 - Start date: as soon as possible, allowing time for the visa and relocation. My PhD research is finished; I can
   write my thesis alongside a job.
 - No PLC, ROS or Danish experience. List Danish ("willing to learn") only for jobs in Denmark.
