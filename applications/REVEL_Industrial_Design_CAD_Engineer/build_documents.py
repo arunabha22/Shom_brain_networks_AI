@@ -9,7 +9,7 @@ from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import cm
 P, sec, bl, role, NAME = b.P, b.sec, b.bl, b.role, b.NAME
 
-# REVEL (Prague) - Industrial Design CAD Engineer. Ad wants substantial professional Fusion 360: he has NONE
+# REVEL (Prague) - Industrial Design CAD Engineer. Ad wants substantial professional Fusion 360: he knows it a little (basic only)
 # (never claim it; stated honestly in the letter). 3+ years professional: PhD research + teaching, no industry.
 # Not Denmark, so no Danish. Fine arts + graphic design always kept (his rule).
 
@@ -51,7 +51,7 @@ def cv():
     ]
     body += sec("Skills") + [
         P("<b>CAD:</b> SolidWorks (CSWA): parametric parts and assemblies, technical drawings, tolerances, "
-          "fasteners, clearances, organised assembly files"),
+          "fasteners, clearances, organised assembly files; Fusion 360 (basic)"),
         P("<b>Prototyping:</b> 3D printing (Bambu Lab, Ultimaker Cura), design for 3D printing, fit testing, "
           "machining and hands-on assembly, DFM and DFA"),
         P("<b>Integration:</b> motors, encoders, torque/force sensors, Arduino, MATLAB/Simulink"),
@@ -102,9 +102,9 @@ def letter():
         "I also have a Senior Diploma in Fine Arts (Painting), and I do graphic design and illustration in Adobe "
         "Illustrator, Photoshop and Procreate. I sketch concepts by hand before I open CAD, which helps me talk with "
         "product designers and keep their design intent when I build the parts underneath the surfaces.",
-        "To be honest about the gaps: my parametric CAD is SolidWorks, and I have not used Fusion 360 professionally. "
-        "My 3+ years are in research and teaching, not in a company. The way of working is the same, and I can learn "
-        "Fusion quickly. My portfolio shows the parts and prototypes and what I did on each. My research is finished, "
+        "To be honest about the gaps: my main parametric CAD is SolidWorks. I know Fusion 360 a little, but I have "
+        "not used it professionally. My 3+ years are in research and teaching, not in a company. The way of working "
+        "is the same, and I can get up to speed in Fusion quickly. My portfolio shows the parts and prototypes and what I did on each. My research is finished, "
         "so I can start soon, and I am happy to move to Prague. Thank you for reading.",
     ]
     body = [P(t, size=10, after=6, lead=1.28) for t in paras] + [P("Kind regards,", size=10, after=2),
