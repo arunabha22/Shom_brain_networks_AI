@@ -48,6 +48,8 @@
 - Senior Diploma in Fine Arts (Painting), Bangiya Sangeet Parishad, 2008, First Division with Distinction.
 - Taught courses and supervised Bachelor's students (2023 - 2025). Diploma in Fine Arts: always include my
   drawing skills (hand sketching, technical illustrations).
+- ALWAYS keep both my fine arts diploma AND my graphic design (Adobe Illustrator, Photoshop, Procreate) in
+  every CV and cover letter.
 - Publications: only IEEE CONECCT 2022 and ISRM 2026. Never list the ASME JMR paper.
 - GATE exam qualified (no score given). The INR 100,000 TATA Technologies grant was through "Prayatna".
 - Willing to relocate to France, Lausanne (Switzerland) and Germany; no French yet but willing to learn.
