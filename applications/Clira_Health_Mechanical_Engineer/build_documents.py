@@ -82,9 +82,9 @@ def cv():
     return path
 
 PARAS = [
-    "I am applying for the Mechanical Engineer role on your founding team. Patients who need blood tests several "
-    "times a week should not have to go to the hospital for each one, and building the device that fixes that is "
-    "the kind of hard, useful problem I want to own.",
+    "I am looking for a mechanical or mechatronics engineering role at Clira Health, starting with the Mechanical "
+    "Engineer position on your founding team. Making mechanical and mechatronic devices is what I enjoy most, and a "
+    "device that lets patients do their blood tests at home is the kind of hard, useful problem I want to own.",
     "What I have built: in my PhD at Aalborg University I designed a hybrid shoulder exoskeleton from first "
     "principles. It has a variable stiffness mechanism, with a worm gear that pretensions the spring, working in "
     "parallel with a 6 Nm motor. I optimised it with a genetic algorithm, modelled it in SolidWorks, 3D printed "
