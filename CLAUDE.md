@@ -32,7 +32,7 @@
 
 ## Facts (never exaggerate)
 - PhD (Aalborg, 2023 – present): SolidWorks + 3D printing. NO FEA/FEM claimed. Fusion 360: he knows
-  it a little (confirmed 2026-11); list it only as "Fusion 360 (basic)", never as professional or substantial experience.
+  it a little and last used it in 2019 (confirmed 2026-11); list it only as "Fusion 360 (basic, last used 2019)", never as professional or substantial experience.
 - Machining and hands-on assembly belong to the Bachelor's capstone, not the PhD.
 - Say "shoulder exoskeleton", never "wearable machines".
 - 5-bar planar parallel robot, EXACT wording to use (never reduce it to just "estimated force"): "Designed and

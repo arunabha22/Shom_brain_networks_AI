@@ -24,7 +24,7 @@
   spring + 6 Nm motor concept (>25% less energy, Best Paper Award, IFToMM ISRM 2026) and integrated the motor,
   encoder and force sensors. I optimised the design with a genetic algorithm and measured the stiffness it can
   provide on a PHYSICAL test setup (it was not tested in SolidWorks). "Stiffness analysis in SolidWorks" only as a
-  general skill, never tied to the exoskeleton. Never write "FEA"; no Abaqus/Ansys. Fusion 360: basic only (I know it a little), never professional.
+  general skill, never tied to the exoskeleton. Never write "FEA"; no Abaqus/Ansys. Fusion 360: basic only (I know it a little, last used in 2019), never professional.
 - Exoskeleton detail: a variable stiffness mechanism (VSM) stores energy over an adjustable range, with a motor
   working in parallel; together they provide the lifting torque. A secondary worm gear system pretensions the spring.
   The genetic algorithm optimised the VSM diameter, spring stiffness and pretension force.
