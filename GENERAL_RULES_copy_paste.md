@@ -85,3 +85,4 @@
 ## Keep these rules up to date
 - Whenever I correct a fact or add a new one, save it in these rules straight away and fix the documents
   you are working on, so the same mistake never happens again.
+- File names: "AM <Company> CV.pdf" and "AM <Company> Cover Letter.pdf", never my full name.
