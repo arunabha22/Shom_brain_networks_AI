@@ -28,8 +28,12 @@
 - Exoskeleton detail: a variable stiffness mechanism (VSM) stores energy over an adjustable range, with a motor
   working in parallel; together they provide the lifting torque. A secondary worm gear system pretensions the spring.
   The genetic algorithm optimised the VSM diameter, spring stiffness and pretension force.
-- Clutch story: the first spring-locking clutch kept breaking and was hard to make in the lab, so I switched to a
-  simple bolt-locking clutch; both lock at 8 different angles.
+- Clutch story: NEVER use it in CVs, letters or answers unless I ask for it.
+- CV job title for the PhD: "Research Assistant, Aalborg University".
+- Outer PID loop: not a simple PID; it has integral anti-windup and error nonlinearisation.
+- 6 participants = arm impedance study with the 5-bar robot (always say which robot).
+- German: just "willing to learn German", no gap sentences. Always include GATE qualified, a Study Abroad heading
+  (NUS 2025) and my portfolio. End cover letters with a line about bringing innovative ideas.
 - Assist-as-Needed controller: team of 3; my part = equations (e.g. Fourier fit) and GUI behaviour.
   Muscle effort: ">15%" only.
 - 5-bar robot, exact wording: "Designed and modelled a novel 5-bar planar parallel robot with variable stiffness

@@ -60,7 +60,18 @@
   diameter, the spring stiffness value and the pretension force (objective not yet confirmed; do not invent it).
 - Exoskeleton clutch story (his words): the design has a clutch that locks the spring; the first clutch kept breaking
   and was hard to manufacture with the institute's facilities, so he switched to a simple bolt-locking clutch. Both
-  versions can lock at 8 different angles. Good "failure / design for manufacturing" story.
+  versions can lock at 8 different angles. NEVER put the clutch story in any CV, cover letter, message or answer
+  unless he explicitly asks for it (his order, 2026-11). Use it only if he asks, e.g. live in an interview.
+- Job title for the Aalborg PhD in CVs (his order, 2026-11): "Research Assistant, Aalborg University", not
+  "PhD Researcher". The PhD stays under Education.
+- Outer PID loop (Master's) is NOT a simple PID: it has integral anti-windup and error nonlinearisation. Always
+  say so when describing it; never call it a simple PID.
+- Whenever the 6 participants are mentioned, always say it was the arm impedance study with the 5-bar robot.
+- German: never write gap sentences about German (e.g. "I don't speak German, that may rule me out"). Just say
+  "willing to learn German" (confirmed 2026-11).
+- Always include "GATE qualified" (Achievements) and a Study Abroad heading (NUS, Sep-Nov 2025) on CVs, and the
+  portfolio link. In cover letters, end with a paragraph saying he is keen to bring innovative ideas.
+- No gap/apology paragraphs in cover letters unless he asks.
 - The exoskeleton was NOT tested in SolidWorks. Its stiffness (how much stiffness it can provide) was measured on a
   PHYSICAL test setup. Never write that exoskeleton parts were checked with SolidWorks stiffness analysis.
   "Stiffness analysis in SolidWorks" may appear only as a general skill (he has done it before), never tied to the
