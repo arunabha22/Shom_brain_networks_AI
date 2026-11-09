@@ -101,7 +101,7 @@ PARAS = [
     "and Procreate, and sketch every idea by hand before CAD.",
     "To be honest about gaps: I have not yet designed fluidic seals or worked under ISO 13485, and I do not speak "
     "French yet, but I am willing to learn. My research is finished, so I can start as soon as possible (with time "
-    "for a visa and moving), and I am ready to move to Paris. My portfolio has photos of my prototypes.",
+    "for a visa and moving), and I am ready to move to Paris. My portfolio has videos and results from my work.",
 ]
 
 def letter():

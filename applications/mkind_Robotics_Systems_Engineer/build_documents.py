@@ -106,7 +106,7 @@ def cv():
         bl("Hybrid actuated shoulder exoskeleton, IFToMM ISRM 2026 (Springer), Best Paper Award."),
         bl("Neural network-based control of a pneumatic artificial muscle, IEEE CONECCT 2022."),
     ] + sec("Portfolio") + [
-        P("CAD models, prototypes and drawings of my projects: "
+        P("Videos and results from my work: "
           "<link href='https://arunabha22.github.io/arunabha-majumder/' color='#2E75B6'>"
           "arunabha22.github.io/arunabha-majumder</link>", size=9.2, after=0),
     ]

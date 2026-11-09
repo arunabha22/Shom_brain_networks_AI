@@ -26,6 +26,8 @@
 - When he sends a job for hiring-contact research, follow applications/job_search/hiring_contact_research_prompt.md.
 - Name is "Arunabha Majumder"; never "Shom" in drafts. Keep messages short.
 - Always include the portfolio: https://arunabha22.github.io/arunabha-majumder/
+  It contains ONLY videos and results from his work (no CAD files, drawings or prototype photos). Describe it
+  that way, never as "CAD models, drawings or photos".
 - Never mention automated rejections or frustration with applications.
 - Never write "FEA"; use "analysis" or "mechanical analysis" (only where true).
 - Friend recommendations: no technical claims.

@@ -104,7 +104,7 @@ def letter():
         "product designers and keep their design intent when I build the parts underneath the surfaces.",
         "To be honest about the gaps: my main parametric CAD is SolidWorks. I used Fusion 360 a little, last in 2019, "
         "and never professionally. My 3+ years are in research and teaching, not in a company. The way of working "
-        "is the same, and I can get back up to speed in Fusion quickly. My portfolio shows the parts and prototypes and what I did on each. My research is finished, "
+        "is the same, and I can get back up to speed in Fusion quickly. My portfolio has videos and results from my work. My research is finished, "
         "so I can start soon, and I am happy to move to Prague. Thank you for reading.",
     ]
     body = [P(t, size=10, after=6, lead=1.28) for t in paras] + [P("Kind regards,", size=10, after=2),
