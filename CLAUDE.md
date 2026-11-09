@@ -111,7 +111,11 @@
 - His own wording (2026-11): exoskeleton parts were optimised with the GA, designed in SolidWorks, 3D printed for
   initial testing, then MANUFACTURED (do not say he machined them himself in the PhD); torque/force sensors were
   used to define its mechanical properties; the >25% saving is motor energy, which improves battery life.
-- Master's pneumatic artificial muscles were part of a SOFT EXOSUIT project.
+- Master's pneumatic artificial muscles were part of a SOFT EXOSUIT project. His words (2026-11): the muscles were
+  silicone-based, and he worked in a team of 4 (electronics and mechanical engineers) on the LabVIEW control
+  architecture.
+- Bachelor's arm exoskeleton and exo glove used motor assistance with Arduino-based control and manual switching
+  (his words, 2026-11).
 - Bachelor's capstone: an arm exoskeleton AND an exo glove for the human arm, funded by a TATA Technologies grant
   under the "Prayatna Innovation Fund"; won Best Major Project in the department.
 - Start date (his words, 2026-11): he can start as soon as possible, but needs time to apply for a visa and relocate.

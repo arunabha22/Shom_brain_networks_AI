@@ -91,3 +91,5 @@
   you are working on, so the same mistake never happens again.
 - File names: "AM <Company> CV.pdf" and "AM <Company> Cover Letter.pdf", never my full name.
 - My portfolio has only videos and results from my work (no CAD, drawings or photos); describe it that way.
+- Master's: silicone-based pneumatic muscles; team of 4 (electronics + mechanical) on the LabVIEW control architecture.
+- Bachelor's exo arm and exo glove: motor assistance with Arduino-based control and manual switching.
