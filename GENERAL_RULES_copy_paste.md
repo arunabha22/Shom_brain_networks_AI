@@ -93,3 +93,4 @@
 - My portfolio has only videos and results from my work (no CAD, drawings or photos); describe it that way.
 - Master's: silicone-based pneumatic muscles; team of 4 (electronics + mechanical) on the LabVIEW control architecture.
 - Bachelor's exo arm and exo glove: motor assistance with Arduino-based control and manual switching.
+- My art Instagram: surreal_art_engine. GitHub: github.com/arunabha22.

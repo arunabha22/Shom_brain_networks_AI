@@ -28,6 +28,8 @@
 - Always include the portfolio: https://arunabha22.github.io/arunabha-majumder/
   It contains ONLY videos and results from his work (no CAD files, drawings or prototype photos). Describe it
   that way, never as "CAD models, drawings or photos".
+- Art Instagram (his, 2026-11): surreal_art_engine (https://www.instagram.com/surreal_art_engine/). GitHub:
+  https://github.com/arunabha22. Share them when art or code is relevant (e.g. LEGO Creative Play Lab).
 - Never mention automated rejections or frustration with applications.
 - Never write "FEA"; use "analysis" or "mechanical analysis" (only where true).
 - Friend recommendations: no technical claims.
