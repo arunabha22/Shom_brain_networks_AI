@@ -94,3 +94,4 @@
 - Master's: silicone-based pneumatic muscles; team of 4 (electronics + mechanical) on the LabVIEW control architecture.
 - Bachelor's exo arm and exo glove: motor assistance with Arduino-based control and manual switching.
 - My art Instagram: surreal_art_engine. GitHub: github.com/arunabha22.
+- EMG (12 participants) = exoskeleton study. 5-bar robot study (6 participants) = arm position data with Qualisys, no EMG.

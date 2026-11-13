@@ -91,7 +91,7 @@ def cv():
            "estimated its stiffness with less than 10% error and quantified human arm impedance."),
         bl("Arm impedance study with the 5-bar robot (6 participants): Qualisys cameras tracked the arm, and I "
            "implemented an Arduino-based trigger to sync the robot's motion with the recording."),
-        bl("Collected EMG data from 12 participants with the Qualisys data acquisition system."),
+        bl("Exoskeleton study: collected EMG data from 12 participants with the Qualisys data acquisition system."),
         bl("Taught university courses and supervised Bachelor's students (2023 - 2025)."),
         Spacer(0, 4),
     ] + role("MTech Researcher, Soft Exosuit", "CSIR-CMERI, India", "2020 - 2022") + [
@@ -145,9 +145,9 @@ PARAS = [
     "setup. It uses over 25% less motor energy and won the Best Paper Award at ISRM 2026.",
     "I have also built data collection setups with real people, which sounds close to what you do in your lab. I "
     "designed and modelled a novel 5-bar planar parallel robot with variable stiffness mechanisms and used it to "
-    "quantify human arm impedance with 6 participants. Qualisys cameras tracked the arm, and I implemented an "
+    "quantify human arm impedance with 6 participants. Qualisys cameras recorded the arm position data, and I implemented an "
     "Arduino-based trigger so the robot's motion and the recording stayed in sync. I also collected EMG data from "
-    "12 participants with the Qualisys system.",
+    "12 participants wearing my exoskeleton, with the Qualisys system.",
     "In my Master's at CSIR-CMERI I fabricated pneumatic artificial muscles for a soft exosuit and designed the outer "
     "PID loop of a neural network-based gain-scheduled controller, with integral anti-windup and error "
     "nonlinearisation, in MATLAB/Simulink and ran it in LabVIEW. As a student I built an arm exoskeleton, an exo "

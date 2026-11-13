@@ -143,9 +143,9 @@ PARAS = [
     "(VSM), estimated its stiffness with less than 10% error and quantified human arm impedance. Getting there meant "
     "testing it on real hardware and comparing what my model predicted with what we measured, until "
     "it matched. For the arm impedance study with this robot "
-    "(6 participants), Qualisys cameras tracked the arm, and I implemented an Arduino-based trigger so the robot's "
-    "motion and the recording stayed in sync. I also collected EMG data from 12 participants with the Qualisys data "
-    "acquisition system, so I know how much careful sensor setup and documentation matter.",
+    "(6 participants), Qualisys cameras recorded the arm position data, and I implemented an Arduino-based trigger so the robot's "
+    "motion and the recording stayed in sync. In a separate study I collected EMG data from 12 participants wearing my "
+    "exoskeleton, using the Qualisys data acquisition system, so I know how much careful sensor setup and documentation matter.",
     "I also designed a hybrid shoulder exoskeleton with a variable stiffness mechanism and a 6 Nm motor, integrated "
     "the motor, encoder and force/torque sensors, and measured its stiffness on a physical test setup. It uses over "
     "25% less motor energy and won the Best Paper Award at ISRM 2026. In my Master's I designed the outer PID loop, "

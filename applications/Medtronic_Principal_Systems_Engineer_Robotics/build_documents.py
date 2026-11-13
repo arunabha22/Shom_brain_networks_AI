@@ -152,8 +152,9 @@ PARAS = [
     "estimated its stiffness with less than 10% error and quantified human arm impedance. Force came from the "
     "variable stiffness actuators and the robot's Jacobian, without a force sensor at the end effector, and I "
     "checked the model against measured results. For the arm impedance study with this robot (6 participants), "
-    "I implemented an Arduino-based trigger so the robot's motion and the Qualisys recording stayed in sync, and I "
-    "collected EMG data from 12 participants in another study.",
+    "Qualisys cameras recorded the arm position data, and I implemented an Arduino-based trigger so the robot's "
+    "motion and the recording stayed in sync. In a separate exoskeleton study, I collected EMG data from 12 "
+    "participants wearing the exoskeleton.",
     "In my Master's at CSIR-CMERI I worked in a team of 4 electronics and mechanical engineers on a soft exosuit, "
     "and designed the outer PID loop, with integral anti-windup and error nonlinearisation, of a neural "
     "network-based gain-scheduled controller in MATLAB/Simulink and LabVIEW (0.3 to 0.78% error). I have taught "

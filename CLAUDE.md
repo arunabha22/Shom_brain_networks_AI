@@ -84,6 +84,8 @@
   supervise Bachelor's students (2023-2025).
 - Biomechanics study: Arunabha did the data collection (12 participants), not the analysis. He recorded EMG with the
   Qualisys data acquisition system.
+- EMG vs position (his correction, 2026-11): the EMG data (12 participants) came from the EXOSKELETON study. The 5-bar
+  robot study (6 participants) recorded arm POSITION/motion data with Qualisys, NOT EMG. Always keep them separate.
 - Arm impedance study: Qualisys motion-capture cameras tracked arm motion to quantify human arm impedance with the
   5-bar robot, 6 participants. He IMPLEMENTED (did not build) an Arduino-based trigger system to sync the robot's motion with the Qualisys
   recording; he has experience synchronising robot motion with Qualisys. Never say he built it.
