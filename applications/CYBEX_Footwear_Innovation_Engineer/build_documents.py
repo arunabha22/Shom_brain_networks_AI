@@ -153,8 +153,9 @@ PARAS = [
     "Bachelor's I built an arm exoskeleton and an exo glove for a paralysed arm. I also hold a Senior Diploma in Fine "
     "Arts and do graphic design (Illustrator, Photoshop, Procreate), so I sketch ideas by hand and like working "
     "closely with designers.",
-    "I'm ready to move to Germany and I'm willing to learn German. I would love to bring new and innovative ideas to "
-    "your footwear and grow with the team. My portfolio, with videos and results from my work, is at "
+    "I'm ready to move to Germany. I'm really interested in design, in how a product looks, feels and fits as "
+    "much as how it works, and I would love to bring new and innovative ideas to your footwear and grow with the "
+    "team. My portfolio, with videos and results from my work, is at "
     "arunabha22.github.io/arunabha-majumder. Thank you for reading.",
 ]
 
