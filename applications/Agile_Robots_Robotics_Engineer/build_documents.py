@@ -152,10 +152,13 @@ PARAS = [
     "keep the robot's motion and the recording in sync.",
     "In my Master's I worked in a team of 4 electronics and mechanical engineers on a soft exosuit, fabricated "
     "silicone-based pneumatic muscles and designed the outer PID loop, with integral anti-windup and error "
-    "nonlinearisation, of a neural network-based gain-scheduled controller in MATLAB/Simulink and LabVIEW. I also "
+    "nonlinearisation, of a neural network-based gain-scheduled controller in MATLAB/Simulink and LabVIEW. For my "
+    "Bachelor's project I built an arm exoskeleton and an exo glove for a paralysed arm, with Arduino-based motor "
+    "control, doing the CAD, machining and assembly myself. It won the Best Major Project Award and was funded by a "
+    "TATA Technologies Prayatna grant. I also "
     "hold a Senior Diploma in Fine Arts and do graphic design (Illustrator, Photoshop, Procreate), which helps me "
     "sketch ideas and explain designs clearly.",
-    "I'm ready to move to Munich and I'm willing to learn German. I would love to bring new and innovative ideas to "
+    "I'm ready to move to Munich. I would love to bring new and innovative ideas to "
     "your robots and grow with your team. My portfolio, with videos and results from my work, is at "
     "arunabha22.github.io/arunabha-majumder. Thank you for reading.",
 ]

@@ -72,7 +72,8 @@
   say so when describing it; never call it a simple PID.
 - Whenever the 6 participants are mentioned, always say it was the arm impedance study with the 5-bar robot.
 - German: never write gap sentences about German (e.g. "I don't speak German, that may rule me out"). Just say
-  "willing to learn German" (confirmed 2026-11).
+  "willing to learn German" (confirmed 2026-11). In COVER LETTERS do not write "willing to learn German" at all
+  (his order, 2026-11); keep it only in the CV Languages line.
 - Always include "GATE qualified" (Achievements) and a Study Abroad heading (NUS, Sep-Nov 2025) on CVs, and the
   portfolio link. In cover letters, end with a paragraph saying he is keen to bring innovative ideas.
 - No gap/apology paragraphs in cover letters unless he asks.
