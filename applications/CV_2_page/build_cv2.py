@@ -3,7 +3,7 @@
 import os, pymupdf
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "original_resume.pdf")
-OUT = os.path.join(HERE, "Arunabha_Majumder_CV_2_page.pdf")
+OUT = os.path.join(HERE, "New_CV_2page.pdf")
 REG = "/usr/share/fonts/truetype/cmu/cmunrm.ttf"   # Computer Modern Roman (same face as SFRM1000)
 BOLD = "/usr/share/fonts/truetype/cmu/cmunbx.ttf"  # Computer Modern Bold Extended (same face as SFBX1000)
 SIZE = 9.9626

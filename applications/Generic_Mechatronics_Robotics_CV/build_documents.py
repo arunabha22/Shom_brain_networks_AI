@@ -37,7 +37,7 @@ def role(title, org, dates):
 def item(a, b, gap=4): return [P("<b>%s</b>" % a, size=9, color=BLACK, after=0), P(b, size=8.5, after=gap)]
 
 def cv():
-    path = OUT + "AM Mechatronics Robotics CV.pdf"
+    path = OUT + "New_CV_1page.pdf"
     head = [P(NAME, size=23, bold=True, color=ACC, after=2, lead=1.1),
             P("Mechatronics and Robotics Engineer", size=11.5, bold=True, color=BLACK, after=4),
             P("Aalborg, Denmark &nbsp;|&nbsp; +45 71 62 24 00", size=8.8, after=0.5),
