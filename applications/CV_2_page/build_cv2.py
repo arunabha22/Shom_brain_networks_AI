@@ -28,17 +28,17 @@ x_bul, x_txt, x_max = 43.2, 53.2, 552.0
 y = r.y0 + 8.4          # baseline of the old "Available upon request." line
 lead = 11.95
 for name, title, detail in REFS:
-    p.insert_text((x_bul, y), "•", fontname="cmr", fontsize=SIZE)
+    p.insert_text((x_bul, y), "•", fontname="cmr", fontfile=REG, fontsize=SIZE)
     p.insert_text((x_txt, y), name, fontname="cmbx", fontsize=SIZE)
-    p.insert_text((x_txt + fb.text_length(name, SIZE), y), title, fontname="cmr", fontsize=SIZE)
+    p.insert_text((x_txt + fb.text_length(name, SIZE), y), title, fontname="cmr", fontfile=REG, fontsize=SIZE)
     words, line = detail.split(), ""
     for w in words:                      # simple word wrap for the detail line(s)
         test = (line + " " + w).strip()
         if x_txt + fr.text_length(test, SIZE) > x_max:
-            y += lead; p.insert_text((x_txt, y), line, fontname="cmr", fontsize=SIZE); line = w
+            y += lead; p.insert_text((x_txt, y), line, fontname="cmr", fontfile=REG, fontsize=SIZE); line = w
         else:
             line = test
-    y += lead; p.insert_text((x_txt, y), line, fontname="cmr", fontsize=SIZE)
+    y += lead; p.insert_text((x_txt, y), line, fontname="cmr", fontfile=REG, fontsize=SIZE)
     y += lead + 2
 
 meta = d.metadata
@@ -46,6 +46,52 @@ meta.update(title="Arunabha Majumder CV", author="Arunabha Majumder", creator="A
 d.set_metadata(meta)
 d.save(OUT, garbage=3, deflate=True)
 print("saved", OUT, "last baseline", round(y, 1))
+
+# Step 1b (his requests, 2026-11): "one journal submission" (not two) and a new Professional Profile,
+# written in the same Computer Modern font, fully justified, inside the old 4-line profile area.
+dd = pymupdf.open(OUT)
+pg = dd[0]
+fr = pymupdf.Font(fontfile=REG)
+LEAD = 11.955
+# journal line
+jr = pymupdf.Rect(53.0, 519.6, 400.0, 530.6)
+pg.add_redact_annot(jr, fill=(1, 1, 1))
+# profile lines
+PR = pymupdf.Rect(42.5, 161.8, 553.0, 208.8)
+pg.add_redact_annot(PR, fill=(1, 1, 1))
+pg.apply_redactions(images=pymupdf.PDF_REDACT_IMAGE_NONE)
+pg.insert_font(fontname="cmr", fontfile=REG)
+pg.insert_text((53.16, 528.04), "data pipeline, producing the validation dataset for one journal submission.",
+               fontname="cmr", fontfile=REG, fontsize=SIZE)
+PROFILE = ("Mechanical and mechatronics R&D engineer who designs, builds and tests robotic mechanisms, actuators "
+           "and exoskeletons. Hands-on from hand sketches and SolidWorks CAD to 3D printed prototypes, motor and "
+           "sensor integration, control and testing with real users. Designed a hybrid shoulder exoskeleton that "
+           "uses over 25% less motor energy (Best Paper Award, ISRM 2026) and a 5-bar robot with stiffness "
+           "estimated within 10% error.")
+xl, xr, y0 = 43.2, 552.0, 170.38
+words = PROFILE.split()
+lines, cur = [], []
+for w in words:
+    test = cur + [w]
+    if fr.text_length(" ".join(test), SIZE) > (xr - xl) and cur:
+        lines.append(cur); cur = [w]
+    else:
+        cur = test
+lines.append(cur)
+assert len(lines) <= 4, len(lines)
+for i, ln in enumerate(lines):
+    y = y0 + i * LEAD
+    if i == len(lines) - 1:
+        pg.insert_text((xl, y), " ".join(ln), fontname="cmr", fontfile=REG, fontsize=SIZE)
+        continue
+    wsum = sum(fr.text_length(w, SIZE) for w in ln)
+    gap = (xr - xl - wsum) / (len(ln) - 1)
+    x = xl
+    for w in ln:
+        pg.insert_text((x, y), w, fontname="cmr", fontfile=REG, fontsize=SIZE)
+        x += fr.text_length(w, SIZE) + gap
+dd.save(OUT + ".tmp", garbage=3, deflate=True); dd.close(); os.replace(OUT + ".tmp", OUT)
+print("profile and journal line updated")
 
 # Step 2 (his request, 2026-11): move the 12-participant trial bullet above the 5-bar robot bullets on page 1.
 # Swap two vertical bands of the page by redacting them and redrawing them (as vector content) in the new order.
