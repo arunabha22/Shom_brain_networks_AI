@@ -96,3 +96,5 @@
 - My art Instagram: surreal_art_engine. GitHub: github.com/arunabha22.
 - EMG (12 participants) = exoskeleton study. 5-bar robot study (6 participants) = arm position data with Qualisys, no EMG.
 - Cover letters: do not write "willing to learn German" (CV Languages line only).
+- Willing to relocate to the Netherlands (will apply for a Dutch permit); no Dutch.
+- Built small hexapods in 2017; Bachelor's project used servo motors; Master's: pneumatic muscles and pressure valves.

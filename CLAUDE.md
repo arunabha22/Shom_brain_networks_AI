@@ -111,7 +111,7 @@
   Technologies grant for the Bachelor's exoskeleton was through TATA Technologies "Prayatna".
 - Languages: list Danish ("willing to learn") ONLY when the company/job is in Denmark; leave it out otherwise.
 - He is willing to relocate to France (confirmed 2026-11), to Lausanne, Switzerland (confirmed 2026-11) and to
-  Germany (confirmed 2026-11). No French,
+  Germany (confirmed 2026-11) and to the Netherlands (confirmed 2026-11; he will apply for a Dutch permit). No Dutch. No French,
   but willing to learn (say so for French jobs).
 - His own wording (2026-11): exoskeleton parts were optimised with the GA, designed in SolidWorks, 3D printed for
   initial testing, then MANUFACTURED (do not say he machined them himself in the PhD); torque/force sensors were
@@ -120,7 +120,9 @@
   silicone-based, and he worked in a team of 4 (electronics and mechanical engineers) on the LabVIEW control
   architecture.
 - Bachelor's arm exoskeleton and exo glove used motor assistance with Arduino-based control and manual switching
-  (his words, 2026-11).
+  (his words, 2026-11). The Bachelor's project used SERVO motors.
+- He built small hexapods in 2017 (not much since). Master's: hands-on experience with pneumatic muscles and pressure
+  valves (his words, 2026-11).
 - Bachelor's capstone: an arm exoskeleton AND an exo glove for the human arm, funded by a TATA Technologies grant
   under the "Prayatna Innovation Fund"; won Best Major Project in the department.
 - Start date (his words, 2026-11): he can start as soon as possible, but needs time to apply for a visa and relocate.
