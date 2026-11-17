@@ -149,5 +149,6 @@
   and just mention that in one line, offering a no-photo copy.
 - Keep the CV headline under the name short (e.g. "Mechanical Design Engineer") so no header line runs into the photo.
 - Exoskeleton energy numbers (his words, 2026-11-17): about 20% motor energy saving WITH a human wearing it (with load);
-  40-50% WITHOUT a human, with a different spring. The ">25%" figure in older documents is under review: until he
-  confirms where it comes from, in interviews say "about 20% with a person, 40-50% on the bench with a different spring".
+  40-50% WITHOUT a human, with a different spring. Keep ">25%" in CVs and letters (his decision, 2026-11-17): some
+  participants saved over 25%, and with the different spring it was 25%. If asked in an interview, explain the range:
+  about 20% on average with a person and load, over 25% for some participants, 40-50% on the bench without a person.
