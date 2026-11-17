@@ -46,3 +46,20 @@ meta.update(title="Arunabha Majumder CV", author="Arunabha Majumder", creator="A
 d.set_metadata(meta)
 d.save(OUT, garbage=3, deflate=True)
 print("saved", OUT, "last baseline", round(y, 1))
+
+# Step 2 (his request, 2026-11): move the 12-participant trial bullet above the 5-bar robot bullets on page 1.
+# Swap two vertical bands of the page by redacting them and redrawing them (as vector content) in the new order.
+src = pymupdf.open(OUT)
+dst = pymupdf.open(OUT)
+pg = dst[0]
+X0, X1 = 40.0, 556.0
+TOP, MID, BOT = 417.6, 494.4, 532.6          # 5-bar + stiffness bullets = [TOP, MID); 12-participant bullet = [MID, BOT)
+pg.add_redact_annot(pymupdf.Rect(X0, TOP, X1, BOT), fill=(1, 1, 1))
+pg.apply_redactions(images=pymupdf.PDF_REDACT_IMAGE_NONE)
+h2 = BOT - MID
+pg.show_pdf_page(pymupdf.Rect(X0, TOP, X1, TOP + h2), src, 0, clip=pymupdf.Rect(X0, MID, X1, BOT))
+pg.show_pdf_page(pymupdf.Rect(X0, TOP + h2, X1, BOT), src, 0, clip=pymupdf.Rect(X0, TOP, X1, MID))
+dst.save(OUT + ".tmp", garbage=3, deflate=True)
+src.close(); dst.close()
+os.replace(OUT + ".tmp", OUT)
+print("reordered bullets on page 1")
