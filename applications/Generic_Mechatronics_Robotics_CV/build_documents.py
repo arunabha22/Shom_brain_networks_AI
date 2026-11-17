@@ -59,7 +59,7 @@ def cv():
             P("<b>Mechanics:</b> mechanisms, kinematic, torque and force calculations, Jacobian-based force "
               "estimation, worm gears, springs, GA optimisation", size=8.7, after=2.5),
             P("<b>Mechatronics:</b> motors, encoders, force/torque sensors, pneumatic muscles, Arduino, PID "
-              "control (anti-windup), MATLAB/Simulink, LabVIEW, Qualisys", size=8.7, after=2.5),
+              "control (anti-windup), MATLAB/Simulink, LabVIEW, Python (basic), Qualisys", size=8.7, after=2.5),
             P("<b>Art and design:</b> hand sketching, painting, Adobe Illustrator, Photoshop, Procreate", size=8.7,
               after=0),
         ] + sec("Achievements") + [
