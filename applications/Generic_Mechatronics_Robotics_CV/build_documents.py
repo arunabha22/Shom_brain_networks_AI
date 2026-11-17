@@ -14,7 +14,7 @@ from reportlab.platypus import (BaseDocTemplate, SimpleDocTemplate, Frame, PageT
 # German = "willing to learn" only, no gap talk; GATE + Study Abroad heading + portfolio; letter ends with
 # innovative ideas. Files named "AM Mechatronics Robotics ...".
 OUT = os.path.dirname(os.path.abspath(__file__)) + "/"
-PHOTO = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "/assets/photo.jpeg"
+PHOTO = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "/assets/photo_blue_bg_crop.jpg"
 ACC = HexColor("#1F4E79"); ACC2 = HexColor("#2E75B6"); GREY = HexColor("#3A3A3A"); BLACK = HexColor("#000000")
 PANEL = HexColor("#EEF3F8")
 W, H = A4; M = 1.2 * cm; GAP = 0.7 * cm; HEAD_H = 3.5 * cm

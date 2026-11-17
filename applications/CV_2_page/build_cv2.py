@@ -109,3 +109,14 @@ dst.save(OUT + ".tmp", garbage=3, deflate=True)
 src.close(); dst.close()
 os.replace(OUT + ".tmp", OUT)
 print("reordered bullets on page 1")
+
+# Step 3 (his request, 2026-11): use the new photo (blue background), cropped to the same 1043x1295 frame.
+NEWPHOTO = os.path.join(os.path.dirname(HERE), "assets", "photo_blue_bg_crop.jpg")
+dd = pymupdf.open(OUT)
+pg = dd[0]
+done = set()
+for img in pg.get_images(full=True):
+    if img[0] not in done and img[2] == 1043:
+        pg.replace_image(img[0], filename=NEWPHOTO); done.add(img[0])
+dd.save(OUT + ".tmp", garbage=3, deflate=True); dd.close(); os.replace(OUT + ".tmp", OUT)
+print("photo replaced", done)
