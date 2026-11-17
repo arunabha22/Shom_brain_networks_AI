@@ -155,3 +155,7 @@
 - Exoskeleton arm cuff (his words, 2026-11-17): adjustable. A rigid hard base carries the arm (holds it for overhead
   work); a hinged (flip) upper part closes over the arm with straps and locks it; the cuff slides along the arm and
   locks at different positions to fit different arm sizes.
+- Assist-as-Needed details (his words, 2026-11-17): the AAN controller itself was built long ago by another professor.
+  The team of 3 built the GUI and test setup around it: a Fourier fit of each participant's own arm trace becomes the
+  controller's reference, the controller learns, then data is collected (data logged to a memory card). His part:
+  the Fourier fit equations and defining what the GUI should do. Still never say he developed the AAN controller.
