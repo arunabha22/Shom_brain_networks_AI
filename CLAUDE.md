@@ -159,3 +159,5 @@
   The team of 3 built the GUI and test setup around it: a Fourier fit of each participant's own arm trace becomes the
   controller's reference, the controller learns, then data is collected (data logged to a memory card). His part:
   the Fourier fit equations and defining what the GUI should do. Still never say he developed the AAN controller.
+- Relocation to Prague, Czech Republic (REVEL, 2026-11-17): he plans to move (needs a visa; the visa appointment is
+  likely in Copenhagen while he lives in Aalborg). No Czech.
