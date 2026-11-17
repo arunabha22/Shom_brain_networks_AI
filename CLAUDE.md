@@ -98,6 +98,7 @@
   short CVs (Education or letters only).
 - Study abroad stay at the National University of Singapore (NUS) during the PhD, Sep-Nov 2025 (3 months).
   Mention only as one line under Education; no project or results to claim; never invent work done there.
+  His words (2026-11): it was INDEPENDENT RESEARCH, from September to the end of November 2025.
 - References (PERMANENT RULE): every CV/resume gets a References section with these two referees (he has their
   recommendation letters):
   1. Shaoping Bai, PhD, Professor, Department of Materials and Production, Aalborg University, sbh@mp.aau.dk

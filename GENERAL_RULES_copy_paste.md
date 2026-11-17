@@ -98,3 +98,4 @@
 - Cover letters: do not write "willing to learn German" (CV Languages line only).
 - Willing to relocate to the Netherlands (will apply for a Dutch permit); no Dutch.
 - Built small hexapods in 2017; Bachelor's project used servo motors; Master's: pneumatic muscles and pressure valves.
+- NUS study abroad (Sep to end of Nov 2025) was independent research during my PhD.
