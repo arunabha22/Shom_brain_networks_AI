@@ -103,3 +103,6 @@
   40-50% WITHOUT a human, with a different spring. Keep ">25%" in CVs and letters (his decision, 2026-11-17): some
   participants saved over 25%, and with the different spring it was 25%. If asked in an interview, explain the range:
   about 20% on average with a person and load, over 25% for some participants, 40-50% on the bench without a person.
+- Exoskeleton arm cuff (his words, 2026-11-17): adjustable. A rigid hard base carries the arm (holds it for overhead
+  work); a hinged (flip) upper part closes over the arm with straps and locks it; the cuff slides along the arm and
+  locks at different positions to fit different arm sizes.
