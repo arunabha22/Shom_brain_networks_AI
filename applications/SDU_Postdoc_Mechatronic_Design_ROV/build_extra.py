@@ -36,45 +36,32 @@ def research_statement():
     s += [h2("My research so far"), para(
         "My research is about designing, building and testing actuated systems that work with the human body. In my "
         "PhD at Aalborg University I designed a hybrid shoulder exoskeleton, where a variable stiffness mechanism, "
-        "pretensioned by a worm gear transmission, works in parallel with a 6 Nm motor. I optimised the mechanism "
-        "with a genetic algorithm (diameter, spring stiffness and pretension force), modelled it in SolidWorks, 3D "
-        "printed the first parts for testing and had the final parts manufactured. I integrated the motor, encoder "
-        "and force/torque sensors and measured its stiffness on a physical test setup. The design uses over 25% less "
-        "motor energy and won the Best Paper Award at IFToMM ISRM 2026."), para(
+        "pretensioned by a worm gear transmission, works in parallel with a 6 Nm motor. I optimised it with a genetic "
+        "algorithm, modelled it in SolidWorks, 3D printed and then manufactured the parts, integrated the motor, "
+        "encoder and force/torque sensors and measured its stiffness on a physical test setup. It won the Best Paper "
+        "Award at IFToMM ISRM 2026."), para(
         "I also designed and modelled a novel 5-bar planar parallel robot with variable stiffness mechanisms (VSM), "
-        "estimated its stiffness with less than 10% error and quantified human arm impedance. Force was estimated "
-        "from the variable stiffness actuators and the robot's Jacobian. In the arm impedance study (6 participants) "
-        "Qualisys cameras recorded arm position data, and I implemented an Arduino-based trigger to sync the robot's "
-        "motion with the recording. In the exoskeleton study I collected EMG data from 12 participants with Qualisys."),
-        para(
-        "Before my PhD, at CSIR-CMERI in India, I fabricated silicone pneumatic artificial muscles for a soft exosuit in "
-        "a team of four and designed the outer PID loop, with integral anti-windup and error nonlinearisation, of a "
-        "neural network-based gain-scheduled controller in MATLAB/Simulink, implemented in LabVIEW (0.3 to 0.78% "
-        "error, IEEE CONECCT 2022).")]
+        "estimated its stiffness with less than 10% error and quantified human arm impedance, using Qualisys data "
+        "synced to the robot with an Arduino-based trigger. In my Master's I fabricated silicone pneumatic muscles and "
+        "designed the outer PID loop, with integral anti-windup and error nonlinearisation, of their controller "
+        "(IEEE CONECCT 2022).")]
     s += [h2("How I work"), para(
-        "I start with a hand sketch and simple calculations, move to CAD, and build a first prototype as early as "
-        "possible. Then I test it on a real setup, measure what happens, and change the design. I trust measurements "
-        "more than my first guess: my exoskeleton saved much more energy on the bench than with people wearing it, and "
-        "that gap told me where the design really stood. I like research that ends in working hardware.")]
+        "I start with a hand sketch and simple calculations, move to CAD and build a first prototype early. Then I "
+        "test it on a real setup, measure what happens and change the design. I like research that ends in working "
+        "hardware.")]
     s += [h2("What I would like to work on at CIM"), para(
-        "Subsea robots face the same core questions as my research, only in a harder place: how to make actuators "
-        "and transmissions that are efficient, reliable and testable. These are ideas I would like to explore with "
-        "the team:"),
-        para("<b>Energy-efficient actuation.</b> Combining passive elements such as springs with motors, as in my "
-             "exoskeleton, could reduce the energy that ROV joints or manipulators use, which matters for battery and "
-             "tether limits."),
+        "Subsea robots face many of the same questions as my research, only in a harder place. Ideas I would like to "
+        "explore with the team:"),
         para("<b>Compliance and variable stiffness.</b> A manipulator that can change its stiffness may handle contact "
-             "with objects and disturbances from currents more safely. My work on variable stiffness mechanisms and "
-             "stiffness estimation is a starting point for this."),
-        para("<b>Design optimisation with real constraints.</b> I used a genetic algorithm to choose mechanism "
-             "parameters. The same approach could help size transmissions, structures and enclosures where weight, "
-             "space and pressure all limit the design."),
-        para("<b>Testing and data.</b> Building test setups with synced data acquisition, as I did with Qualisys and "
-             "the 5-bar robot, to compare models with lab and field measurements.")]
+             "and disturbances from currents more safely. My work on variable stiffness mechanisms and stiffness "
+             "estimation is a starting point."),
+        para("<b>Design optimisation with real constraints.</b> The genetic algorithm approach I used could help size "
+             "transmissions, structures and enclosures where weight, space and pressure limit the design."),
+        para("<b>Testing and data.</b> Test setups with synced data acquisition, to compare models with lab and field "
+             "measurements.")]
     s += [h2("Where I want to grow"), para(
-        "I want to learn subsea engineering from the people at CIM, publish together with the team, and become a "
-        "researcher who can take a mechatronic system from idea to a tested platform. I would also be happy to help "
-        "students on their projects, as I did with Bachelor's students in Aalborg.")]
+        "I want to learn subsea engineering from the people at CIM, publish with the team and become a researcher who "
+        "can take a mechatronic system from idea to a tested platform.")]
     s += foot()
     return build(HERE + "AM SDU Research Statement.pdf", s, "AM SDU Research Statement")
 
