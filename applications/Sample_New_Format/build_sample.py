@@ -43,7 +43,8 @@ def cv():
             P("Mechatronics and Robotics Engineer", size=11.5, bold=True, color=BLACK, after=4),
             P("Aalborg, Denmark &nbsp;|&nbsp; +45 71 62 24 00", size=8.8, after=0.5),
             P("somrkmv1997@gmail.com &nbsp;|&nbsp; 97arunabhasit027@gmail.com", size=8.8, after=0.5),
-            P("Portfolio: arunabha22.github.io/arunabha-majumder", size=8.8, after=0.5),
+            P("Portfolio: <link href='https://arunabha22.github.io/arunabha-majumder/' color='#2E75B6'>"
+              "<u>arunabha22.github.io/arunabha-majumder</u></link>", size=8.8, after=0.5),
             P("LinkedIn: linkedin.com/in/arunabha-majumder-681264107", size=8.8, after=0)]
     left = sec("Education", first=True) + \
         item("PhD, Mechatronics and Robotics", "Aalborg University | 2023 - present<br/>Thesis expected March") + \
@@ -77,17 +78,16 @@ def cv():
               after=0)]
 
     right = sec("Profile", first=True) + [
-        P("I can help Laerdal develop and improve the mechatronic systems inside your patient simulators. For six "
-          "years I have built systems that move with the human body: silicone pneumatic muscles driven by pressure "
-          "valves, a motor and spring shoulder exoskeleton with sensors built in, and a 5-bar robot, each taken from "
-          "SolidWorks CAD to a tested prototype. A simulator that breathes and moves like a person is very close to "
-          "that work, and helping people train to save lives is why I want to do it.",
+        P("Mechatronics and robotics engineer who can design, build and improve pneumatic and motor-driven systems, "
+          "from SolidWorks CAD and 3D printed prototypes to sensor integration, control and testing. I want to build "
+          "products that work with and like the human body, and help them reach real users.",
           size=9.3, after=1, lead=1.32)
-    ] + sec("Why I fit this role") + [
-        bl("Pneumatics and valves: I built and controlled pneumatic muscles in my Master's."),
-        bl("Prototypes and experiments: I took my exoskeleton from 3D prints to a tested device."),
-        bl("Motors, sensors and control: I fitted a motor, encoder and force sensors on it."),
-        bl("Cross-disciplinary teams: I worked with electronics and mechanical engineers."),
+    ] + sec("Core Engineering Competencies") + [
+        bl("Pneumatic actuators and pressure valves (silicone pneumatic muscles)"),
+        bl("Mechatronic system integration: motors, encoders, force/torque sensors"),
+        bl("Prototyping, experiments and testing, including tests with people"),
+        bl("Mechanical design and CAD (SolidWorks), component selection, 3D printing"),
+        bl("Control and modelling: PID with anti-windup, MATLAB/Simulink, LabVIEW"),
     ] + sec("Experience") + role("Research Assistant", "Aalborg University, Denmark", "2023 - Present") + [
         bl("Designed a hybrid shoulder exoskeleton: a variable stiffness mechanism (spring pretensioned by a worm "
            "gear) working in parallel with a 6 Nm motor; together they give the torque needed to lift the arm. It uses "
@@ -161,10 +161,10 @@ PARAS = [
 
 def letter():
     path = OUT + "AM Laerdal Cover Letter (sample new format).pdf"
-    head = [P("Laerdal Medical, Stavanger &nbsp;|&nbsp; Cybernetics &amp; Robotics Engineer (req3238)", size=9.5,
-              after=6),
-            P("<b>%s</b>" % TITLE, size=12.5, color=ACC, after=4, lead=1.25),
+    head = [P(NAME, size=22, bold=True, color=ACC, after=3, lead=1.1),
+            P(TITLE, size=11.5, bold=True, color=ACC2, after=4, lead=1.25),
             HRFlowable(width="100%", thickness=1.1, color=ACC2, spaceBefore=2, spaceAfter=12),
+            P("<b>Application for Cybernetics &amp; Robotics Engineer (req3238)</b>", size=11.5, color=BLACK, after=8),
             P("Dear Fredrik,", size=10.5, color=BLACK, after=7)]
     body = [P(t, size=10.3, color=BLACK, after=8, lead=1.36) for t in PARAS] + [
         Spacer(0, 4), P("Best regards,", size=10.3, color=BLACK, after=2),
