@@ -198,3 +198,17 @@ Cover letter:
   finishing the thesis.
 - Then "Thank you for your time. I look forward to hearing from you." / "Best regards," / his name, and ONE small
   contact line under the name (phone | both emails | portfolio).
+
+## ATS rules (his approval, 2026-11-18, after the Reddit ATS post)
+- KEEP the two-column design (his order). Do not switch to single-column unless he asks.
+- Headline under the name: keep the approved headline. Change it to the exact job title ONLY when he says OK.
+- Keywords: reuse the job ad's exact words in Core Engineering Competencies and bullets ONLY where they truly match
+  his experience and skills. If an ad keyword does not match his real experience, TELL HIM first and ask before
+  adding it. Never keyword-stuff, never hidden text.
+- One date format everywhere in a document (currently years, e.g. "2023 - Present").
+- Standard section names only (Profile, Core Engineering Competencies, Experience, Education, Skills, Publications,
+  Languages, References); contact info in the page body, never in a header/footer; no icons or emojis.
+- Known ATS risk (tested 2026-11-18): text extracted in stream order reads cleanly column by column, but layout-based
+  readers (e.g. pdftotext) mix the two columns line by line; a wider gutter did not fix it reliably. If a big company
+  portal (Workday, Taleo, iCIMS) is used, mention this risk to him in one line and offer a plain copy; do not make one
+  unless he asks.
