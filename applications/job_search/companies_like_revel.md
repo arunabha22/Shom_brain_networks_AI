@@ -27,7 +27,7 @@ not a job score. Denmark first, then the rest of Europe.
 | Ottobock (incl. Paexo) | Duderstadt / Berlin, DE | Prosthetics, orthotics and industrial exoskeletons | Already applied (open application, actuator research roles seen) | High |
 | German Bionic | Augsburg / Berlin, DE | Powered back exoskeletons (insolvency 2025, bought by Archimedes Partners 2026: check status) | Active exoskeletons with motors | Medium |
 | Laevo | Netherlands | Passive back and shoulder exoskeletons | Spring-based shoulder support | Medium |
-| Skelex | Rotterdam / The Hague, NL | Passive shoulder exoskeletons for overhead work | Very close to his shoulder exoskeleton | High |
+| Skelex | Rotterdam / The Hague, NL | Passive shoulder exoskeletons for overhead work | Very close to his shoulder exoskeleton. Duncan Treffers replied 18 Nov 2026: no openings now, new positions planned mid 2027; contact again then | High |
 | ABLE Human Motion | Barcelona, ES | Light walking exoskeleton for rehab | Medical exoskeleton design | Medium |
 | Marsi Bionics | Madrid, ES | Pediatric walking exoskeletons | Exoskeleton mechanisms + actuators | Medium |
 | Hocoma (DIH) | Volketswil, CH | Rehab robots (Lokomat, ArmeoPower) | Upper-limb rehab robotics like his Bachelor's project | Medium |
