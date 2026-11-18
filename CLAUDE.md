@@ -164,3 +164,5 @@
 - Master's soft exosuit / pneumatic muscle project (his words, 2026-11-18): it is under a patent, so its details
   cannot be fully disclosed. In interviews explain only the general principle of pneumatic muscles and his role;
   never add design details of the exosuit or muscles to documents beyond what is already published (IEEE CONECCT 2022).
+- Replies to people who have already seen his CV/portfolio (his order, 2026-11-18): do NOT re-explain his exoskeleton
+  or projects in detail; keep the reply short and point to what they already have.
