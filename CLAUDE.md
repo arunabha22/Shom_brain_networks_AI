@@ -161,3 +161,6 @@
   the Fourier fit equations and defining what the GUI should do. Still never say he developed the AAN controller.
 - Relocation to Prague, Czech Republic (REVEL, 2026-11-17): he plans to move (needs a visa; the visa appointment is
   likely in Copenhagen while he lives in Aalborg). No Czech.
+- Master's soft exosuit / pneumatic muscle project (his words, 2026-11-18): it is under a patent, so its details
+  cannot be fully disclosed. In interviews explain only the general principle of pneumatic muscles and his role;
+  never add design details of the exosuit or muscles to documents beyond what is already published (IEEE CONECCT 2022).
