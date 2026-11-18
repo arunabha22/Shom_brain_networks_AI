@@ -117,3 +117,8 @@
   never add design details of the exosuit or muscles to documents beyond what is already published (IEEE CONECCT 2022).
 - Replies to people who have already seen his CV/portfolio (his order, 2026-11-18): do NOT re-explain his exoskeleton
   or projects in detail; keep the reply short and point to what they already have.
+- Skelex follow-up plan (his order, 2026-11-18): Duncan Treffers (d.treffers@skelex.com, cc Gert Maass g.maass@skelex.com)
+  said no openings now, new positions planned mid 2027. In the FIRST WEEK OF JUNE 2027, if he has no job yet, he emails
+  Duncan again with an updated CV. Draft: applications/Skelex_Follow_Up/email_draft_june_2027.md (also a Gmail draft in
+  that thread). Scheduled tasks: one-shot reminder 1 Jun 2027 10:00 CET (push + email) and a monthly Skelex job check
+  (3rd of each month). Never send the email without his OK.
