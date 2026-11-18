@@ -75,14 +75,14 @@
   "willing to learn German" (confirmed 2026-11). In COVER LETTERS do not write "willing to learn German" at all
   (his order, 2026-11); keep it only in the CV Languages line.
 - Always include "GATE qualified" (Achievements) and a Study Abroad heading (NUS, Sep-Nov 2025) on CVs, and the
-  portfolio link. In cover letters, end with a paragraph saying he is keen to bring innovative ideas.
+  portfolio link. In cover letters, use the new closing ("I would be excited to bring ... new ideas ..."), see NEW DOCUMENT FORMAT.
 - No gap/apology paragraphs in cover letters unless he asks.
 - The exoskeleton was NOT tested in SolidWorks. Its stiffness (how much stiffness it can provide) was measured on a
   PHYSICAL test setup. Never write that exoskeleton parts were checked with SolidWorks stiffness analysis.
   "Stiffness analysis in SolidWorks" may appear only as a general skill (he has done it before), never tied to the
   exoskeleton. Never write "FEA"; no Abaqus/Ansys/HyperWorks claims.
 - He DID integrate the motor, encoder and force sensors on the exoskeleton. He DID teach university courses and
-  supervise Bachelor's students (2023-2025).
+  supervise Bachelor's students (2023-2025), but do NOT put teaching in CVs anymore (his order, 2026-11-18).
 - Biomechanics study: Arunabha did the data collection (12 participants), not the analysis. He recorded EMG with the
   Qualisys data acquisition system.
 - EMG vs position (his correction, 2026-11): the EMG data (12 participants) came from the EXOSKELETON study. The 5-bar
@@ -171,3 +171,30 @@
   Duncan again with an updated CV. Draft: applications/Skelex_Follow_Up/email_draft_june_2027.md (also a Gmail draft in
   that thread). Scheduled tasks: one-shot reminder 1 Jun 2027 10:00 CET (push + email) and a monthly Skelex job check
   (3rd of each month). Never send the email without his OK.
+
+## NEW DOCUMENT FORMAT (his approval, 2026-11-18) - use for ALL new CVs and cover letters
+Template builder: applications/Sample_New_Format/build_sample.py (Laerdal sample). Two-column design with photo.
+CV:
+- Length: 2 pages ONLY for R&D positions (job title or ad clearly R&D / Research / Development engineering);
+  every other job gets 1 page.
+- Profile: SHORT (2-3 lines), about what he can contribute and how, written so it fits the job's asks; NO company
+  name in the profile (he may reuse the CV); end with one short motivation line.
+- Directly under the profile: section "Core Engineering Competencies" with about 5 one-line items picked to match
+  the job description (only real skills). No "Why I fit this role" section.
+- Experience: max 5 bullets per role. Do NOT list teaching/supervising in CVs anymore (his words: no one cares).
+- Portfolio link in the header in colour (blue, underlined, clickable).
+- Whole CV should make them want to invite him to an interview.
+Cover letter:
+- No contact block at the top. Top: his name big; under it a job-specific title line, smaller, in blue
+  (e.g. "Mechatronics engineer with 6 years of experience building pneumatic and motor-driven systems that move
+  with the human body"; change it for every job; "6 years" = research since 2019, approved).
+- Then bold, slightly bigger: "Application for <job title>". Then "Dear <named person>," or "Dear Hiring Team,".
+- Paragraph 1: who he is and why he feels qualified ("I feel qualified to ... because I did ...").
+- Paragraph 2: what motivated him to apply (it is about building a connection, not only about him); fine arts +
+  graphic design go here when they fit.
+- Paragraph 3: "I would be excited to bring my <experience>, <approach> and new ideas to your <team>." ("excited"
+  is allowed in this one closing line; this replaces the old "innovative ideas" ending.)
+- Paragraph 4: final stage of PhD; research done; available to move into an industrial engineering role while
+  finishing the thesis.
+- Then "Thank you for your time. I look forward to hearing from you." / "Best regards," / his name, and ONE small
+  contact line under the name (phone | both emails | portfolio).
