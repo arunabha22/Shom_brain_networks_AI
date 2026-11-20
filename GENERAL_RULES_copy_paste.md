@@ -163,3 +163,8 @@ Cover letter:
   readers (e.g. pdftotext) mix the two columns line by line; a wider gutter did not fix it reliably. If a big company
   portal (Workday, Taleo, iCIMS) is used, mention this risk to him in one line and offer a plain copy; do not make one
   unless he asks.
+- Workshop facts (his words, 2026-11-20): in his Bachelor's he used a LATHE and did some WELDING. Laser cutting:
+  he had a technician cut parts (never say he operated a laser cutter). No Creo. He has NOT built a gripper, but has
+  ideas for one with silicone and mechanical design (may be mentioned as an idea only). His exoskeletons may be
+  described as proof-of-concept (POC) prototypes. Control systems (PID with integral anti-windup and error
+  nonlinearisation) are research topics he has worked on.
