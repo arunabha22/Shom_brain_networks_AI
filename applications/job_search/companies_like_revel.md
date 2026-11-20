@@ -67,3 +67,26 @@ not a job score. Denmark first, then the rest of Europe.
 1. Start with the "High" ones: MANUS, SenseGlove, Rokoko, Bioservo, TWIICE, MyoSwiss, Auxivo, Skelex, Enchanted Tools, NEURA.
 2. Check their careers pages. If no fitting role is open, a short open-application email works well for small companies.
 3. We can add these to the auto-apply tool we build together.
+
+## 5. More companies suggested 20 Nov 2026 (not yet checked for open roles)
+
+| Company | Where | Why it fits him | Fit |
+|---|---|---|---|
+| Festo | Esslingen, DE | Pneumatics and fluidic muscles (like his Master's), Bionic Learning Network prototypes | High |
+| LINAK | Nordborg, DK | Linear actuators and motion systems; mechanical/mechatronic design and test | High |
+| SENSODRIVE | Wessling (Munich), DE | DLR spin-off: force-sensing drives and rehab/haptic robots | High |
+| Danish Technological Institute (DTI) Robotics | Odense / Taastrup, DK | Applied robotics R&D, prototypes for industry, English-friendly | High |
+| Grundfos | Bjerringbro (near Aalborg), DK | Pumps and motors; R&D, test and mechanical design roles | Medium |
+| GomSpace | Aalborg, DK | Nanosatellite hardware; mechanical design and testing | Medium |
+| Sky-Watch | Stoevring (near Aalborg), DK | Drones; mechanical design and prototyping | Medium |
+| Welltec | Allerod, DK | Downhole robots; mechatronic design under pressure | Medium |
+| Agrointelli | Aarhus, DK | Field robots; mechanical design and test | Medium |
+| SCHUNK / Zimmer Group | Lauffen / Rheinau, DE | Grippers and end-effectors (his gripper ideas) | Medium |
+| KUKA | Augsburg, DE | Robot arms, R&D and test roles | Medium |
+| Brainlab | Munich, DE | Medical technology and surgical robotics | Medium |
+| CMR Surgical | Cambridge, UK | Surgical robot; mechanical and test engineers | Medium |
+| Moon Surgical | Paris, FR | Surgical robotics startup | Medium |
+| Fraunhofer IPA | Stuttgart, DE | Applied robotics and exoskeleton research (research engineer roles) | High |
+| IIT (Italian Institute of Technology) | Genoa, IT | Rehab robots, exoskeletons, soft robotics; research engineer/postdoc roles | High |
+| ETH Zurich / EPFL rehab and soft robotics labs | Zurich / Lausanne, CH | Exoskeleton and wearable robotics research | High |
+| TU Delft BioMechanical Engineering | Delft, NL | Exoskeletons, prosthetics, soft robotics research | Medium |
