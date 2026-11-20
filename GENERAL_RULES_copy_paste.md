@@ -169,3 +169,6 @@ Cover letter:
   ideas for one with silicone and mechanical design (may be mentioned as an idea only). His exoskeletons may be
   described as proof-of-concept (POC) prototypes. Control systems (PID with integral anti-windup and error
   nonlinearisation) are research topics he has worked on.
+- Interview reminders (his order, 2026-11-20): for EVERY interview, always schedule a reminder (send_later, push)
+  on the DAY BEFORE the interview, with the cheat sheet and an offer to run a mock interview. NXAI: reminder set for
+  Sun 22 Nov 2026 11:00 CET (interview Mon 23 Nov 13:30 CET).
