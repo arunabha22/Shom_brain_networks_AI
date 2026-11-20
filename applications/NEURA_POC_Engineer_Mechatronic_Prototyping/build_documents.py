@@ -55,7 +55,7 @@ def cv():
         sec("Study Abroad") + item("National University of Singapore", "Sep - Nov 2025 (during my PhD)",
                                    0) + \
         sec("Skills") + [
-            P("<b>CAD and prototyping:</b> SolidWorks (CSWA), drawings, 3D printing, rapid prototyping, lathe and "
+            P("<b>CAD and prototyping:</b> SolidWorks (CSWA), drawings, 3D printing (Ultimaker Cura, Bambu Lab), lathe and "
               "welding (Bachelor's), Fusion 360 (basic, last used 2019)", size=8.7, after=2.5),
             P("<b>Mechanics:</b> mechanisms, torque and force calculations, Jacobian-based force estimation, "
               "springs, GA optimisation", size=8.7, after=2.5),
@@ -84,7 +84,7 @@ def cv():
     ] + sec("Core Engineering Competencies") + [
         bl("Mechanical design and CAD (SolidWorks, CSWA) for robotic prototypes and mechanisms"),
         bl("Building and testing robotic proof-of-concept prototypes: exoskeletons and a 5-bar robot"),
-        bl("Rapid prototyping: 3D printing, laser-cut parts with the workshop, lathe and welding"),
+        bl("Rapid prototyping: 3D printing (Ultimaker Cura, Bambu Lab), lathe and welding"),
         bl("Robotics basics: sensors, actuators and control (PID with anti-windup)"),
         bl("Problem solving and teamwork with electronics and mechanical engineers, in English"),
     ] + sec("Experience") + role("Research Assistant", "Aalborg University, Denmark", "2023 - Present") + [
