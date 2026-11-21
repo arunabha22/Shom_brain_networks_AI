@@ -111,6 +111,7 @@
 - Achievements he confirmed: GATE exam qualified (no year/score given; never invent one). The INR 100,000 TATA
   Technologies grant for the Bachelor's exoskeleton was through TATA Technologies "Prayatna".
 - Languages: list Danish ("willing to learn") ONLY when the company/job is in Denmark; leave it out otherwise.
+  For German companies/jobs, ALWAYS list "German (willing to learn)" on the CV (his order, 2026-11-21).
 - He is willing to relocate to France (confirmed 2026-11), to Lausanne, Switzerland (confirmed 2026-11) and to
   Germany (confirmed 2026-11) and to the Netherlands (confirmed 2026-11; he will apply for a Dutch permit). No Dutch. No French,
   but willing to learn (say so for French jobs).
@@ -221,3 +222,5 @@ Cover letter:
 - Interview reminders (his order, 2026-11-20): for EVERY interview, always schedule a reminder (send_later, push)
   on the DAY BEFORE the interview, with the cheat sheet and an offer to run a mock interview. NXAI: reminder set for
   Sun 22 Nov 2026 11:00 CET (interview Mon 23 Nov 13:30 CET).
+- Languages for GERMAN companies/jobs (his order, 2026-11-21): ALWAYS add "German (willing to learn)" to the CV
+  Languages line (like Danish for Denmark). Still never write it in cover letters.

@@ -77,7 +77,7 @@ sbh@mp.aau.dk; 2) Lars Rosgaard Jensen, Associate Professor, Head of Section (Ph
 Head of Labs, same department; 3) Anderson de Souza Castelo Oliveira, Associate Professor, same department.
 Never invent emails. Do not name referees in cover letters.
 
-Languages: English (C1), Bengali (native), Hindi. Add "Danish (willing to learn)" ONLY for jobs in Denmark;
+Languages: English (C1), Bengali (native), Hindi. Add "Danish (willing to learn)" ONLY for jobs in Denmark; "German (willing to learn)" for German companies/jobs;
 "French (willing to learn)" for French jobs. Never write gap sentences about languages.
 Relocation: happy to move to Germany, France, the Netherlands (will apply for a permit), Lausanne (Switzerland) and
 Prague. Start date: as soon as possible, but I need time for the visa and moving; I can start alongside finishing

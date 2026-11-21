@@ -172,3 +172,5 @@ Cover letter:
 - Interview reminders (his order, 2026-11-20): for EVERY interview, always schedule a reminder (send_later, push)
   on the DAY BEFORE the interview, with the cheat sheet and an offer to run a mock interview. NXAI: reminder set for
   Sun 22 Nov 2026 11:00 CET (interview Mon 23 Nov 13:30 CET).
+- Languages for GERMAN companies/jobs (his order, 2026-11-21): ALWAYS add "German (willing to learn)" to the CV
+  Languages line (like Danish for Denmark). Still never write it in cover letters.
