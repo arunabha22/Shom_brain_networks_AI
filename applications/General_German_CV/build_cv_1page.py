@@ -68,7 +68,7 @@ def cv():
             P("Best Paper Award, IFToMM ISRM 2026", size=8.7, after=2), P("Best Major Project Award, 2019", size=8.7,
                                                                            after=2),
             P("TATA Technologies Prayatna grant", size=8.7, after=2), P("GATE qualified", size=8.7, after=0),
-        ] + sec("Languages") + [P("English (C1), Bengali (native), Hindi, German (willing to learn)", size=8.7,
+        ] + sec("Languages") + [P("English (C1), Bengali (native), Hindi", size=8.7,
                                   after=0)] + sec("References") + [
             P("<b>Prof. Shaoping Bai</b><br/>Aalborg University, sbh@mp.aau.dk", size=8.3, after=2.5),
             P("<b>Assoc. Prof. Lars Rosgaard Jensen</b><br/>Head of Section and Head of Labs, AAU", size=8.3,

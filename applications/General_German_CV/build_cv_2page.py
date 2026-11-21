@@ -69,7 +69,7 @@ def cv():
             P("Best Paper Award, IFToMM ISRM 2026", size=8.7, after=2), P("Best Major Project Award, 2019", size=8.7,
                                                                            after=2),
             P("TATA Technologies Prayatna grant", size=8.7, after=2), P("GATE qualified", size=8.7, after=0),
-        ] + sec("Languages") + [P("English (C1), Bengali (native), Hindi, German (willing to learn)", size=8.7,
+        ] + sec("Languages") + [P("English (C1), Bengali (native), Hindi", size=8.7,
                                   after=0)]
 
     right = [NextPageTemplate("p2")] + sec("Profile", first=True) + [
