@@ -226,3 +226,7 @@ Cover letter:
   Languages line (like Danish for Denmark). Still never write it in cover letters.
 - English test (his words, 2026-11-21): IELTS overall band 7. May be listed in the CV Languages line, e.g.
   "English (C1, IELTS 7.0)", especially for UK/visa-related applications.
+- New facts (his words, 2026-11-21): in his Bachelor's (2017-19) he did a strength test of the go-kart frame with
+  SolidWorks Simulation (write "strength analysis in SolidWorks Simulation"; still avoid the word "FEA" unless he
+  says otherwise). He designed the Efficycle trike (with the student team). The exoskeleton's manufactured parts
+  were ALUMINIUM. His PhD counts as design and fabrication experience. He is willing to move to the UK (London).
