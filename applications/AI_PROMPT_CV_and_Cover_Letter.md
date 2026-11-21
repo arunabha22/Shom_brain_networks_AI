@@ -63,10 +63,10 @@ Bachelor's:
 Skills: SolidWorks (CSWA), technical drawings, 3D printing, machining (Bachelor's only), Fusion 360 (basic, last
 used 2019), mechanisms, torque/force calculations, springs, worm gears, GA optimisation, motors, encoders,
 force/torque sensors, pneumatic muscles, pressure valves, Arduino, PID control (anti-windup), MATLAB/Simulink,
-LabVIEW, Python (basic), Qualisys. Art and design: hand sketching, painting, technical illustration, Adobe
+LabVIEW, Python (basic), Arduino programming in C/C++ (basic), basic wiring and soldering, BOMs, Qualisys. Art and design: hand sketching, painting, technical illustration, Adobe
 Illustrator, Photoshop, Procreate.
 NOT my skills (never claim): FEA/FEM (never write "FEA"), Abaqus/Ansys, force control, impedance/admittance
-control, PLC, ROS, C/C++, embedded firmware, Danish, Dutch, Czech, German (only "willing to learn").
+control, PLC, ROS, PCB design, embedded firmware beyond Arduino, Danish, Dutch, Czech, German (only "willing to learn").
 
 Publications (only these two): IFToMM ISRM 2026 (Best Paper Award) and IEEE CONECCT 2022. Never mention papers under
 review. Achievements: Best Paper Award ISRM 2026, Best Major Project Award 2019, TATA Prayatna grant, GATE

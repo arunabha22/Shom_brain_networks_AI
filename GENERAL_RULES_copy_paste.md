@@ -180,3 +180,6 @@ Cover letter:
   SolidWorks Simulation (write "strength analysis in SolidWorks Simulation"; still avoid the word "FEA" unless he
   says otherwise). He designed the Efficycle trike (with the student team). The exoskeleton's manufactured parts
   were ALUMINIUM. His PhD counts as design and fabrication experience. He is willing to move to the UK (London).
+- New facts (his words, 2026-11-21): basic C/C++ through Arduino coding (write "Arduino programming in C/C++
+  (basic)"); basic wiring and soldering; he made BOMs for his exoskeleton; he has an INDIAN driving licence
+  (not UK/EU). Still no PCB design, no embedded firmware beyond Arduino.
