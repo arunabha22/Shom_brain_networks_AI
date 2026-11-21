@@ -174,3 +174,5 @@ Cover letter:
   Sun 22 Nov 2026 11:00 CET (interview Mon 23 Nov 13:30 CET).
 - Languages for GERMAN companies/jobs (his order, 2026-11-21): ALWAYS add "German (willing to learn)" to the CV
   Languages line (like Danish for Denmark). Still never write it in cover letters.
+- English test (his words, 2026-11-21): IELTS overall band 7. May be listed in the CV Languages line, e.g.
+  "English (C1, IELTS 7.0)", especially for UK/visa-related applications.
