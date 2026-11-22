@@ -235,3 +235,6 @@ Cover letter:
   (not UK/EU). Still no PCB design, no embedded firmware beyond Arduino.
 - Go-Kart (2017) and Efficycle trike (2018) were SIDE PROJECTS during his BTech (his words, 2026-11-22), not part of
   the capstone. Label them as side projects (e.g. "Side projects during BTech: ...").
+- ALWAYS ASK FIRST (his order, 2026-11-22): before drafting ANY CV or cover letter, first ask him the relevant
+  questions (gaps vs the ad, skills he may have, page count, headline, language lines, cover letter needed, addressee,
+  relocation/visa) and wait for his answers. Do not draft until he answers.
