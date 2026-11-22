@@ -240,3 +240,11 @@ Cover letter:
   relocation/visa) and wait for his answers. Do not draft until he answers.
 - MATCH PERCENTAGE (his order, 2026-11-22): every time a new job comes in, show the match percentage (out of 100)
   with a short breakdown of what matches and what is missing, together with the questions, BEFORE drafting.
+- Manufacturing facts (his words, 2026-11-22): exoskeleton aluminium parts were CNC MACHINED by an external
+  manufacturer (he talked with the manufacturer) plus 3D printed parts. BTech: he worked with an external 3D printing
+  business that delivered parts; he did the wiring/connectors on the BTech project; sheet metal parts on the go-kart
+  (sometimes). Master's: hands-on experience with SILICONE CASTING/fabrication of the pneumatic muscles in the group
+  (design and technique were not his). Motor drivers: basic experience with Maxon ESCON drivers (did the first basic
+  wiring himself, with help from the internet). No NX, no Creo. Danish: willing to learn only.
+- CV design note (2026-11-22): he did not like the 2-page layout with a full-width plain page 2; use the two-column
+  layout with the shaded left panel on BOTH pages.
