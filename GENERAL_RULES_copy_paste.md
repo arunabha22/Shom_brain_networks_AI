@@ -215,3 +215,6 @@ Cover letter:
 - ROS 2 (his words, 2026-11-22): he had STARTED learning ROS 2, but paused when his supervisor decided to focus on
   finishing the final journal paper and the thesis. Write/say "started learning ROS 2" (beginner), never proficiency.
   (Still do not mention the journal under review in documents.)
+- ROS 2 (his words, 2026-11-22): he had started learning ROS 2 (beginner tutorials, a couple of videos) but paused
+  when his supervisor prioritised the final journal paper and thesis. Never claim ROS experience; he may say he started
+  learning ROS 2 and paused for the thesis.
