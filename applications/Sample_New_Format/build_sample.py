@@ -106,7 +106,7 @@ def cv():
            "controller in MATLAB/Simulink and implemented it in LabVIEW to drive the muscle (0.3 - 0.78% error)."),
         Spacer(0, 4),
     ] + role("Bachelor's Projects", "Siddaganga Institute of Technology, India", "2017 - 2019") + [
-        bl("Built an arm exoskeleton and exo glove for a paralysed arm (CAD, machining, assembly, testing), plus a "
+        bl("Built an arm exoskeleton and exo glove for a paralysed arm (CAD, assembly, testing), plus a "
            "Go-Kart and an Efficycle hybrid vehicle with student teams."),
     ] + sec("Publications") + [
         bl("Hybrid actuated shoulder exoskeleton, IFToMM ISRM 2026 (Springer), Best Paper Award."),

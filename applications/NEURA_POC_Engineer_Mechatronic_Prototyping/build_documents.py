@@ -106,7 +106,7 @@ def cv():
         Spacer(0, 4),
     ] + role("Bachelor's Projects", "Siddaganga Institute of Technology, India", "2017 - 2019") + [
         bl("Built a proof-of-concept arm exoskeleton and exo glove for a paralysed arm with servo motors and Arduino "
-           "control: CAD, lathe machining, welding, assembly and testing; plus a Go-Kart and an Efficycle with "
+           "control: CAD, wiring, assembly and testing; plus a Go-Kart and an Efficycle with "
            "student teams."),
     ] + sec("Publications") + [
         bl("Hybrid actuated shoulder exoskeleton, IFToMM ISRM 2026, Best Paper Award."),

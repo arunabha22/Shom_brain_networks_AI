@@ -105,7 +105,7 @@ def cv():
         Spacer(0, 4),
     ] + role("Bachelor's Projects", "Siddaganga Institute of Technology, India", "2017 - 2019") + [
         bl("Designed the Efficycle hybrid trike (2018) with a student team and checked our Go-Kart frame (2017) in "
-           "SolidWorks Simulation; built an arm exoskeleton and exo glove for a paralysed arm (lathe, welding, assembly)."),
+           "SolidWorks Simulation; built an arm exoskeleton and exo glove for a paralysed arm (CAD, assembly, testing)."),
     ] + sec("Publications") + [
         bl("Hybrid actuated shoulder exoskeleton, IFToMM ISRM 2026 (Best Paper); neural network-based control of a pneumatic muscle, IEEE CONECCT 2022."),
     ]

@@ -37,7 +37,9 @@
 ## Facts (never exaggerate)
 - PhD (Aalborg, 2023 – present): SolidWorks + 3D printing. NO FEA/FEM claimed. Fusion 360: he knows
   it a little and last used it in 2019 (confirmed 2026-11); list it only as "Fusion 360 (basic, last used 2019)", never as professional or substantial experience.
-- Machining and hands-on assembly belong to the Bachelor's capstone, not the PhD.
+- Bachelor's capstone exoskeleton (his correction, 2026-11-22): it had NO lathe/machined parts. NEVER write lathe,
+  machining or welding for the capstone. Lathe and welding were done during his BTech, but not on the capstone; list
+  them only as general Bachelor's skills. Capstone wording: CAD, wiring and connectors, assembly and testing.
 - Say "shoulder exoskeleton", never "wearable machines".
 - 5-bar planar parallel robot, EXACT wording to use (never reduce it to just "estimated force"): "Designed and
   modelled a novel 5-bar planar parallel robot with variable stiffness mechanisms (VSM), estimated its stiffness with

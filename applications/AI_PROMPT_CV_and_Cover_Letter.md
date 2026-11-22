@@ -56,11 +56,11 @@ Master's (CSIR-CMERI, soft exosuit project, under a patent, so no design details
 
 Bachelor's:
 - Upper-limb rehabilitation EXOSKELETON and an exo glove for a paralysed arm; servo motors, Arduino-based control
-  and manual switching; CAD, machining, assembly and testing. TATA Technologies Prayatna Innovation Fund grant
+  and manual switching; CAD, wiring, assembly and testing (NO lathe or machining on the capstone). TATA Technologies Prayatna Innovation Fund grant
   (INR 100,000); Best Major Project Award (department).
 - Go-Kart (2017) and Efficycle hybrid vehicle (2018) with student teams; small hexapod robots (2017).
 
-Skills: SolidWorks (CSWA), technical drawings, 3D printing, machining (Bachelor's only), Fusion 360 (basic, last
+Skills: SolidWorks (CSWA), technical drawings, 3D printing, lathe and welding (Bachelor's, not on the capstone), Fusion 360 (basic, last
 used 2019), mechanisms, torque/force calculations, springs, worm gears, GA optimisation, motors, encoders,
 force/torque sensors, pneumatic muscles, pressure valves, Arduino, PID control (anti-windup), MATLAB/Simulink,
 LabVIEW, Python (basic), Arduino programming in C/C++ (basic), basic wiring and soldering, BOMs, Qualisys. Art and design: hand sketching, painting, technical illustration, Adobe

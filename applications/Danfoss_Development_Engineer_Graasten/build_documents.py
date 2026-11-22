@@ -101,8 +101,8 @@ def cv():
     right2 = sec("Experience (continued)", first=True) + \
         role("Bachelor's Capstone and Side Projects", "Siddaganga Institute of Technology, India", "2017 - 2019") + [
         bl("Capstone: designed and built an upper-limb rehabilitation exoskeleton and an exo glove for a paralysed arm, "
-           "with servo motors and Arduino-based control. I did the CAD, wiring and connectors, lathe machining, "
-           "welding, assembly and testing, and worked with an external 3D printing business for parts (TATA "
+           "with servo motors and Arduino-based control. I did the CAD, wiring and connectors, assembly and "
+           "testing, and worked with an external 3D printing business for parts (TATA "
            "Technologies Prayatna grant; Best Major Project Award)."),
         bl("Side projects during my BTech: designed the Efficycle hybrid trike (2018) and built a Go-Kart (2017) with "
            "student teams, with sheet metal parts and a frame strength check in SolidWorks Simulation; small hexapod "

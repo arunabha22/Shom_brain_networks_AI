@@ -100,7 +100,7 @@ def cv():
            "controller in MATLAB/Simulink and implemented it in LabVIEW to drive the muscle (0.3 - 0.78% error)."),
         Spacer(0, 4),
     ] + role("Bachelor's Projects", "Siddaganga Institute of Technology, India", "2017 - 2019") + [
-        bl("Built an arm exoskeleton and exo glove for a paralysed arm: CAD, machining, assembly and testing."),
+        bl("Built an arm exoskeleton and exo glove for a paralysed arm: CAD, assembly and testing."),
         bl("Built a Go-Kart (2017) and an Efficycle hybrid vehicle (2018) with student teams."),
     ] + sec("Publications") + [
         bl("Hybrid actuated shoulder exoskeleton, IFToMM ISRM 2026 (Springer), Best Paper Award."),
@@ -154,7 +154,7 @@ PARAS = [
     "silicone-based pneumatic muscles and designed the outer PID loop, with integral anti-windup and error "
     "nonlinearisation, of a neural network-based gain-scheduled controller in MATLAB/Simulink and LabVIEW. For my "
     "Bachelor's project I built an arm exoskeleton and an exo glove for a paralysed arm, with Arduino-based motor "
-    "control, doing the CAD, machining and assembly myself. It won the Best Major Project Award and was funded by a "
+    "control, doing the CAD and assembly myself. It won the Best Major Project Award and was funded by a "
     "TATA Technologies Prayatna grant. I also "
     "hold a Senior Diploma in Fine Arts and do graphic design (Illustrator, Photoshop, Procreate), which helps me "
     "sketch ideas and explain designs clearly.",

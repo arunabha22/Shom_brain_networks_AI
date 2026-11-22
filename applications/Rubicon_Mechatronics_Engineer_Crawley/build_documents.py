@@ -105,7 +105,7 @@ def cv():
         Spacer(0, 4),
     ] + role("Bachelor's Projects", "Siddaganga Institute of Technology, India", "2017 - 2019") + [
         bl("Designed the Efficycle hybrid trike (2018) with a student team and checked our Go-Kart frame (2017) in "
-           "SolidWorks Simulation; built an arm exoskeleton and exo glove for a paralysed arm (lathe, welding, assembly)."),
+           "SolidWorks Simulation; built an arm exoskeleton and exo glove for a paralysed arm (CAD, wiring, assembly, testing)."),
     ] + sec("Publications") + [
         bl("Hybrid actuated shoulder exoskeleton, IFToMM ISRM 2026 (Best Paper); neural network-based control of a pneumatic muscle, IEEE CONECCT 2022."),
     ]
@@ -145,7 +145,7 @@ PARAS = [
     "the Best Paper Award at ISRM 2026. In my Master's I fabricated silicone pneumatic muscles and worked with "
     "pressure valves, and I designed the outer PID loop, with integral anti-windup and error nonlinearisation, that "
     "drove them. In my Bachelor's I built an arm exoskeleton with servo motors and Arduino control, where I wrote the "
-    "code in C/C++ and did the wiring, soldering, welding and lathe work myself.",
+    "code in C/C++ and did the wiring and connectors myself.",
     "What made me apply is the chance to own a machine from the first model to the moment it runs on a customer's "
     "production line. I like the mix of mechanics, pneumatics, electronics and code in one role, and I want to keep "
     "growing on the electronics side. I also hold a Senior Diploma in Fine Arts and do graphic design in Illustrator, "

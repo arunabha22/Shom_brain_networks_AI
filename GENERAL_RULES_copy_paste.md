@@ -198,3 +198,5 @@ Cover letter:
   wiring himself, with help from the internet). No NX, no Creo. Danish: willing to learn only.
 - CV design note (2026-11-22): he did not like the 2-page layout with a full-width plain page 2; use the two-column
   layout with the shaded left panel on BOTH pages.
+- Bachelor's capstone exoskeleton (his correction, 2026-11-22): NO lathe/machined parts. Never write lathe, machining
+  or welding for the capstone; lathe and welding were BTech skills used elsewhere (list only as general Bachelor's skills).

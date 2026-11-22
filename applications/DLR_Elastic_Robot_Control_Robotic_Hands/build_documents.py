@@ -109,7 +109,7 @@ def cv():
         Spacer(0, 4),
     ] + role("Bachelor's Projects", "Siddaganga Institute of Technology, India", "2017 - 2019") + [
         bl("Designed and built an upper-limb rehabilitation exoskeleton and an exo glove for a paralysed arm, with "
-           "servo motors and Arduino-based control: CAD, machining, assembly and testing (TATA Technologies Prayatna "
+           "servo motors and Arduino-based control: CAD, assembly and testing (TATA Technologies Prayatna "
            "grant; Best Major Project Award)."),
         bl("Built a Go-Kart (2017) and an Efficycle hybrid vehicle (2018) with student teams, and small hexapod "
            "robots (2017)."),
