@@ -259,3 +259,6 @@ Cover letter:
   hybrid mode (spring + motor), disengaged = motor-only mode. The 3D printed plastic clutch kept breaking under arm
   forces during prototype tests; instead of waiting for the manufacturer to redesign it, he switched to a bolt-locking
   system that locks at 8 angles (8 assistive conditions).
+- Availability (his words, 2026-11-22): his supervisor has given permission for him to leave the lab because his
+  experiments are done; only thesis writing remains. He can start as soon as the visa allows. He only has permission
+  to stay/work in Denmark, so jobs outside Denmark need visa support.
