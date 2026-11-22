@@ -188,3 +188,5 @@ Cover letter:
 - ALWAYS ASK FIRST (his order, 2026-11-22): before drafting ANY CV or cover letter, first ask him the relevant
   questions (gaps vs the ad, skills he may have, page count, headline, language lines, cover letter needed, addressee,
   relocation/visa) and wait for his answers. Do not draft until he answers.
+- MATCH PERCENTAGE (his order, 2026-11-22): every time a new job comes in, show the match percentage (out of 100)
+  with a short breakdown of what matches and what is missing, together with the questions, BEFORE drafting.
