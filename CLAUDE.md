@@ -233,3 +233,5 @@ Cover letter:
 - New facts (his words, 2026-11-21): basic C/C++ through Arduino coding (write "Arduino programming in C/C++
   (basic)"); basic wiring and soldering; he made BOMs for his exoskeleton; he has an INDIAN driving licence
   (not UK/EU). Still no PCB design, no embedded firmware beyond Arduino.
+- Go-Kart (2017) and Efficycle trike (2018) were SIDE PROJECTS during his BTech (his words, 2026-11-22), not part of
+  the capstone. Label them as side projects (e.g. "Side projects during BTech: ...").
