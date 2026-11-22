@@ -212,3 +212,6 @@ Cover letter:
 - Availability (his words, 2026-11-22): his supervisor has given permission for him to leave the lab because his
   experiments are done; only thesis writing remains. He can start as soon as the visa allows. He only has permission
   to stay/work in Denmark, so jobs outside Denmark need visa support.
+- ROS 2 (his words, 2026-11-22): he had STARTED learning ROS 2, but paused when his supervisor decided to focus on
+  finishing the final journal paper and the thesis. Write/say "started learning ROS 2" (beginner), never proficiency.
+  (Still do not mention the journal under review in documents.)
