@@ -200,3 +200,8 @@ Cover letter:
   layout with the shaded left panel on BOTH pages.
 - Bachelor's capstone exoskeleton (his correction, 2026-11-22): NO lathe/machined parts. Never write lathe, machining
   or welding for the capstone; lathe and welding were BTech skills used elsewhere (list only as general Bachelor's skills).
+- Exoskeleton facts (his words in mock interview, 2026-11-22): the parts were manufactured AND assembled in China
+  by the external manufacturer, from his BOM; all mechanical testing (stiffness tests) was done by him in Aalborg,
+  and he matched his mathematical model with the experimental data. The same Arduino-based trigger approach synced
+  the exoskeleton data with the Qualisys/EMG recording. The motor is mounted on the exoskeleton frame (not a fixed
+  base). He mentioned TWO motors (not yet confirmed; CVs still say one 6 Nm motor until he confirms).

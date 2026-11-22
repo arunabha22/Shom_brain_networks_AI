@@ -250,3 +250,8 @@ Cover letter:
   wiring himself, with help from the internet). No NX, no Creo. Danish: willing to learn only.
 - CV design note (2026-11-22): he did not like the 2-page layout with a full-width plain page 2; use the two-column
   layout with the shaded left panel on BOTH pages.
+- Exoskeleton facts (his words in mock interview, 2026-11-22): the parts were manufactured AND assembled in China
+  by the external manufacturer, from his BOM; all mechanical testing (stiffness tests) was done by him in Aalborg,
+  and he matched his mathematical model with the experimental data. The same Arduino-based trigger approach synced
+  the exoskeleton data with the Qualisys/EMG recording. The motor is mounted on the exoskeleton frame (not a fixed
+  base). He mentioned TWO motors (not yet confirmed; CVs still say one 6 Nm motor until he confirms).
