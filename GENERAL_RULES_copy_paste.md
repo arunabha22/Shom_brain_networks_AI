@@ -205,3 +205,7 @@ Cover letter:
   and he matched his mathematical model with the experimental data. The same Arduino-based trigger approach synced
   the exoskeleton data with the Qualisys/EMG recording. The motor is mounted on the exoskeleton frame (not a fixed
   base). He mentioned TWO motors (not yet confirmed; CVs still say one 6 Nm motor until he confirms).
+- Clutch detail (his words, mock interview 2026-11-22; still NEVER in documents unless he asks): clutch engaged =
+  hybrid mode (spring + motor), disengaged = motor-only mode. The 3D printed plastic clutch kept breaking under arm
+  forces during prototype tests; instead of waiting for the manufacturer to redesign it, he switched to a bolt-locking
+  system that locks at 8 angles (8 assistive conditions).
