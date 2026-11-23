@@ -218,3 +218,12 @@ Cover letter:
 - ROS 2 (his words, 2026-11-22): he had started learning ROS 2 (beginner tutorials, a couple of videos) but paused
   when his supervisor prioritised the final journal paper and thesis. Never claim ROS experience; he may say he started
   learning ROS 2 and paused for the thesis.
+- LESSONS FROM REJECTIONS (keep updating): Danfoss Mechanical Engineer PMI (product maintenance & improvement)
+  rejected 2026-11-23 ("profiles matched our role requirements more closely"; standard reply, CV kept on file).
+  Earlier: Marble (wanted experience deploying robotic systems), LEGO internship, Helsing Robotics Mech Engineer.
+  Pattern: industry/production roles that list years of industry experience, production processes (plastics,
+  sheet metal, casting), NX/Creo or Danish/German screen him out early. When scoring, lower such roles (cap ~45) and
+  tell him so; push him toward roles where research prototypes, testing with people, actuators/mechatronics and
+  R&D count (research engineer, R&D/prototyping, wearables/exoskeleton, robotics startups). In CVs for production
+  roles, lead with the real production-facing facts: BOMs, drawings, CNC-machined aluminium parts with an external
+  manufacturer, working with suppliers, testing and documentation.
