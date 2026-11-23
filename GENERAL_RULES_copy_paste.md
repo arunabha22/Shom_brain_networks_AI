@@ -230,3 +230,7 @@ Cover letter:
 - DANFOSS (his words, 2026-11-23): Danfoss rejected ALL his applications (Mechanical Engineer PMI, Mechatronics Engineer,
   Production Engineer Actuator Silkeborg, Test Engineer; Development Engineer Graasten status to confirm). Do not suggest
   more Danfoss roles for about 6 months unless he has a referral/contact inside or the match is clearly strong.
+- Test setups (his answer, 2026-11-23): he did NOT design or build the physical test setups/rigs for the exoskeleton
+  stiffness tests or the 5-bar robot; he used existing lab setups. Write "tested on a physical test setup", never
+  "built test rigs". No Onshape. Wiring/soldering: basic only, no harnesses.
+- Clutch story exception (his OK, 2026-11-23): allowed as ONE subtle short line in the Cell Labs email only (not CV).
