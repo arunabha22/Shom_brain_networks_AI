@@ -277,3 +277,6 @@ Cover letter:
   R&D count (research engineer, R&D/prototyping, wearables/exoskeleton, robotics startups). In CVs for production
   roles, lead with the real production-facing facts: BOMs, drawings, CNC-machined aluminium parts with an external
   manufacturer, working with suppliers, testing and documentation.
+- DANFOSS (his words, 2026-11-23): Danfoss rejected ALL his applications (Mechanical Engineer PMI, Mechatronics Engineer,
+  Production Engineer Actuator Silkeborg, Test Engineer; Development Engineer Graasten status to confirm). Do not suggest
+  more Danfoss roles for about 6 months unless he has a referral/contact inside or the match is clearly strong.
