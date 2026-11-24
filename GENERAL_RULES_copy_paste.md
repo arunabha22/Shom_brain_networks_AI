@@ -243,4 +243,7 @@ Cover letter:
   options before choosing parts (which parts exactly not yet given; keep it general). Master's: pressure readings and
   pressure control of the pneumatic muscles went through LabVIEW. Supplier contact: ONE line only in a document.
   He has ideas for glove/hand mechanisms with CABLES and PRESSURE mechanisms (ideas only, never built).
+- Single-column CV (his order, 2026-11-24, JBT Marel Helsingborg, Workday portal): he asked for a SINGLE-COLUMN CV
+  for that job. Builder: applications/JBT_Marel_Mechanical_Design_Engineer_Helsingborg/build_documents.py (photo top
+  right, 1 page). Use it for Workday/big-portal jobs when he asks. He is willing to relocate to Sweden (Helsingborg).
 - Clutch story exception (his OK, 2026-11-23): allowed as ONE subtle short line in the Cell Labs email only (not CV).
