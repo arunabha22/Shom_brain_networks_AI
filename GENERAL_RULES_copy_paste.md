@@ -249,4 +249,6 @@ Cover letter:
   He is willing to relocate to Sweden (Helsingborg).
 - DO NOT START WORK UNLESS HE SAYS SO (his order, 2026-11-24): answer, propose and ask, but do not build, redo or change
   documents until he clearly tells me to.
+- New ideas (his words, 2026-11-24, Intralox): he has ideas to explore ORIGAMI-based and BOWDEN CABLE exoskeletons
+  (ideas only, never built). May be mentioned in cover letters as ideas he wants to explore.
 - Clutch story exception (his OK, 2026-11-23): allowed as ONE subtle short line in the Cell Labs email only (not CV).
