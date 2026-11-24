@@ -311,5 +311,6 @@ Cover letter:
   country order DK, NL, FR, DE, AT, BE, CZ, rest of EU; add Australia, NZ, India from 1 June 2027. Number the jobs
   with match %; email the list to 97arunabhasit027@gmail.com (his OK, only to himself), push + chat. If a job has a
   contact email, make a Gmail DRAFT (never send). If he replies with numbers, draft CV + cover letter for those jobs.
+  Always show the match % next to each listed job: "1. [72% match] Company - Title, City, Country".
   The routine must NOT delete itself.
 - Clutch story exception (his OK, 2026-11-23): allowed as ONE subtle short line in the Cell Labs email only (not CV).
