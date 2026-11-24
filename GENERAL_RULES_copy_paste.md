@@ -243,7 +243,10 @@ Cover letter:
   options before choosing parts (which parts exactly not yet given; keep it general). Master's: pressure readings and
   pressure control of the pneumatic muscles went through LabVIEW. Supplier contact: ONE line only in a document.
   He has ideas for glove/hand mechanisms with CABLES and PRESSURE mechanisms (ideas only, never built).
-- Single-column CV (his order, 2026-11-24, JBT Marel Helsingborg, Workday portal): he asked for a SINGLE-COLUMN CV
-  for that job. Builder: applications/JBT_Marel_Mechanical_Design_Engineer_Helsingborg/build_documents.py (photo top
-  right, 1 page). Use it for Workday/big-portal jobs when he asks. He is willing to relocate to Sweden (Helsingborg).
+- Single-column CV (his correction, 2026-11-24): the TWO-COLUMN CV is ALWAYS the main CV. A single-column version is
+  only an EXTRA plain copy when he asks for one (e.g. for Workday). Never replace the two-column CV with it. The
+  JBT Marel Helsingborg and Marel Aarhus CVs were wrongly made single-column only; fix them only when he says so.
+  He is willing to relocate to Sweden (Helsingborg).
+- DO NOT START WORK UNLESS HE SAYS SO (his order, 2026-11-24): answer, propose and ask, but do not build, redo or change
+  documents until he clearly tells me to.
 - Clutch story exception (his OK, 2026-11-23): allowed as ONE subtle short line in the Cell Labs email only (not CV).
