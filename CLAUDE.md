@@ -309,8 +309,10 @@ Cover letter:
   prototyping, lab hardware/test rigs; early career to mid (no senior/lead unless ~3 yrs accepted); show only 60+;
   exoskeleton companies shown whatever language they ask; extra priority robotics/wearables startups and R&D roles;
   country order DK, NL, FR, DE, AT, BE, CZ, rest of EU; add Australia, NZ, India from 1 June 2027. Number the jobs
-  with match %; email the list to 97arunabhasit027@gmail.com (his OK, only to himself), push + chat. If a job has a
-  contact email, make a Gmail DRAFT (never send). If he replies with numbers, draft CV + cover letter for those jobs.
+  with match %; email the list to 97arunabhasit027@gmail.com (his OK, only to himself), push + chat. Under each job:
+  a 2-4 line description of the role, then link | why it fits | main gap | visa/language note | contact email.
+  ONLY for the numbers he marks (reply to the email or in chat): draft a tailored CV + personalised cover letter, and
+  if the job has a contact email, a personalised Gmail DRAFT with both attached (never send). Nothing for unmarked jobs.
   Always show the match % next to each listed job: "1. [72% match] Company - Title, City, Country".
   The routine must NOT delete itself.
 - Clutch story exception (his OK, 2026-11-23): allowed as ONE subtle short line in the Cell Labs email only (not CV).
