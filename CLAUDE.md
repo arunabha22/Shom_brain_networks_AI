@@ -304,4 +304,12 @@ Cover letter:
 - ASSA ABLOY Rychnov (his answers, 2026-11-24): willing to relocate to Rychnov nad Kneznou (Czech Republic); do NOT
   add a Czech language line; headline changed per job with R&D in it ("Mechanical and Robotics R&D Engineer", his OK
   for this job); he asked for a single-column CV, made as an EXTRA copy next to the two-column main CV (rule above).
+- DAILY JOB SEARCH RULES (his order, 2026-11-24; routine "Daily job search – Arunabha", runs 09:22 Copenhagen):
+  roles = mechanical/mechatronics/robotics design, actuator/robotics hardware, test and validation, R&D and
+  prototyping, lab hardware/test rigs; early career to mid (no senior/lead unless ~3 yrs accepted); show only 60+;
+  exoskeleton companies shown whatever language they ask; extra priority robotics/wearables startups and R&D roles;
+  country order DK, NL, FR, DE, AT, BE, CZ, rest of EU; add Australia, NZ, India from 1 June 2027. Number the jobs
+  with match %; email the list to 97arunabhasit027@gmail.com (his OK, only to himself), push + chat. If a job has a
+  contact email, make a Gmail DRAFT (never send). If he replies with numbers, draft CV + cover letter for those jobs.
+  The routine must NOT delete itself.
 - Clutch story exception (his OK, 2026-11-23): allowed as ONE subtle short line in the Cell Labs email only (not CV).
