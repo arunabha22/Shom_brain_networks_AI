@@ -271,6 +271,10 @@ Cover letter:
 - LESSONS FROM REJECTIONS (keep updating): Danfoss Mechanical Engineer PMI (product maintenance & improvement)
   rejected 2026-11-23 ("profiles matched our role requirements more closely"; standard reply, CV kept on file).
   Earlier: Marble (wanted experience deploying robotic systems), LEGO internship, Helsing Robotics Mech Engineer.
+  Wandercraft Mechanical Design R&D Engineer rejected 2026-11-24 after the video interview with Fabien Guerin
+  (660+ applicants, 70+ video interviews, comparative assessment of experience). Lesson: big-name exoskeleton
+  roles attract hundreds of applicants; reaching interview shows the profile fits, so keep targeting exoskeleton/
+  wearable roles but spread applications to smaller startups and research-engineer roles too.
   Pattern: industry/production roles that list years of industry experience, production processes (plastics,
   sheet metal, casting), NX/Creo or Danish/German screen him out early. When scoring, lower such roles (cap ~45) and
   tell him so; push him toward roles where research prototypes, testing with people, actuators/mechatronics and
