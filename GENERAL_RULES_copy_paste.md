@@ -251,4 +251,7 @@ Cover letter:
   documents until he clearly tells me to.
 - New ideas (his words, 2026-11-24, Intralox): he has ideas to explore ORIGAMI-based and BOWDEN CABLE exoskeletons
   (ideas only, never built). May be mentioned in cover letters as ideas he wants to explore.
+- ASSA ABLOY Rychnov (his answers, 2026-11-24): willing to relocate to Rychnov nad Kneznou (Czech Republic); do NOT
+  add a Czech language line; headline changed per job with R&D in it ("Mechanical and Robotics R&D Engineer", his OK
+  for this job); he asked for a single-column CV, made as an EXTRA copy next to the two-column main CV (rule above).
 - Clutch story exception (his OK, 2026-11-23): allowed as ONE subtle short line in the Cell Labs email only (not CV).
