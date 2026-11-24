@@ -237,4 +237,10 @@ Cover letter:
 - Test setups (his answer, 2026-11-23): he did NOT design or build the physical test setups/rigs for the exoskeleton
   stiffness tests or the 5-bar robot; he used existing lab setups. Write "tested on a physical test setup", never
   "built test rigs". No Onshape. Wiring/soldering: basic only, no harnesses.
+- Sensors and test setup (his words, 2026-11-24, MANUS application): on his current shoulder exoskeleton he used FSRs,
+  a load cell from Forsentek and torque sensors, and he BUILT a test setup for them (the sensors). The exoskeleton
+  stiffness tests still used the existing lab setup (do not write that he built the stiffness rig). He COMPARED
+  options before choosing parts (which parts exactly not yet given; keep it general). Master's: pressure readings and
+  pressure control of the pneumatic muscles went through LabVIEW. Supplier contact: ONE line only in a document.
+  He has ideas for glove/hand mechanisms with CABLES and PRESSURE mechanisms (ideas only, never built).
 - Clutch story exception (his OK, 2026-11-23): allowed as ONE subtle short line in the Cell Labs email only (not CV).
