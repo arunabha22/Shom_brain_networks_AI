@@ -14,7 +14,7 @@ P, sec, bl, role, item, NAME = t.P, t.sec, t.bl, t.role, t.item, t.NAME
 ACC, ACC2, PANEL, BLACK, W, H, M, GAP, HEAD_H, LW, RW, PAD = (t.ACC, t.ACC2, t.PANEL, t.BLACK, t.W, t.H, t.M, t.GAP,
                                                              t.HEAD_H, t.LW, t.RW, t.PAD)
 
-# Battery tray Mechanical Design Engineer (company not named in the ad; likely Czech Republic). Scored ~35:
+# EnerSys (Hostomice, CZ) - Mechanical Design Engineer, Req ID 13612 (battery trays, motive power). Scored ~35:
 # HARD BLOCKER "very good knowledge of Czech" (he has none); 2+ yrs industry; FMEA, Creo not his. He said 2026-11-24
 # "make for this" using his earlier answers (ASSA ABLOY): relocate CZ OK, 1 page, headline with R&D, Dear Hiring
 # Team, NO Czech line, single-column copy next to two-column main. Not claimed: FMEA, Creo, battery trays, cost work.
@@ -48,7 +48,7 @@ BTECH = ("Capstone: designed and built an upper-limb rehabilitation exoskeleton 
          "strength analysis in SolidWorks Simulation.")
 
 def cv_two():
-    path = HERE + "AM Battery Tray CV.pdf"
+    path = HERE + "AM EnerSys CV.pdf"
     head = [P(NAME, size=23, bold=True, color=ACC, after=2, lead=1.1),
             P(HEADLINE, size=11.5, bold=True, color=BLACK, after=4),
             P("Aalborg, Denmark (willing to relocate) &nbsp;|&nbsp; +45 71 62 24 00", size=8.8, after=0.5),
@@ -113,7 +113,7 @@ def cv_two():
     return path
 
 def cv_one():
-    path = HERE + "AM Battery Tray CV single column.pdf"
+    path = HERE + "AM EnerSys CV single column.pdf"
     s, b, r, ln, Pp = one.sec, one.bl, one.role, one.line, one.P
     left = [Pp(NAME, size=21, bold=True, color=ACC, after=2, lead=1.1),
             Pp(HEADLINE, size=11, bold=True, color=BLACK, after=3),
@@ -180,18 +180,18 @@ PARAS = [
     "working close to what the customer needs and improving a design step by step in reviews with the team. I also hold a Senior Diploma in Fine Arts and do "
     "graphic design in Illustrator, Photoshop and Procreate, which helps me sketch ideas and make clear drawings.",
     "I would be excited to bring my mechanism design experience, my habit of testing and improving, and new ideas to "
-    "your engineering team.",
+    "your engineering team in Hostomice.",
     "I am in the final stage of my PhD. My research is done, and I am available to move into an industrial "
-    "engineering role while I finish my thesis. I am happy to relocate to the Czech Republic.",
+    "engineering role while I finish my thesis. I am happy to relocate to Hostomice.",
     "Thank you for your time. I look forward to hearing from you.",
 ]
 
 def letter():
-    path = HERE + "AM Battery Tray Cover Letter.pdf"
+    path = HERE + "AM EnerSys Cover Letter.pdf"
     head = [P(NAME, size=22, bold=True, color=ACC, after=3, lead=1.1),
             P(TITLE, size=11.5, bold=True, color=ACC2, after=4, lead=1.25),
             HRFlowable(width="100%", thickness=1.1, color=ACC2, spaceBefore=2, spaceAfter=12),
-            P("<b>Application for Mechanical Design Engineer</b>", size=11.5, color=BLACK, after=8),
+            P("<b>Application for Mechanical Design Engineer (Req ID 13612)</b>", size=11.5, color=BLACK, after=8),
             P("Dear Hiring Team,", size=10.5, color=BLACK, after=7)]
     body = [P(x, size=10.3, color=BLACK, after=8, lead=1.36) for x in PARAS] + [
         Spacer(0, 4), P("Best regards,", size=10.3, color=BLACK, after=2),
