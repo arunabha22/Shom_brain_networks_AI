@@ -29,7 +29,8 @@
   working in parallel; together they provide the lifting torque. A secondary worm gear system pretensions the spring.
   The genetic algorithm optimised the VSM diameter, spring stiffness and pretension force.
 - Clutch story: NEVER use it in CVs, letters or answers unless I ask for it.
-- CV job title for the PhD: "Research Assistant, Aalborg University".
+- CV job title for the PhD (2026-11-25, per contract): "PhD Fellow", Aalborg University, 2023 - 2026; "R&D Engineering"
+  may follow as a descriptor. Portfolio website keeps teaching and the >15% muscle effort; CVs/letters leave them out.
 - Outer PID loop: not a simple PID; it has integral anti-windup and error nonlinearisation.
 - 6 participants = arm impedance study with the 5-bar robot (always say which robot).
 - German: just "willing to learn German", no gap sentences. Always include GATE qualified, a Study Abroad heading
@@ -287,5 +288,5 @@ Cover letter:
   Department of Materials and Production, full-time, 1 March 2023 to 28 February 2026 (contract dates in that letter).
   Starting salary minimum DKK 28,448/month excl. pension (2023, AC/IDA agreement; may have risen). CV job titles must
   match his real contracts; "R&D Engineer" may only be a headline or a work descriptor, never the job title.
-  Still to confirm with him: what happened after 28 Feb 2026 (extension / Research Assistant contract / dates).
+  Settled 2026-11-25: use the contract (PhD Fellow, 2023 - 2026).
 - Clutch story exception (his OK, 2026-11-23): allowed as ONE subtle short line in the Cell Labs email only (not CV).
