@@ -289,4 +289,5 @@ Cover letter:
   Starting salary minimum DKK 28,448/month excl. pension (2023, AC/IDA agreement; may have risen). CV job titles must
   match his real contracts; "R&D Engineer" may only be a headline or a work descriptor, never the job title.
   Settled 2026-11-25: use the contract (PhD Fellow, 2023 - 2026).
+- Portfolio heading (his order 2026-11-25): "PhD Fellow — R&D Engineer, Robotics", Mar 2023 — Feb 2026 (pushed live).
 - Clutch story exception (his OK, 2026-11-23): allowed as ONE subtle short line in the Cell Labs email only (not CV).
