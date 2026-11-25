@@ -265,4 +265,6 @@ Cover letter:
   if the job has a contact email, a personalised Gmail DRAFT with both attached (never send). Nothing for unmarked jobs.
   Always show the match % next to each listed job: "1. [72% match] Company - Title, City, Country".
   The routine must NOT delete itself.
+- CATIA (his words, 2026-11-25): used it ONCE during his BTech; much stronger in SolidWorks; can pick up CATIA if a job
+  needs it. Write only "CATIA (basic, used during BTech; quick to pick up)" or say he is ready to learn it; never more.
 - Clutch story exception (his OK, 2026-11-23): allowed as ONE subtle short line in the Cell Labs email only (not CV).
