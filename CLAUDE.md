@@ -333,4 +333,9 @@ Cover letter:
   section for Belgian/Dutch jobs when he wants a Dutch line. He likes story openings in cover letters (VeroTech, Movu).
 - Daily search focus (his order, 2026-11-25): look MORE for R&D teams and industrial postdocs (company-linked
   postdocs / research engineer roles with industry partners).
+- OFFICIAL AAU EMPLOYMENT (his AAU HR letter, 1 Feb 2023): position "PhD Fellow", Faculty of Engineering and Science,
+  Department of Materials and Production, full-time, 1 March 2023 to 28 February 2026 (contract dates in that letter).
+  Starting salary minimum DKK 28,448/month excl. pension (2023, AC/IDA agreement; may have risen). CV job titles must
+  match his real contracts; "R&D Engineer" may only be a headline or a work descriptor, never the job title.
+  Still to confirm with him: what happened after 28 Feb 2026 (extension / Research Assistant contract / dates).
 - Clutch story exception (his OK, 2026-11-23): allowed as ONE subtle short line in the Cell Labs email only (not CV).
