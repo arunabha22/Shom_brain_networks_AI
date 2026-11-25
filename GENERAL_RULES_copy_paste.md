@@ -267,4 +267,6 @@ Cover letter:
   The routine must NOT delete itself.
 - CATIA (his words, 2026-11-25): used it ONCE during his BTech; much stronger in SolidWorks; can pick up CATIA if a job
   needs it. Write only "CATIA (basic, used during BTech; quick to pick up)" or say he is ready to learn it; never more.
+- Belgium (his answers, 2026-11-25, Kingfisher Recruitment / Lint): willing to relocate to Belgium; for that job the CV
+  Languages line gets "Dutch (willing to learn)"; he chose a 1-page CV even though the title is Product Development.
 - Clutch story exception (his OK, 2026-11-23): allowed as ONE subtle short line in the Cell Labs email only (not CV).
