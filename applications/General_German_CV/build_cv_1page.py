@@ -81,7 +81,7 @@ def cv_two():
               after=0)]
     right = sec("Profile", first=True) + [P(PROFILE, size=9.1, after=1, lead=1.3)] + \
         sec("Core Engineering Competencies") + [bl(x) for x in COMP] + \
-        sec("Experience") + role("PhD Fellow, R&amp;D Engineering", "Aalborg University, Denmark", "2023 - Present") + \
+        sec("Experience") + role("PhD Fellow, R&amp;D Engineering", "Aalborg University, Denmark", "2023 - 2026") + \
         [bl(x) for x in PHD] + \
         role("MTech Researcher, Soft Exosuit", "CSIR-CMERI, India", "2020 - 2022") + [bl(MTECH)] + \
         role("Bachelor's Projects", "Siddaganga Institute of Technology, India", "2017 - 2019") + [bl(BTECH)] + \

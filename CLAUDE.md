@@ -68,8 +68,13 @@
   and was hard to manufacture with the institute's facilities, so he switched to a simple bolt-locking clutch. Both
   versions can lock at 8 different angles. NEVER put the clutch story in any CV, cover letter, message or answer
   unless he explicitly asks for it (his order, 2026-11). Use it only if he asks, e.g. live in an interview.
-- Job title for the Aalborg PhD in CVs (his order, 2026-11): "Research Assistant, Aalborg University", not
-  "PhD Researcher". The PhD stays under Education.
+- Job title for the Aalborg PhD in CVs (his order 2026-11-25, REPLACES "Research Assistant"): use exactly what the
+  contract says: "PhD Fellow", Aalborg University, 2023 - 2026 (Mar 2023 - Feb 2026). "R&D Engineering" may follow as
+  a work descriptor ("PhD Fellow, R&D Engineering"). The PhD degree stays under Education (2023 - present, thesis
+  expected March).
+- Portfolio website (his order 2026-11-25): KEEP the >15% muscle effort result and the teaching/supervising line on
+  the website; add the sensor work (FSRs, Forsentek load cell, torque sensors, sensor test setup). CVs and letters
+  still leave out teaching and the >15% figure.
 - Outer PID loop (Master's) is NOT a simple PID: it has integral anti-windup and error nonlinearisation. Always
   say so when describing it; never call it a simple PID.
 - Whenever the 6 participants are mentioned, always say it was the arm impedance study with the 5-bar robot.
@@ -337,5 +342,5 @@ Cover letter:
   Department of Materials and Production, full-time, 1 March 2023 to 28 February 2026 (contract dates in that letter).
   Starting salary minimum DKK 28,448/month excl. pension (2023, AC/IDA agreement; may have risen). CV job titles must
   match his real contracts; "R&D Engineer" may only be a headline or a work descriptor, never the job title.
-  Still to confirm with him: what happened after 28 Feb 2026 (extension / Research Assistant contract / dates).
+  Settled 2026-11-25: use the contract (PhD Fellow, 2023 - 2026).
 - Clutch story exception (his OK, 2026-11-23): allowed as ONE subtle short line in the Cell Labs email only (not CV).

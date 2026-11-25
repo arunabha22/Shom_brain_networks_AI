@@ -53,7 +53,7 @@ def cv():
         bl("Motor and sensor integration: ESCON drivers, encoders, FSRs, load cells, torque sensors"),
         bl("Design optimisation and testing: genetic algorithm, models matched to test data"),
         bl("Testing with people: EMG and motion capture (Qualisys)"),
-    ] + sec("Experience") + role("PhD Fellow, R&amp;D Engineering", "Aalborg University, Denmark", "2023 - Present") + [
+    ] + sec("Experience") + role("PhD Fellow, R&amp;D Engineering", "Aalborg University, Denmark", "2023 - 2026") + [
         bl("Designed a hybrid shoulder exoskeleton: a variable stiffness mechanism (spring pretensioned by a worm gear) "
            "working in parallel with a 6 Nm motor. It uses over 25% less motor energy (Best Paper Award, IFToMM ISRM "
            "2026)."),
