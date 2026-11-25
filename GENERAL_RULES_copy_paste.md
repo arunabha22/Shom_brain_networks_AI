@@ -123,6 +123,16 @@
   that thread). Scheduled tasks: one-shot reminder 1 Jun 2027 10:00 CET (push + email) and a monthly Skelex job check
   (3rd of each month). Never send the email without his OK.
 
+## VERY VERY VERY IMPORTANT (his order, 2026-11-25) - every CV and cover letter
+- Before drafting: CHECK whether the job asks for a motivation letter and/or a research statement (and use his
+  existing ones as a base, e.g. applications/SDU_Postdoc_Mechatronic_Design_ROV/ research statement).
+- Draft the cover letter BASED ON HIS PORTFOLIO (https://arunabha22.github.io/arunabha-majumder/): its headline
+  "Mechanical & Robotics R&D Engineer", its key numbers (>25% lower exoskeleton motor energy; <10% stiffness model
+  error; 0.3-0.78% tracking error on the pneumatic muscle; Best Paper ISRM 2026) and its projects (VIEXO shoulder
+  exoskeleton, 5-bar robot, soft exosuit). Only use portfolio claims that also pass the Facts rules in this file
+  (e.g. >15% muscle effort = team AAN result, journal under review, so not in documents).
+- Make the necessary changes to the CV for every job so it matches the letter and the job.
+
 ## NEW DOCUMENT FORMAT (his approval, 2026-11-18) - use for ALL new CVs and cover letters
 Template builder: applications/Sample_New_Format/build_sample.py (Laerdal sample). Two-column design with photo.
 CV:
@@ -271,4 +281,6 @@ Cover letter:
   Languages line gets "Dutch (willing to learn)"; he chose a 1-page CV even though the title is Product Development.
 - Dutch line wording (his order, 2026-11-25, Movu Robotics): write it as "Willing to learn: Dutch" in the CV Languages
   section for Belgian/Dutch jobs when he wants a Dutch line. He likes story openings in cover letters (VeroTech, Movu).
+- Daily search focus (his order, 2026-11-25): look MORE for R&D teams and industrial postdocs (company-linked
+  postdocs / research engineer roles with industry partners).
 - Clutch story exception (his OK, 2026-11-23): allowed as ONE subtle short line in the Cell Labs email only (not CV).
