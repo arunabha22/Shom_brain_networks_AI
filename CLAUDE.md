@@ -344,4 +344,7 @@ Cover letter:
   match his real contracts; "R&D Engineer" may only be a headline or a work descriptor, never the job title.
   Settled 2026-11-25: use the contract (PhD Fellow, 2023 - 2026).
 - Portfolio heading (his order 2026-11-25): "PhD Fellow — R&D Engineer, Robotics", Mar 2023 — Feb 2026 (pushed live).
+- Daily search must VERIFY each job is still open on the company's own page before listing it (his complaint
+  2026-11-26: listed jobs were already filled). Undated or aggregator-only jobs go under "Unverified" at the end, or
+  are left out. Better no job than a filled job.
 - Clutch story exception (his OK, 2026-11-23): allowed as ONE subtle short line in the Cell Labs email only (not CV).
