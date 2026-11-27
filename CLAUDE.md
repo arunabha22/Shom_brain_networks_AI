@@ -351,3 +351,7 @@ Cover letter:
 - hTRIUS (his answers 2026-11-27, Product Designer / Industrial Designer / Engineer, Horb am Neckar): NO German
   language line on this CV (his order for this job, overrides the German-jobs rule); willing to move to Germany;
   he wants letters "as human and different as possible". Sales roles (Vertrieb) are not for him.
+- Residence status (his words + his card, 2026-11-27): he holds a Danish residence permit, type Z (residence and
+  limited work permit for temporary stay); the card expiry date is Sep 2029. It lets him visit other Schengen countries
+  (up to 90 days in 180) but NOT work there; jobs outside Denmark need a local work permit (e.g. EU Blue Card / Czech
+  Employee Card). Never store his ID or permit numbers in files.
