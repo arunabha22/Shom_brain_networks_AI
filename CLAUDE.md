@@ -348,3 +348,6 @@ Cover letter:
   2026-11-26: listed jobs were already filled). Undated or aggregator-only jobs go under "Unverified" at the end, or
   are left out. Better no job than a filled job.
 - Clutch story exception (his OK, 2026-11-23): allowed as ONE subtle short line in the Cell Labs email only (not CV).
+- hTRIUS (his answers 2026-11-27, Product Designer / Industrial Designer / Engineer, Horb am Neckar): NO German
+  language line on this CV (his order for this job, overrides the German-jobs rule); willing to move to Germany;
+  he wants letters "as human and different as possible". Sales roles (Vertrieb) are not for him.
