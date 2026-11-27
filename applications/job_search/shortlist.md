@@ -113,4 +113,12 @@ search environment; verify before applying).
 | 2026-11-25 | - | Meta (Facebook) – 4 applications (roles not named yet) | - | metacareers.com | - | APPLIED 2026-11-25 (he applied himself) | - | - | - |
 | 2026-11-26 | 64 | #1 Aerospacelab – Junior Space Mechanisms Engineer (satellite mechanisms; also a Junior Electro-Mechanical Engineer role) | Louvain-la-Neuve, BE (offices also Toulouse, FR) | https://www.aerospacelab.com/jobs/junior-space-mechanisms-engineer-451 | Undated (check) | APPLIED 2026-11-26 (junior engineering role; he applied himself; their other roles were already filled) | Junior: MSc only; mechanism design; English | Space heritage, tribology, space testing standards | Belgian single permit (or France) |
 
+| 2026-11-25 | - | Humanoid Application Center – Robotics Engineer (Sander Langeraar) | Schiedam, NL | - | - | REJECTED 2026-11-25: no right to work in NL, they cannot sponsor a visa or relocation | - | - | - |
+| 2026-11-26 | - | Rocken – Konstrukteur EFZ (Jonas Schmidt) | CH | - | - | REJECTED 2026-11-26 | - | - | - |
+| 2026-11-26 | - | EnerSys – Mechanical Design Engineer (Req 13612) | Hostomice, CZ | - | - | REJECTED 2026-11-26 (not selected) | - | - | - |
+| 2026-11-26 | - | EASE | - | - | - | REJECTED 2026-11-26 | - | - | - |
+| 2026-11-27 | - | Rocken – Systems Engineer Robotik (Sophia Christ) | CH | - | - | REJECTED 2026-11-27 | - | - | - |
+| 2026-11-27 | - | VeroTech – Mechanical Design Engineer, Robotics (Nesrine Jelizi) | BE | - | - | REJECTED 2026-11-27: needs legal right to work in Belgium | - | - | - |
+| 2026-11-27 | - | Cell Labs – Mechanical Engineer, Humanoid Robots | Berlin, DE | - | - | REJECTED 2026-11-27 | - | - | - |
+| 2026-11-27 | - | Boers & Co (via Laevo enquiry) | NL | - | - | DECLINED: Dutch needed; suggested the "De Nieuwe Arbeidsmarkt" talent pool | - | - | - |
 Running total (55+): 93 found (UXV expired, KTH closed), 1 confirmed open (Aarhus University, deadline 5 Nov), plus Humanoid, Hive Robotics and Uptec listed. Search continues until 10 strong, confirmed-open matches.
